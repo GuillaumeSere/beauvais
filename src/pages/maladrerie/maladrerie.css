@@ -1,0 +1,64 @@
+.maladrerie{
+    background-image: url('../../images/maladrerie.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.maladrerie h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(217, 124, 43);
+}
+
+.maladrerie p{
+    margin: 0 auto;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.maladrerie h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(217, 124, 43);
+    margin-bottom: 1rem;
+}
+
+.maladrerie ul{
+    margin-top: 1rem;
+    margin: 0 auto;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.maladrerie li{
+    list-style: none;
+    font-weight: 500;
+}
+

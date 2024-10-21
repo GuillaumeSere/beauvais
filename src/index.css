@@ -11,3 +11,7 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: "Raleway", sans-serif;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}

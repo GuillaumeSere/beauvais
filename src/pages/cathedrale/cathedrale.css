@@ -1,0 +1,63 @@
+.cathedrale{
+    background-image: url('../../images/cathedrale.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.cathedrale h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.cathedrale p{
+    margin: 0 auto;
+    max-width: 450px;
+    line-height: 1.5;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.cathedrale li{
+    list-style: none;
+    margin: 0 auto;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.retour-link{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.retour-link:hover{
+    color: #007bff;
+}
+

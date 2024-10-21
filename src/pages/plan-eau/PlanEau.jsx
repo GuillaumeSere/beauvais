@@ -6,7 +6,6 @@ const PlanEau = () => {
     return (
         <div className="plan-eau">
             <h1>Le Plan d'eau du Canada</h1>
-            <img src="/images/plan-eau.jpg" alt="Plan d'eau du Canada" className="plan-eau-img" />
             <p>
                 Le Plan d'eau du Canada, situé à Beauvais, est un espace de loisirs et de détente apprécié des habitants et des visiteurs. 
                 Ce lac artificiel offre de nombreuses activités nautiques et de plein air dans un cadre naturel magnifique.

@@ -6,7 +6,6 @@ const Cathedrale = () => {
     return (
         <div className="cathedrale">
             <h1>La Cathédrale Saint-Pierre de Beauvais</h1>
-            <img src="/images/cathedrale.jpg" alt="Cathédrale Saint-Pierre de Beauvais" className="cathedrale-img" />
             <p>
                 La Cathédrale Saint-Pierre de Beauvais est un chef-d'œuvre de l'architecture gothique. 
                 Commencée en 1225, elle est célèbre pour son chœur gothique, le plus haut du monde avec une voûte culminant à 48,50 mètres.

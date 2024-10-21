@@ -6,7 +6,6 @@ const Maladrerie = () => {
     return (
         <div className="maladrerie">
             <h1>La Maladrerie Saint-Lazare</h1>
-            <img src="/images/maladrerie.jpg" alt="Maladrerie Saint-Lazare" className="maladrerie-img" />
             <p>
                 La Maladrerie Saint-Lazare est un ancien hôpital médiéval situé à Beauvais. 
                 Ce site historique remarquable offre aux visiteurs un aperçu fascinant de l'architecture 
