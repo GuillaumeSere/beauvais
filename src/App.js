@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import Tourisme from "./components/tourisme/Tourisme";
+import Cathedrale from "./pages/cathedrale/Cathedrale";
+import Musee from "./pages/musee/Musee";
+import PlanEau from "./pages/plan-eau/PlanEau";
+import Maladrerie from "./pages/maladrerie/Maladrerie";
+import Actualites from "./components/actualités/Actualites";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Header />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tourisme" element={<Tourisme />} />
+            <Route path="/musee" element={<Musee />} />
+            <Route path="/cathedrale" element={<Cathedrale />} />
+            <Route path="/plan-eau" element={<PlanEau />} />
+            <Route path="/maladrerie" element={<Maladrerie />} />
+            <Route path="/actualites" element={<Actualites />} />
+        </Routes>
     </div>
   );
 }

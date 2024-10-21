@@ -1,0 +1,73 @@
+.tourisme{
+    background-image: url('../../images/tour1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.tourisme h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.tourisme p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.tourisme li{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.glass-card {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
+.glass-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.glass-card li {
+    margin-bottom: 1rem;
+}
+
+.glass-card a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.glass-card a:hover {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Pour assurer que l'effet fonctionne bien, ajoutez un fond à la page */
+body {
+    background: linear-gradient(45deg, #f3f3f3, #e6e6e6);
+    min-height: 100vh;
+}
