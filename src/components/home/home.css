@@ -54,7 +54,7 @@
 .card-img-galerie-1 img {
     width: 500px;
     height: 500px;
-    box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.6);
+    box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.984);
 }
 
 @keyframes scroll {
@@ -66,12 +66,19 @@
     }
 }
 
+@media (max-width: 400px) {
+
+    .home h1{
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 678px) {
     .card-galerie-1 {
         width: 400px;
         height: 400px;
         margin-right: 2rem;
-        margin-top: 18rem;
+        margin-top: 35rem;
     }
     .card-img-galerie-1 img {
         width: 400px;
