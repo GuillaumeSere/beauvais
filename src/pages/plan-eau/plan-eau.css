@@ -58,3 +58,36 @@
     line-height: 1.5;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .plan-eau h2 {
+        font-size: 1.5rem;
+    }
+    
+    .plan-eau p,
+    .plan-eau li {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    
+    .retour-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .plan-eau h2 {
+        font-size: 1.2rem;
+    }
+    
+    .plan-eau p,
+    .plan-eau li {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+    
+    .retour-link {
+        font-size: 0.8rem;
+    }
+}
+

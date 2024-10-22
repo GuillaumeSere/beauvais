@@ -62,3 +62,36 @@
     font-weight: 500;
 }
 
+@media (max-width: 768px) {
+    .maladrerie h2 {
+        font-size: 1.5rem;
+    }
+    
+    .maladrerie p,
+    .maladrerie li {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    
+    .retour-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .maladrerie h2 {
+        font-size: 1.2rem;
+    }
+    
+    .maladrerie p,
+    .maladrerie li {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+    
+    .retour-link {
+        font-size: 0.8rem;
+    }
+}
+
+

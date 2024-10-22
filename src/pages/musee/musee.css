@@ -59,3 +59,36 @@
     line-height: 1.5;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .cathedrale h2 {
+        font-size: 1.5rem;
+    }
+    
+    .cathedrale p,
+    .cathedrale li {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    
+    .retour-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .musee h2 {
+        font-size: 1.2rem;
+    }
+    
+    .musee p,
+    .musee li {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+    
+    .retour-link {
+        font-size: 0.8rem;
+    }
+}
+

@@ -11,7 +11,7 @@
 }
 .link{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin: 1rem;
 }
 .footer-links{
@@ -24,4 +24,11 @@
 }
 .footer-name{
     color: white;
+}
+
+@media (max-width: 380px) {
+
+    .footer-name{
+        font-size: 12px;
+    }
 }
