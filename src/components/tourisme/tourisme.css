@@ -70,3 +70,14 @@ body {
     background: linear-gradient(45deg, #f3f3f3, #e6e6e6);
     min-height: 100vh;
 }
+
+@media (max-width: 380px) {
+
+    .tourisme h2 {
+        font-size: 1.2rem;
+    }
+
+    .glass-card a {
+        font-size: 0.9rem !important;
+    }
+}

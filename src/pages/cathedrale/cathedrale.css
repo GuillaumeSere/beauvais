@@ -78,13 +78,18 @@
 }
 
 @media (max-width: 380px) {
+    .cathedrale h1{
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+
     .cathedrale h2 {
         font-size: 1.2rem;
     }
     
     .cathedrale p,
     .cathedrale li {
-        font-size: 0.9rem;
+        font-size: 0.6rem !important;
         max-width: 95%;
     }
     

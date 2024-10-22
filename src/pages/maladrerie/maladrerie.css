@@ -79,13 +79,18 @@
 }
 
 @media (max-width: 380px) {
+    .maladrerie h1{
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+
     .maladrerie h2 {
         font-size: 1.2rem;
     }
     
     .maladrerie p,
     .maladrerie li {
-        font-size: 0.9rem;
+        font-size: 0.6rem;
         max-width: 95%;
     }
     

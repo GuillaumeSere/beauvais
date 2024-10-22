@@ -34,7 +34,7 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 1rem;
+    padding: 0.5rem;
     font-weight: 500;
     margin-top: 1rem;
     line-height: 1.5;
@@ -75,14 +75,19 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
+    .plan-eau h1{
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+
     .plan-eau h2 {
         font-size: 1.2rem;
     }
     
     .plan-eau p,
     .plan-eau li {
-        font-size: 0.9rem;
+        font-size: 0.6rem !important;
         max-width: 95%;
     }
     
