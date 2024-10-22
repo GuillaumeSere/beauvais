@@ -90,7 +90,7 @@
     
     .maladrerie p,
     .maladrerie li {
-        font-size: 0.6rem;
+        font-size: 0.7rem !important;
         max-width: 95%;
     }
     
