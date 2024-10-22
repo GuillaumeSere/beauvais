@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: black;
+    width: 100%;
+    bottom: 0;
+    margin-top: 2rem;
+    position: fixed;
+}
+.link{
+    color: white;
+    font-size: 30px;
+    margin: 1rem;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links a:hover{
+    transform: scale(1.2);
+}
+.footer-name{
+    color: white;
+}

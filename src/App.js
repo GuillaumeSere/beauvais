@@ -7,6 +7,7 @@ import Musee from "./pages/musee/Musee";
 import PlanEau from "./pages/plan-eau/PlanEau";
 import Maladrerie from "./pages/maladrerie/Maladrerie";
 import Actualites from "./components/actualités/Actualites";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/maladrerie" element={<Maladrerie />} />
             <Route path="/actualites" element={<Actualites />} />
         </Routes>
+        <Footer />
     </div>
   );
 }
