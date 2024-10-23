@@ -6,6 +6,10 @@
     padding-bottom: 60px; /* Ajout d'un padding en bas pour éviter le chevauchement avec le footer */
 }
 
+.instagram-media.instagram-media-rendered {
+    min-width: 800px !important;
+}
+
 .actualites h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -83,6 +87,10 @@
         width: 100%;
     }
 
+    .instagram-media.instagram-media-rendered {
+        min-width: 600px !important;
+    }
+
     .actu-img {
         width: 100%;
         height: 100%;
@@ -97,6 +105,12 @@
 
     .map-container {
         width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+    .instagram-media.instagram-media-rendered {
+        min-width: 300px !important;
     }
 }
 

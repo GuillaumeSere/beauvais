@@ -25,6 +25,20 @@ const Actualites = () => {
                 <ul>
                     <li>Concert de musique ce week-end au centre-ville</li>
                 </ul>
+                <div className="instagram-embed">
+                    <blockquote
+                        className="instagram-media"
+                        data-instgrm-captioned
+                        data-instgrm-permalink="https://www.instagram.com/p/DBZYuMYiTy3/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        data-instgrm-version="14"
+                    >
+                        <div>
+                            <a href="https://www.instagram.com/p/DBZYuMYiTy3/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer">
+                                Voir cette publication sur Instagram
+                            </a>
+                        </div>
+                    </blockquote>
+                </div>
                 <div className="container-img1">
                     <img className='actu-img' src={actu1} alt="concert d'Herifara du 19 octobre 2024" />
                     <img className='actu-img' src={actu2} alt="bar l'overlook" />
