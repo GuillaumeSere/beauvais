@@ -112,7 +112,14 @@
     .instagram-media.instagram-media-rendered {
         min-width: 300px !important;
     }
+
+    .map-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
+
 
 /* Ajout d'un style pour le conteneur principal */
 body {
