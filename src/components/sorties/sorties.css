@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 1700px;
+    max-width: 1500px;
 }
 
 .lieux-grid{
@@ -33,11 +33,23 @@
 }
 
 .lieu h3{
+    margin-bottom: 1rem;
+}
+
+.lieu h3 a{
     margin-bottom: 0.5rem;
     background: #000;
     color: #fff;
     padding: 0.5rem;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.lieu h3 a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .lieu img,
