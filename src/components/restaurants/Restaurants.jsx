@@ -2,36 +2,45 @@ import React, { useEffect, useState } from 'react';
 import './restaurants.css';
 
 const Restaurants = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [shuffledRestaurants, setShuffledRestaurants] = useState([]);
+
     const restaurants = [
         { name: "Le Grill'Inn", href: "https://beauvais.grillinn.fr/", image: require("../../images/grille1.png") },
+        { name: "L'Annexe De Chez Ludo", href: "https://lannexedechezludo.fr/", image: require("../../images/resto1.png") },
         { name: "Le Grill'Inn", href: "https://beauvais.grillinn.fr/", image: require("../../images/grille2.png") },
         { name: "Le Grill'Inn", href: "https://beauvais.grillinn.fr/", image: require("../../images/grille3.png") },
-        { name: "Le Grill'Inn", href: "https://beauvais.grillinn.fr/", image: require("../../images/grille4.png") }
+        { name: "Le Grill'Inn", href: "https://beauvais.grillinn.fr/", image: require("../../images/grille4.png") },
+        { name: "L'Annexe De Chez Ludo", href: "https://lannexedechezludo.fr/", image: require("../../images/resto2.png") },
+        { name: "L'Annexe De Chez Ludo", href: "https://lannexedechezludo.fr/", image: require("../../images/resto3.png") },
+        { name: "L'Annexe De Chez Ludo", href: "https://lannexedechezludo.fr/", image: require("../../images/resto4.png") }
     ];
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % restaurants.length);
-        }, 3000); // Change slide every 3 seconds
+        const shuffleArray = (array) => {
+            let shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        };
 
-        return () => clearInterval(interval);
+        setShuffledRestaurants(shuffleArray(restaurants));
     }, []);
 
     return (
         <section className="restaurants">
             <h2>Restaurants recommandés</h2>
             <div className="carousel">
-                <div className="carousel-content" style={{ animation: 'slide 15s linear infinite' }}>
-                    {restaurants.map((restaurant, index) => (
+                <div className="carousel-content" style={{ animation: 'slide 500s linear infinite', display: 'flex', width: `${shuffledRestaurants.length * 100}%` }}>
+                    {[...shuffledRestaurants, ...shuffledRestaurants.slice(0, 1)].map((restaurant, index) => (
                         <div 
                             key={index}
-                            className={`slide ${index === currentIndex ? 'active' : ''}`}
+                            className="slide"
+                            style={{ flex: `0 0 ${100 / shuffledRestaurants.length}%` }}
                         >
-                            <div className="image-container">
-                                <img src={restaurant.image} alt={restaurant.name} />
-                            </div>
-                            {index === currentIndex && (
+                            <div className="image-container" style={{ width: '100%', height: '100%' }}>
+                                <img src={restaurant.image} alt={restaurant.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                 <a 
                                     href={restaurant.href}
                                     target="_blank"
@@ -39,7 +48,7 @@ const Restaurants = () => {
                                 >
                                     {restaurant.name}
                                 </a>
-                            )}
+                            </div>
                         </div>
                     ))}
                 </div>

@@ -15,7 +15,7 @@
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9; /* Ajustez ce ratio selon vos besoins */
-    max-height: 80vh; /* Pour éviter que le carrousel ne devienne trop grand sur les grands écrans */
+    max-height: 90vh; /* Pour éviter que le carrousel ne devienne trop grand sur les grands écrans */
 }
 
 .carousel-content {
@@ -44,7 +44,10 @@
 }
 
 .slide a {
-    position: relative;
+    position: absolute;
+    bottom: 20px; /* Position en bas de l'image */
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px 20px;
@@ -54,6 +57,7 @@
     z-index: 10;
     font-size: 1.2rem;
     font-weight: bold;
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
 }
 
 .slide a:hover {
