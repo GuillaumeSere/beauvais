@@ -17,6 +17,7 @@ const Header = () => {
                 <Link to="/">Accueil</Link>
                 <Link to="/tourisme">Tourisme</Link>
                 <Link to="/actualites">Actualites</Link>
+                <Link to="/sorties">Sorties</Link>
             </nav>
             <div className={`burger-menu ${isMenuOpen ? 'open' : ''}`}>
                 <div className="burger-icon" onClick={toggleMenu}>
@@ -29,6 +30,7 @@ const Header = () => {
                     <Link to="/" onClick={toggleMenu}>Accueil</Link>
                     <Link to="/tourisme" onClick={toggleMenu}>Tourisme</Link>
                     <Link to="/actualites" onClick={toggleMenu}>Actualites</Link>
+                    <Link to="/sorties" onClick={toggleMenu}>Sorties</Link>
                 </nav>
             </div>
         </header>

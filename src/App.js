@@ -8,6 +8,7 @@ import PlanEau from "./pages/plan-eau/PlanEau";
 import Maladrerie from "./pages/maladrerie/Maladrerie";
 import Actualites from "./components/actualités/Actualites";
 import Footer from "./components/footer/Footer";
+import Sorties from "./components/sorties/Sorties";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/plan-eau" element={<PlanEau />} />
             <Route path="/maladrerie" element={<Maladrerie />} />
             <Route path="/actualites" element={<Actualites />} />
+            <Route path="/sorties" element={<Sorties />} />
         </Routes>
         <Footer />
     </div>
