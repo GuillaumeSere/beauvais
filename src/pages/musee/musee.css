@@ -76,7 +76,11 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 385px) {
+    .musee ul{
+        margin-bottom: 1.2rem;
+    }
+
     .musee h1{
         font-size: 1.5rem;
         margin-top: -1rem;
@@ -88,6 +92,7 @@
     
     .musee p,
     .musee li {
+        margin-top: -0.3rem;
         font-size: 0.7rem !important;
         max-width: 95%;
     }
