@@ -41,13 +41,6 @@ const Home = () => {
                             </div>
                         </div>
                     ))}
-                    {randomizedData.map(({ id, image }) => (
-                        <div className='card-galerie-1' key={`dup-${id}`}>
-                            <div className="card-img-galerie-1">
-                                <Modal image={image} openWindow={true} key={`dup-${id}`} />
-                            </div>
-                        </div>
-                    ))}
                 </div>
             </div>
         </div>

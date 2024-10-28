@@ -3,6 +3,8 @@ import './sorties.css';
 import theatre from '../../images/theatre.png';
 import cinema from '../../images/cinema.png';
 import park from '../../images/parc.png';
+import patinoire from '../../images/patinoire.png';
+import piscine from '../../images/piscine.png';
 import Restaurants from '../restaurants/Restaurants';
 
 const Sorties = () => {
@@ -15,11 +17,19 @@ const Sorties = () => {
         <div className="lieux-grid">
         <div className="lieu">
             <h3><a href="https://speedpark.fr/beauvais/" target="_blank" rel="noopener noreferrer">Speed Park</a></h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pYrhjuSrGCk?si=8KcbEV1rtDctkweX&amp;clip=UgkxjV253z_VbfzK1iaooE_taN9vE7Vl_3w0&amp;clipt=EOaFARj9-gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/pYrhjuSrGCk?si=8KcbEV1rtDctkweX&amp;clip=UgkxjV253z_VbfzK1iaooE_taN9vE7Vl_3w0&amp;clipt=EOaFARj9-gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="lieu">
             <h3><a href="https://culture.beauvais.fr/acteur-culturel/theatre-du-beauvaisis" target="_blank" rel="noopener noreferrer">Le Théâtre du Beauvaisis</a></h3>
             <img src={theatre} alt="Le Théâtre du Beauvaisis" />
+          </div>
+          <div className="lieu">
+            <h3><a href="https://www.lespatinoiresmodernes.com/" target="_blank" rel="noopener noreferrer">La Patinoire de Beauvais</a></h3>
+            <img src={patinoire} alt="La patinoire de Beauvais" />
+          </div>
+          <div className="lieu">
+            <h3><a href="https://lespiscines.beauvaisis.fr/" target="_blank" rel="noopener noreferrer">La Piscine de Beauvais</a></h3>
+            <img src={piscine} alt="La piscine de Beauvais" />
           </div>
           <div className="lieu">
             <h3><a href="https://www.cgrcinemas.fr/beauvais/" target="_blank" rel="noopener noreferrer">Cinéma CGR</a></h3>
@@ -35,5 +45,6 @@ const Sorties = () => {
     </div>
   );
 };
+  
 
 export default Sorties;
