@@ -4,6 +4,7 @@ import actu1 from '../../images/actu1.png';
 import actu2 from '../../images/actu2.png';
 import actu3 from '../../images/actu3.png';
 import actu4 from '../../images/actu4.png';
+import actu5 from '../../images/actu5.png';
 
 const Actualites = () => {
     useEffect(() => {
@@ -22,6 +23,13 @@ const Actualites = () => {
             <div className="actualites">
                 <h2>Actualités de Beauvais</h2>
                 <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
+                <div>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <blockquote className="twitter-tweet" data-media-max-width="560">
+                        <p lang="fr" dir="ltr">📣 Défi de Ligue VG de Beauvais - &quot;Fête des Petites Chandelles&quot; 📣<br></br>📌 La Baraka Jeux, 6 Rue Ricard, Beauvais (60)<br></br>📅 Samedi 07 Décembre 2024<br></br>⏰ 14h00<br></br>🎟️ Frais d&#39;inscription : MASTER 10€ - JUNIOR / SENIOR 5€ - préinscription obligatoire<br></br>🏆 Points de Championnats (CP)… <a href="https://t.co/9I0DySrxtt">pic.twitter.com/9I0DySrxtt</a></p>&mdash; Pokémon VGC France (@Pokemon_VGC_FR) <a href="https://twitter.com/Pokemon_VGC_FR/status/1851659736019845316?ref_src=twsrc%5Etfw">October 30, 2024</a>
+                    </blockquote>
+                    <img src={actu5} alt="tournois pokemon le 7 decembre 2024" />
+                </div>
                 <ul>
                     <li>Concert de musique ce week-end au centre-ville</li>
                 </ul>
