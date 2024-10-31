@@ -81,6 +81,16 @@
     line-height: 1.5;
 }
 
+.text-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(167, 168, 167);
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 970px) {
     .instagram-embed iframe {
         margin: 1rem;
