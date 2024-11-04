@@ -91,6 +91,26 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.scroll-to-top{
+    background: black;
+    padding: 1rem;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5rem;
+    right:0.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.scroll-to-top:hover{
+    background: white;
+    color: black;
+}
+
 @media (max-width: 970px) {
     .instagram-embed iframe {
         margin: 1rem;

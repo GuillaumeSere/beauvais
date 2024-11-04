@@ -5,6 +5,7 @@ import actu2 from '../../images/actu2.png';
 import actu3 from '../../images/actu3.png';
 import actu4 from '../../images/actu4.png';
 import actu5 from '../../images/actu5.png';
+import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
     useEffect(() => {
@@ -18,14 +19,15 @@ const Actualites = () => {
         };
     }, []);
 
+
     return (
         <>
             <div className="actualites">
                 <h2>Actualités de Beauvais</h2>
                 <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
                 <div className='container-img1'>
-                        <p className='text-intro'>📣 Défi de Ligue VG de Beauvais - &quot;Fête des Petites Chandelles&quot; 📣<br>
-                        </br>📌 La Baraka Jeux, 6 Rue Ricard, Beauvais (60)<br>
+                    <p className='text-intro'>📣 Défi de Ligue VG de Beauvais - &quot;Fête des Petites Chandelles&quot; 📣<br>
+                    </br>📌 La Baraka Jeux, 6 Rue Ricard, Beauvais (60)<br>
                         </br>📅 Samedi 07 Décembre 2024<br>
                         </br>⏰ 14h00<br>
                         </br>🎟️ Frais d&#39;inscription : MASTER 10€ - JUNIOR / SENIOR 5€ - préinscription obligatoire<br>
@@ -121,7 +123,9 @@ const Actualites = () => {
                         ></iframe>
                     </div>
                 </div>
+               
             </div>
+            <ScrollToTopButton />
         </>
     );
 };

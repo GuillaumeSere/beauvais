@@ -6,6 +6,7 @@ import park from '../../images/parc.png';
 import patinoire from '../../images/patinoire.png';
 import piscine from '../../images/piscine.png';
 import Restaurants from '../restaurants/Restaurants';
+import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Sorties = () => {
   return (
@@ -42,6 +43,7 @@ const Sorties = () => {
         </div>
       </section>
       <Restaurants />
+      <ScrollToTopButton />
     </div>
   );
 };
