@@ -15,7 +15,6 @@
     font-size: 20px;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
-    z-index: 999;
 }
 
 .scroll-to-top-button:hover {
