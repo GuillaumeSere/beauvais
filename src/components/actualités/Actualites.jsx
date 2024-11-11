@@ -93,23 +93,24 @@ const Actualites = () => {
             </div>
 
             <div className="actualites">
-                <h2>Halloween au Parc Saint Paul du 05 octobre au 03 novembre 2024</h2>
+                <h2>Réouverture du Parc Saint Paul le samedi 5 avril 2025</h2>
                 <div className="container-img2">
                     <img className='actu-img2' src={actu3} alt="4 sorcières déguisé pour halloween" />
                     <img className='actu-img2' src={actu4} alt="4 sorcières déguisé pour halloween" />
                 </div>
                 <p className='actu-text'>
-                    Parc Saint Paul célèbre la plus belle fête de l’automne du 05 octobre au 03 novembre 2024.
+                    Il est temps pour le Parc de fermer ses portes, mais nous serons de retour en 2025
+                    pour vous accueillir à nouveau et vous faire vivre des aventures sensationnelles. ☺️
 
-                    Redécouvrez Parc Saint Paul dans une ambiance différente.
-
-                    L’esprit d’Halloween flotte sur le parc avec des décors surprenants : plus de mille citrouilles, des monstres vivants, des fantômes, plus de 200 squelettes, des sorcières et autres dizaines d’araignées en tous genres accueilleront les plus courageux des visiteurs pour une journée ensorcelante.
-                    Toutes les familles sont invitées à venir déguisées pour cette halloween unique, féerique et sensationnelle.
-
-                    Une boutique de déguisement sur place p ermet de transformer les enfants courageux en petits monstres.
+                    En plein cœur de l'Oise, à St-Paul, proche de Beauvais, le <strong>Parc Saint Paul</strong>
+                    est un parc d'attractions entouré de nature et conçu pour que tous les membres de la famille, de tous âges, puissent s'amuser.
+                    <strong>45 attractions</strong> dont 6 roller-coasters, des toboggans aquatiques, des manèges, des autos tamponneuses… mais tout cela dans
+                    <strong>un parc à taille humaine</strong>. Des spectacles vivants, des stands de maquillage et de photo ajoutent
+                    <strong>une touche chaleureuse</strong> au Parc Saint Paul.
+                    Venez passer une journée dans la bonne humeur pour tous !
                 </p>
                 <div className="instagram-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/U3Gf_Uu8RyU?si=XZuo57G7tpiTkWbM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ps6RGvcpk3o?si=RkxWIrMSLp71ja6S" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <div className="map-container">
                         <iframe
@@ -123,7 +124,7 @@ const Actualites = () => {
                         ></iframe>
                     </div>
                 </div>
-               
+
             </div>
             <ScrollToTopButton />
         </>
