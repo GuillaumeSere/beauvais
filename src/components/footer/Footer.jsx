@@ -7,9 +7,9 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="footer-links">
-                <a href="https://www.linkedin.com/in/guillaume-séré" target="_blank" rel="noreferrer"><BsLinkedin className='link' /></a>
+                <a href="https://www.linkedin.com/in/guillaume-séré" target="_blank" rel="noopener noreferrer"><BsLinkedin className='link' /></a>
                 <p className='footer-name'>&copy; Guillaume SERE</p>
-                <a href="https://github.com/GuillaumeSere" target="_blank" rel="noreferrer"><BsGithub className='link' /></a>
+                <a href="https://github.com/GuillaumeSere" target="_blank" rel="noopener noreferrer"><BsGithub className='link' /></a>
             </div>
         </div>
     )
