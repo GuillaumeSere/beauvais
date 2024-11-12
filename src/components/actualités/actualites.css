@@ -24,11 +24,13 @@
 .actualites p {
     font-size: 1.2rem;
     margin-top: 1rem;
+    font-weight: 500;
 }
 
 .actualites li {
     list-style: none;
     margin-top: 1rem;
+    font-weight: 500;
 }
 
 .container-img1 {
@@ -84,6 +86,7 @@
 
 .actu-text {
     line-height: 1.5;
+    font-weight: bold;
 }
 
 .text-intro{
