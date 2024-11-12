@@ -36,7 +36,7 @@ const Restaurants = () => {
         <section className="restaurants">
             <h2>Restaurants recommandés</h2>
             <div className="carousel">
-                <div className="carousel-content" style={{ animation: 'slide 100s linear infinite', display: 'flex', width: `${shuffledRestaurants.length * 90}%` }}>
+                <div className="carousel-content" style={{ animation: 'slide 200s linear infinite', display: 'flex', width: `${shuffledRestaurants.length * 90}%` }}>
                     {[...shuffledRestaurants, ...shuffledRestaurants.slice(0, 1)].map((restaurant, index) => (
                         <div 
                             key={index}

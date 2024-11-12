@@ -1,3 +1,8 @@
+.background{
+    background: linear-gradient(90deg, #0d0c0c 0%, #fff 100%);
+    margin-top: -1rem;
+}
+
 .actualites {
     margin: 0 auto;
     width: 90%;

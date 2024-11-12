@@ -22,6 +22,7 @@ const Actualites = () => {
 
     return (
         <>
+        <div className="background">
             <div className="actualites">
                 <h2>Actualités de Beauvais</h2>
                 <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
@@ -127,6 +128,7 @@ const Actualites = () => {
 
             </div>
             <ScrollToTopButton />
+            </div>
         </>
     );
 };
