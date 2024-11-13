@@ -55,7 +55,7 @@ const Actualites = () => {
                     </blockquote>
                 </div>
                 <div className="container-img1">
-                    <img className='actu-img' src={actu1} alt="concert d'Herifara du 19 octobre 2024" />
+                    <img className='actu-img' src={actu1} alt="concert rap le 30 novembre à 22h00 à l'overlook" />
                     <img className='actu-img' src={actu2} alt="bar l'overlook" />
                 </div>
                 <p className='actu-text'>
