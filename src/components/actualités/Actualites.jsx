@@ -5,6 +5,8 @@ import actu2 from '../../images/actu2.png';
 import actu3 from '../../images/actu3.png';
 import actu4 from '../../images/actu4.png';
 import actu5 from '../../images/actu5.png';
+import actu6 from '../../images/actu6.png';
+import actu7 from '../../images/actu7.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
@@ -26,6 +28,24 @@ const Actualites = () => {
                 <div className="actualites">
                     <h2>Actualités de Beauvais</h2>
                     <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
+                    <div className='container-img1'>
+                        <p className='text-intro'>
+                            📣 À l’Overlook, venez tester vos capacités sur les meilleurs
+                            jeux vidéos tels que Tekken,<br></br> Fifa, Smash Bros, etc…📣<br></br>
+                            De l’amusement et beaucoup de défis sont au rendez-vous !
+                            Tous les mardis à l’Overlook, 37 rue de la Tapisserie, 60000 Beauvais. 📍
+                        </p>
+                        <img className='actu-img' src={actu7} alt="open mic rap tous les mercredi au bar l'overlook" />
+                    </div>
+                    <div className='container-img1'>
+                        <p className='text-intro'>
+                            📣 À l’Overlook, venez tester vos capacités sur les meilleurs
+                            jeux vidéos tels que Tekken,<br></br> Fifa, Smash Bros, etc…📣<br></br>
+                            De l’amusement et beaucoup de défis sont au rendez-vous !
+                            Tous les mardis à l’Overlook, 37 rue de la Tapisserie, 60000 Beauvais. 📍
+                        </p>
+                        <img className='actu-img' src={actu6} alt="tournoi de jeux vidéos au bar l'overlook tout les mardis" />
+                    </div>
                     <div className='container-img1'>
                         <p className='text-intro'>📣 Défi de Ligue VG de Beauvais - &quot;Fête des Petites Chandelles&quot; 📣<br>
                         </br>📌 La Baraka Jeux, 6 Rue Ricard, Beauvais (60)<br>
