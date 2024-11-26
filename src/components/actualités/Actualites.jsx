@@ -30,10 +30,11 @@ const Actualites = () => {
                     <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            📣 À l’Overlook, venez tester vos capacités sur les meilleurs
-                            jeux vidéos tels que Tekken,<br></br> Fifa, Smash Bros, etc…📣<br></br>
-                            De l’amusement et beaucoup de défis sont au rendez-vous !
-                            Tous les mardis à l’Overlook, 37 rue de la Tapisserie, 60000 Beauvais. 📍
+                            📣 À Beauvais un seul bar organise d'une manière hebdomadaire des Open Mic Rap.
+                            Amateur ou artiste découvrez les talents de la région à<strong>l'Overlook</strong>
+                            Bar tous les mercredi sans exception et c'est gratuit ! 📣<br></br>
+                            Toutes les semaines des cadeaux à gagner pour les meilleures performances !<br></br>
+                            📍 37 rue de la tapisserie Beauvais 60000
                         </p>
                         <img className='actu-img' src={actu7} alt="open mic rap tous les mercredi au bar l'overlook" />
                     </div>
@@ -41,8 +42,9 @@ const Actualites = () => {
                         <p className='text-intro'>
                             📣 À l’Overlook, venez tester vos capacités sur les meilleurs
                             jeux vidéos tels que Tekken,<br></br> Fifa, Smash Bros, etc…📣<br></br>
-                            De l’amusement et beaucoup de défis sont au rendez-vous !
-                            Tous les mardis à l’Overlook, 37 rue de la Tapisserie, 60000 Beauvais. 📍
+                            De l’amusement et beaucoup de défis sont au rendez-vous !<br></br>
+                            Tous les mardis à l’Overlook,<br></br>
+                            📍 37 rue de la Tapisserie, 60000 Beauvais. 
                         </p>
                         <img className='actu-img' src={actu6} alt="tournoi de jeux vidéos au bar l'overlook tout les mardis" />
                     </div>
