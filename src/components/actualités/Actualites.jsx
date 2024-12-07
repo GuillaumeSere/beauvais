@@ -7,6 +7,7 @@ import actu4 from '../../images/actu4.png';
 import actu5 from '../../images/actu5.png';
 import actu6 from '../../images/actu6.png';
 import actu7 from '../../images/actu7.png';
+import actu8 from '../../images/actu8.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
@@ -30,21 +31,24 @@ const Actualites = () => {
                     <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            📣 À Beauvais un seul bar organise d'une manière hebdomadaire des Open Mic Rap.
-                            Amateur ou artiste découvrez les talents de la région à<strong>l'Overlook</strong>
-                            Bar tous les mercredi sans exception et c'est gratuit ! 📣<br></br>
-                            Toutes les semaines des cadeaux à gagner pour les meilleures performances !<br></br>
-                            📍 37 rue de la tapisserie Beauvais 60000
+                       <h1>Bienvenue dans les Féeries de Noël</h1> 
+                       Du 6 au 31 décembre, la Ville de Beauvais vous convie à plonger dans l’atmosphère festive et chaleureuse de ses <strong>🎄Féeries de Noël.🎄 </strong>
+                           <br></br>Pendant trois semaines, venez partager des moments inoubliables en famille ou entre amis à travers une multitude d’animations,
+                            de spectacles de rue et d’activités variées, pour savourer pleinement la magie des fêtes de fin d’année.🎅
+                            <br></br>
+                            Les Féeries mettront une nouvelle fois à l’honneur l’artisanat et la gastronomie, avec des exposants soigneusement sélectionnés,
+                             artisans et producteurs locaux, qui vous feront découvrir la richesse de leurs talents.<br></br>
+                             Offrez à vos proches des cadeaux uniques et authentiques ! Je vous donne donc rendez-vous le vendredi 6 décembre
+                              à 18h pour le lancement officiel de ces festivités au coeur de notre ville.
+                              Et je vous souhaite, par avance, d’excellentes fêtes de fin d’année.⭐
+
                         </p>
-                        <img className='actu-img' src={actu7} alt="open mic rap tous les mercredi au bar l'overlook" />
+                        <img className='actu-img' src={actu1} alt="bienvenue dans la féeries de Noël" />
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            📣 À l’Overlook, venez tester vos capacités sur les meilleurs
-                            jeux vidéos tels que Tekken,<br></br> Fifa, Smash Bros, etc…📣<br></br>
-                            De l’amusement et beaucoup de défis sont au rendez-vous !<br></br>
-                            Tous les mardis à l’Overlook,<br></br>
-                            📍 37 rue de la Tapisserie, 60000 Beauvais. 
+                            <h1>Horaires des féeries artisanales 2024 :</h1>
+                          <img src={actu8} alt="" />
                         </p>
                         <img className='actu-img' src={actu6} alt="tournoi de jeux vidéos au bar l'overlook tout les mardis" />
                     </div>
@@ -59,60 +63,17 @@ const Actualites = () => {
                             <a href="https://t.co/9I0DySrxtt">pic.twitter.com/9I0DySrxtt</a> </p>
                         <img className='actu-img' src={actu5} alt="tournois pokemon le 7 decembre 2024" />
                     </div>
-                    <ul>
-                        <li>Concert de musique ce week-end au centre-ville</li>
-                    </ul>
-                    <div className="instagram-embed">
-                        <blockquote
-                            className="instagram-media"
-                            data-instgrm-captioned
-                            data-instgrm-permalink="https://www.instagram.com/p/DBZYuMYiTy3/?utm_source=ig_embed&amp;utm_campaign=loading"
-                            data-instgrm-version="14"
-                        >
-                            <div>
-                                <a href="https://www.instagram.com/p/DBZYuMYiTy3/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer">
-                                    Voir cette publication sur Instagram
-                                </a>
-                            </div>
-                        </blockquote>
-                    </div>
+                   
+                    
                     <div className="container-img1">
-                        <img className='actu-img' src={actu1} alt="concert rap le 30 novembre à 22h00 à l'overlook" />
-                        <img className='actu-img' src={actu2} alt="bar l'overlook" />
+                        <img className='actu-img' src={actu7} alt="les féeries gourmandes" />
+                        <img className='actu-img' src={actu2} alt="les animations" />
                     </div>
                     <p className='actu-text'>
-                        Situé au 37 Rue de la Tapisserie, ce bar animé est le lieu idéal pour vos sorties
-                        entre amis ou vos soirées détente. Chaque semaine, venez profiter de concerts live
-                        qui mettent en lumière des artistes locaux et des groupes émergents, dans une
-                        ambiance chaleureuse et conviviale. En plus de la musique, vous pourrez vous amuser
-                        avec une sélection de jeux d'arcade rétro et un baby-foot, parfaits pour pimenter vos soirées.
-
+                    Les associations et établissements scolaires beauvaisiens vous attendent
+                     pour vous faire connaître leurs actions. Ils vous ont aussi concocté de jolis cadeaux de Noël à offrir !
                     </p>
-                    <div className="instagram-embed">
-                        <blockquote
-                            className="instagram-media"
-                            data-instgrm-captioned
-                            data-instgrm-permalink="https://www.instagram.com/reel/DBWptsDu9RO/?utm_source=ig_embed&amp;utm_campaign=loading"
-                            data-instgrm-version="14"
-                        >
-                            <div>
-                                <a href="https://www.instagram.com/reel/DBWptsDu9RO/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer">
-                                    Voir cette publication sur Instagram
-                                </a>
-                            </div>
-                        </blockquote>
-                        <div className="map-container">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d12420.914126793412!2d2.0751426648857447!3d49.42759775644159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47e7014e8c4229ad%3A0x3c0714ca3caf620f!2s37%20Rue%20de%20la%20Tapisserie%2C%2060000%20Beauvais!3m2!1d49.4276912!2d2.0832411!5e1!3m2!1sfr!2sfr!4v1729498803495!5m2!1sfr!2sfr"
-                                width="100%"
-                                height="450"
-                                style={{ border: 0 }}
-                                allowFullScreen=""
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
-                            ></iframe>
-                        </div>
-                    </div>
+                   
                 </div>
 
                 <div className="actualites">
