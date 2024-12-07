@@ -9,7 +9,6 @@
     padding-top: 1rem;
     text-align: center;
     margin-bottom: 2rem;
-    padding-bottom: 60px; /* Ajout d'un padding en bas pour éviter le chevauchement avec le footer */
 }
 
 .instagram-media.instagram-media-rendered {
@@ -52,6 +51,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 1rem;
+    padding-bottom: 4rem;
 }
 
 .instagram-embed iframe {

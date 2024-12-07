@@ -71,9 +71,10 @@ const Actualites = () => {
                     </div>
                     <p className='actu-text'>
                     Les associations et établissements scolaires beauvaisiens vous attendent
-                     pour vous faire connaître leurs actions. Ils vous ont aussi concocté de jolis cadeaux de Noël à offrir !
-                    </p>
-                   
+                     pour vous faire connaître leurs actions. Ils vous ont aussi concocté de jolis cadeaux de Noël à offrir !<br></br>
+                     Retrouvez le Père Noël en compagnie de ses lutins.Confortablement installé dans son fauteuil, il reçoit les
+                      enfants dans son chalet en bois. Et il n’est pas trop tard pour déposer sa liste de cadeaux.
+                    </p> 
                 </div>
 
                 <div className="actualites">
