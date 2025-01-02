@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import './actualites.css';
-import actu1 from '../../images/voeux.png';
+import actu2 from '../../images/voeux.png';
 import actu3 from '../../images/actu3.png';
+import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
 import actu6 from '../../images/sapin.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
@@ -27,17 +28,17 @@ const Actualites = () => {
                     <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>🎉 Bonne année 2025 ! 🎉</h1>
+                            <h1>🎉 Bonne année 2025 ! 🎉</h1><br></br>
                             Que cette nouvelle année vous apporte une santé de fer, des moments remplis de joie et des succès dans tous vos projets.
                             Profitons de chaque instant et avançons avec enthousiasme vers nos rêves. ✨
                             Pleine de nouveautés, de découvertes et de belles surprises, qu’elle soit à la hauteur de toutes vos espérances ! 🥂🎆<br></br>
                             Bonne et heureuse année à vous et à vos proches ! 🎊
                         </p>
-                        <img className='actu-img' src={actu1} alt="bienvenue dans la féeries de Noël" />
+                        <img className='actu-img' src={actu2} alt="bienvenue dans la féeries de Noël" />
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>Collecte des sapins 2025</h1>
+                            <h1>Collecte des sapins 2025</h1><br></br>
                             📣 Pour la 13e année, l’Agglomération du Beauvaisis organise
                             une collecte de sapins de Noël. En janvier 2024, 37,44 tonnes
                             de sapins ont été collectées et valorisées. 📣<br></br>
@@ -50,7 +51,27 @@ const Actualites = () => {
                             Déposez les sapins le jeudi 9 janvier avant 12h au lieu de collecte habituel.
                         </p>
                         <img className='actu-img' src={actu6} alt="collecte de spain pour l'année 2025" />
-                    </div> 
+                    </div>
+                </div>
+
+                <div className="actualites">
+                    <div className='container-img1'>
+                        <p className='text-intro'>
+                            <h1>Un nouveau site web pour dynamiser l'emploi local</h1><br></br>
+                            Pour mettre en relation les entreprises locales et les demandeurs d'emploi, la Communauté d’Agglomération du Beauvaisis
+                            (CAB) lance la plateforme S.A.F.E. (Stage / Apprentissage / Formation / Emploi) sur le nouveau site
+                            <a href='https://emploi.beauvaisis.fr/' target="_blank">emploi.beauvaisis.fr</a>
+                            La plateforme S.A.F.E. vise à valoriser le dynamisme du tissu économique local et à faciliter le recrutement en proximité.<br></br>
+                           <br></br> <strong>Une vitrine numérique pour les entreprises</strong>
+                            Le site offre aux entreprises du Beauvaisis l’opportunité de se faire connaître
+                             auprès des talents locaux. En créant gratuitement leur compte, elles pourront :
+                            - Présenter leur activité, leurs valeurs et leur culture d'entreprise,
+                            - Mettre en avant leurs atouts pour attirer les candidats,
+                            - Publier leurs offres d'emploi gratuitement.
+                        </p>
+                        <img className='actu-img' src={actu1} alt="bienvenue dans la féeries de Noël" />
+                    </div>
+
                 </div>
 
                 <div className="actualites">
