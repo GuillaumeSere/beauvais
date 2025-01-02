@@ -1,13 +1,9 @@
 import React, { useEffect } from 'react';
 import './actualites.css';
-import actu1 from '../../images/actu1.png';
-import actu2 from '../../images/actu2.png';
+import actu1 from '../../images/voeux.png';
 import actu3 from '../../images/actu3.png';
 import actu4 from '../../images/actu4.png';
-import actu5 from '../../images/actu5.png';
-import actu6 from '../../images/actu6.png';
-import actu7 from '../../images/actu7.png';
-import actu8 from '../../images/actu8.png';
+import actu6 from '../../images/sapin.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
@@ -31,50 +27,30 @@ const Actualites = () => {
                     <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                       <h1>Bienvenue dans les Féeries de Noël</h1> 
-                       Du 6 au 31 décembre, la Ville de Beauvais vous convie à plonger dans l’atmosphère festive et chaleureuse de ses <strong>🎄Féeries de Noël.🎄 </strong>
-                           <br></br>Pendant trois semaines, venez partager des moments inoubliables en famille ou entre amis à travers une multitude d’animations,
-                            de spectacles de rue et d’activités variées, pour savourer pleinement la magie des fêtes de fin d’année.🎅
-                            <br></br>
-                            Les Féeries mettront une nouvelle fois à l’honneur l’artisanat et la gastronomie, avec des exposants soigneusement sélectionnés,
-                             artisans et producteurs locaux, qui vous feront découvrir la richesse de leurs talents.<br></br>
-                             Offrez à vos proches des cadeaux uniques et authentiques ! Je vous donne donc rendez-vous le vendredi 6 décembre
-                              à 18h pour le lancement officiel de ces festivités au coeur de notre ville.
-                              Et je vous souhaite, par avance, d’excellentes fêtes de fin d’année.⭐
-
+                            <h1>🎉 Bonne année 2025 ! 🎉</h1>
+                            Que cette nouvelle année vous apporte une santé de fer, des moments remplis de joie et des succès dans tous vos projets.
+                            Profitons de chaque instant et avançons avec enthousiasme vers nos rêves. ✨
+                            Pleine de nouveautés, de découvertes et de belles surprises, qu’elle soit à la hauteur de toutes vos espérances ! 🥂🎆<br></br>
+                            Bonne et heureuse année à vous et à vos proches ! 🎊
                         </p>
                         <img className='actu-img' src={actu1} alt="bienvenue dans la féeries de Noël" />
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>Horaires des féeries artisanales 2024 :</h1>
-                          <img src={actu8} alt="" />
+                            <h1>Collecte des sapins 2025</h1>
+                            📣 Pour la 13e année, l’Agglomération du Beauvaisis organise
+                            une collecte de sapins de Noël. En janvier 2024, 37,44 tonnes
+                            de sapins ont été collectées et valorisées. 📣<br></br>
+                            <strong>JEUDI 9 JANVIER</strong>
+                            Zones pavillonnaires :  Quartiers Argentine, Marissel, Notre-Dame-du-Thil,
+                            Saint-Jean, Saint-Just-des-Marais, Saint-Lucien, Voisinlieu, Saint Quentin, Centre-Ville et Hyper Centre-Ville.
+                            Déposez les sapins le mercredi 8 janvier après 20h sur la voie publique, devant votre habitation.<br></br><br></br>
+
+                            Habitat collectif : Quartiers Argentine, Saint-Jean, Saint-Lucien (Beauvais)
+                            Déposez les sapins le jeudi 9 janvier avant 12h au lieu de collecte habituel.
                         </p>
-                        <img className='actu-img' src={actu6} alt="tournoi de jeux vidéos au bar l'overlook tout les mardis" />
-                    </div>
-                    <div className='container-img1'>
-                        <p className='text-intro'>📣 Défi de Ligue VG de Beauvais - &quot;Fête des Petites Chandelles&quot; 📣<br>
-                        </br>📌 La Baraka Jeux, 6 Rue Ricard, Beauvais (60)<br>
-                            </br>📅 Samedi 07 Décembre 2024<br>
-                            </br>⏰ 14h00<br>
-                            </br>🎟️ Frais d&#39;inscription : MASTER 10€ - JUNIOR / SENIOR 5€ - préinscription obligatoire<br>
-                            </br>🏆 Points de Championnats (CP)… <br>
-                            </br>  Pokémon VGC France (@Pokemon_VGC_FR)<br></br>
-                            <a href="https://t.co/9I0DySrxtt">pic.twitter.com/9I0DySrxtt</a> </p>
-                        <img className='actu-img' src={actu5} alt="tournois pokemon le 7 decembre 2024" />
-                    </div>
-                   
-                    
-                    <div className="container-img1">
-                        <img className='actu-img' src={actu7} alt="les féeries gourmandes" />
-                        <img className='actu-img' src={actu2} alt="les animations" />
-                    </div>
-                    <p className='actu-text'>
-                    Les associations et établissements scolaires beauvaisiens vous attendent
-                     pour vous faire connaître leurs actions. Ils vous ont aussi concocté de jolis cadeaux de Noël à offrir !<br></br>
-                     Retrouvez le Père Noël en compagnie de ses lutins.Confortablement installé dans son fauteuil, il reçoit les
-                      enfants dans son chalet en bois. Et il n’est pas trop tard pour déposer sa liste de cadeaux.
-                    </p> 
+                        <img className='actu-img' src={actu6} alt="collecte de spain pour l'année 2025" />
+                    </div> 
                 </div>
 
                 <div className="actualites">
