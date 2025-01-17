@@ -4,7 +4,7 @@ import actu2 from '../../images/voeux.png';
 import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
-import actu6 from '../../images/sapin.png';
+import actu6 from '../../images/escrime.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
@@ -38,19 +38,24 @@ const Actualites = () => {
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>Collecte des sapins 2025</h1><br></br>
-                            📣 Pour la 13e année, l’Agglomération du Beauvaisis organise
-                            une collecte de sapins de Noël. En janvier 2024, 37,44 tonnes
-                            de sapins ont été collectées et valorisées. 📣<br></br>
-                            <strong>JEUDI 9 JANVIER</strong>
-                            Zones pavillonnaires :  Quartiers Argentine, Marissel, Notre-Dame-du-Thil,
-                            Saint-Jean, Saint-Just-des-Marais, Saint-Lucien, Voisinlieu, Saint Quentin, Centre-Ville et Hyper Centre-Ville.
-                            Déposez les sapins le mercredi 8 janvier après 20h sur la voie publique, devant votre habitation.<br></br><br></br>
-
-                            Habitat collectif : Quartiers Argentine, Saint-Jean, Saint-Lucien (Beauvais)
-                            Déposez les sapins le jeudi 9 janvier avant 12h au lieu de collecte habituel.
+                            <h1>L’escrime mondiale, c’est dès maintenant à Beauvais</h1><br></br>
+                            📣Après deux premières éditions qui ont connu de beaux succès, Beauvais
+                            accueillera une nouvelle Coupe du monde d’épée féminine
+                            des moins de 20 ans les samedi 15 et dimanche 16 février 2025, à l’Elispace.
+                            📣<br></br>
+                            Forte d’un 2e titre en Coupe d’Europe de clubs champions
+                            remporté en 2024, l’Académie beauvaisienne d’escrime (ABE)
+                            va encore affirmer sa dimension internationale en organisant,
+                            en partenariat avec la Ville de Beauvais et le Département
+                            de l’Oise, et avec le soutien de la Région Hauts-de-France,
+                            une compétition qui réunira les meilleurs jeunes talents
+                            féminins d’une vingtaine des plus grandes nations d’escrime.
+                            Plus de 150 tireuses, dont sans doute des Beauvaisiennes
+                            sélectionnées en équipe de France, s’affronteront dans
+                            la compétition individuelle le samedi, puis dans la
+                            compétition par équipe le dimanche. Venez encourager nos jeunes épéistes françaises !
                         </p>
-                        <img className='actu-img' src={actu6} alt="collecte de spain pour l'année 2025" />
+                        <img className='actu-img' src={actu6} alt="coupe du monde d'escrime à Beauvais" />
                     </div>
                 </div>
 
@@ -62,9 +67,9 @@ const Actualites = () => {
                             (CAB) lance la plateforme S.A.F.E. (Stage / Apprentissage / Formation / Emploi) sur le nouveau site
                             <a href='https://emploi.beauvaisis.fr/' target="_blank">emploi.beauvaisis.fr</a>
                             La plateforme S.A.F.E. vise à valoriser le dynamisme du tissu économique local et à faciliter le recrutement en proximité.<br></br>
-                           <br></br> <strong>Une vitrine numérique pour les entreprises</strong>
+                            <br></br> <strong>Une vitrine numérique pour les entreprises</strong>
                             Le site offre aux entreprises du Beauvaisis l’opportunité de se faire connaître
-                             auprès des talents locaux. En créant gratuitement leur compte, elles pourront :
+                            auprès des talents locaux. En créant gratuitement leur compte, elles pourront :
                             - Présenter leur activité, leurs valeurs et leur culture d'entreprise,
                             - Mettre en avant leurs atouts pour attirer les candidats,
                             - Publier leurs offres d'emploi gratuitement.
