@@ -5,6 +5,7 @@ import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
 import actu6 from '../../images/escrime.png';
+import ecole from '../../images/ecole.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
@@ -60,6 +61,21 @@ const Actualites = () => {
                 </div>
 
                 <div className="actualites">
+                    <div className='container-img1'>
+                        <p className='text-intro'>
+                            <h1>Inscriptions scolaires pour l’année 2025/2026 - du 3 février au 25 avril 2025</h1><br></br>
+                            La campagne officielle des inscriptions aux écoles publiques de la ville de Beauvais,
+                            pour la prochaine rentrée scolaire 2025/2026, aura lieu du 3 février et au 25 avril 2024.
+                            Elle concerne les enfants nés à partir du 1er janvier 2022 ou nouvellement arrivés à Beauvais.<br></br><br></br>
+                            <strong>La campagne des inscriptions pour l’année 2025/2026 concerne :</strong>
+                            - les inscriptions en Petite Section (maternelle) et en CP (élémentaire)<br></br>
+                            -  les inscriptions pour les nouveaux arrivants<br></br>
+                            - les inscriptions en Toute Petite Section (TPS)*<br></br>
+                            - les demandes de dérogation à la carte scolaire*
+                        </p>
+                        <img className='actu-img' src={ecole} alt="bienvenue dans la féeries de Noël" />
+                    </div>
+
                     <div className='container-img1'>
                         <p className='text-intro'>
                             <h1>Un nouveau site web pour dynamiser l'emploi local</h1><br></br>
