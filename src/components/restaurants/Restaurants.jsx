@@ -36,14 +36,14 @@ const Restaurants = () => {
         <section className="restaurants">
             <h2>Restaurants recommandés</h2>
             <div className="carousel">
-                <div className="carousel-content" style={{ animation: 'slide 200s linear infinite', display: 'flex', width: `${shuffledRestaurants.length * 90}%` }}>
+                <div className="carousel-content" style={{ animation: 'slide 200s linear infinite', display: 'flex', width: `${shuffledRestaurants.length * 50}%` }}>
                     {[...shuffledRestaurants, ...shuffledRestaurants.slice(0, 1)].map((restaurant, index) => (
                         <div 
                             key={index}
                             className="slide"
                             style={{ flex: `0 0 ${100 / shuffledRestaurants.length}%` }}
                         >
-                            <div className="image-container" style={{ width: '100%', height: '100%', position: 'relative', backgroundColor: '#fafafa', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                            <div className="image-container" style={{ width: '100%', height: '100%', position: 'relative', backgroundColor: '#000000', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                                 <img src={restaurant.image} alt={restaurant.name} style={{ width: '100%', height: 'calc(100% - 60px)', objectFit: 'contain' }} />
                                 <a 
                                     href={restaurant.href}

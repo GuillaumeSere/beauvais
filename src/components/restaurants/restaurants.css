@@ -85,7 +85,7 @@
 
 @media (max-width: 768px) {
     .carousel {
-        aspect-ratio: 4 / 3; /* Ratio différent pour les petits écrans si nécessaire */
+        aspect-ratio: 5 / 3; /* Ratio différent pour les petits écrans si nécessaire */
     }
 
     .slide a {

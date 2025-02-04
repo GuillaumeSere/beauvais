@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './actualites.css';
-import actu2 from '../../images/voeux.png';
+import actu2 from '../../images/chat.png';
 import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
@@ -29,11 +29,17 @@ const Actualites = () => {
                     <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>🎉 Bonne année 2025 ! 🎉</h1><br></br>
-                            Que cette nouvelle année vous apporte une santé de fer, des moments remplis de joie et des succès dans tous vos projets.
-                            Profitons de chaque instant et avançons avec enthousiasme vers nos rêves. ✨
-                            Pleine de nouveautés, de découvertes et de belles surprises, qu’elle soit à la hauteur de toutes vos espérances ! 🥂🎆<br></br>
-                            Bonne et heureuse année à vous et à vos proches ! 🎊
+                            <h1>La campagne de stérilisation des chats errants s’intensifie en 2025</h1><br></br>
+                            Depuis 2019, la Ville de Beauvais s’est engagée dans une politique durable 
+                            de protection animale, en partenariat avec la Fondation 30 Millions d’Amis,
+                             l’École du Chat de l’Oise et la Fondation Clara, via des campagnes de stérilisation des chats errants.🐈<br></br><br></br>
+                             Les campagnes de stérilisation des chats errants répondent à un véritable enjeu de protection animale
+                              en limitant la reproduction incontrôlée, les nuisances publiques (bruits, marquages urinaires) 
+                              et la propagation de maladies (FIV/FELV, typhus, coryza).<br></br>
+                         <br></br>
+                         Depuis le 1er janvier 2025, dans un souci d’augmenter le nombre de stérilisations,
+                          la capture des chats errants a été confiée à la Fondation Clara, en partenariat avec la Police municipale.<br></br><br></br>
+                          Pour signaler la présence de chats errants, appelez la Police municipale au<strong> 0 800 850 850</strong>🐈
                         </p>
                         <img className='actu-img' src={actu2} alt="bienvenue dans la féeries de Noël" />
                     </div>
@@ -43,14 +49,14 @@ const Actualites = () => {
                             📣Après deux premières éditions qui ont connu de beaux succès, Beauvais
                             accueillera une nouvelle Coupe du monde d’épée féminine
                             des moins de 20 ans les samedi 15 et dimanche 16 février 2025, à l’Elispace.
-                            📣<br></br>
+                            📣<br></br><br></br>
                             Forte d’un 2e titre en Coupe d’Europe de clubs champions
                             remporté en 2024, l’Académie beauvaisienne d’escrime (ABE)
                             va encore affirmer sa dimension internationale en organisant,
                             en partenariat avec la Ville de Beauvais et le Département
                             de l’Oise, et avec le soutien de la Région Hauts-de-France,
                             une compétition qui réunira les meilleurs jeunes talents
-                            féminins d’une vingtaine des plus grandes nations d’escrime.
+                            féminins d’une vingtaine des plus grandes nations d’escrime.<br></br><br></br>
                             Plus de 150 tireuses, dont sans doute des Beauvaisiennes
                             sélectionnées en équipe de France, s’affronteront dans
                             la compétition individuelle le samedi, puis dans la
