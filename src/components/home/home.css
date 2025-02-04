@@ -1,7 +1,5 @@
 .homes{
-    background-image: url(../../images/cathedrale.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(90deg, #0d0c0c 0%, #fff 100%);
 }
 
 .home{
