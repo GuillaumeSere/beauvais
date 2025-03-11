@@ -22,11 +22,6 @@ const videoData = [
         src: './videos/video4.mp4',
         title: 'Vidéo 4',
       },
-      {
-        id: 5,
-        src: './videos/video5.mp4',
-        title: 'Vidéo 5',
-      },,
   ]
 
 const Home = () => {
