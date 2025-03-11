@@ -4,7 +4,7 @@ import actu2 from '../../images/chat.png';
 import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
-import actu6 from '../../images/escrime.png';
+import actu6 from '../../images/blues.png';
 import ecole from '../../images/ecole.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
@@ -30,37 +30,37 @@ const Actualites = () => {
                     <div className='container-img1'>
                         <p className='text-intro'>
                             <h1>La campagne de stérilisation des chats errants s’intensifie en 2025</h1><br></br>
-                            Depuis 2019, la Ville de Beauvais s’est engagée dans une politique durable 
+                            Depuis 2019, la Ville de Beauvais s’est engagée dans une politique durable
                             de protection animale, en partenariat avec la Fondation 30 Millions d’Amis,
-                             l’École du Chat de l’Oise et la Fondation Clara, via des campagnes de stérilisation des chats errants.🐈<br></br><br></br>
-                             Les campagnes de stérilisation des chats errants répondent à un véritable enjeu de protection animale
-                              en limitant la reproduction incontrôlée, les nuisances publiques (bruits, marquages urinaires) 
-                              et la propagation de maladies (FIV/FELV, typhus, coryza).<br></br>
-                         <br></br>
-                         Depuis le 1er janvier 2025, dans un souci d’augmenter le nombre de stérilisations,
-                          la capture des chats errants a été confiée à la Fondation Clara, en partenariat avec la Police municipale.<br></br><br></br>
-                          Pour signaler la présence de chats errants, appelez la Police municipale au<strong> 0 800 850 850</strong>🐈
+                            l’École du Chat de l’Oise et la Fondation Clara, via des campagnes de stérilisation des chats errants.🐈<br></br><br></br>
+                            Les campagnes de stérilisation des chats errants répondent à un véritable enjeu de protection animale
+                            en limitant la reproduction incontrôlée, les nuisances publiques (bruits, marquages urinaires)
+                            et la propagation de maladies (FIV/FELV, typhus, coryza).<br></br>
+                            <br></br>
+                            Depuis le 1er janvier 2025, dans un souci d’augmenter le nombre de stérilisations,
+                            la capture des chats errants a été confiée à la Fondation Clara, en partenariat avec la Police municipale.<br></br><br></br>
+                            Pour signaler la présence de chats errants, appelez la Police municipale au<strong> 0 800 850 850</strong>🐈
                         </p>
                         <img className='actu-img' src={actu2} alt="bienvenue dans la féeries de Noël" />
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>L’escrime mondiale, c’est dès maintenant à Beauvais</h1><br></br>
-                            📣Après deux premières éditions qui ont connu de beaux succès, Beauvais
-                            accueillera une nouvelle Coupe du monde d’épée féminine
-                            des moins de 20 ans les samedi 15 et dimanche 16 février 2025, à l’Elispace.
-                            📣<br></br><br></br>
-                            Forte d’un 2e titre en Coupe d’Europe de clubs champions
-                            remporté en 2024, l’Académie beauvaisienne d’escrime (ABE)
-                            va encore affirmer sa dimension internationale en organisant,
-                            en partenariat avec la Ville de Beauvais et le Département
-                            de l’Oise, et avec le soutien de la Région Hauts-de-France,
-                            une compétition qui réunira les meilleurs jeunes talents
-                            féminins d’une vingtaine des plus grandes nations d’escrime.<br></br><br></br>
-                            Plus de 150 tireuses, dont sans doute des Beauvaisiennes
-                            sélectionnées en équipe de France, s’affronteront dans
-                            la compétition individuelle le samedi, puis dans la
-                            compétition par équipe le dimanche. Venez encourager nos jeunes épéistes françaises !
+                            <h1>1996 : lancement du « Blues autour du zinc »
+                                Trente années déjà !</h1><br></br>
+                            📣Trente années d’émotions, de frissons, de rencontres et de partage.
+                            Trente années à chercher et à soutenir les talents d’aujourd’hui et de demain,
+                            à accueillir des formes différentes démontrant la richesse de cette musique.
+                            📣 <a href='https://www.zincblues.com/' target="_blank">Plus d'info</a> 
+                            Je suis particulièrement fier d’avoir pu vous présenter au fil de ces années,
+                            Ray Charles, Maceo parker, Check Berry, Marcus Miller, Ahmad Jamal, The Temptations,
+                            Deep Purple et bien d’autres encore. Dianne Reeves, Beth Hart, Samantha Fish,
+                            Madeleine Peyroux et Sharon Jones… Depuis ses débuts,
+                            nous avons conçu le « Blues autour du zinc » comme une invitation à se retrouver autour de rencontres
+                            conviviales accessibles à tous. Ce festival qui a rassemblé plusieurs
+                            centaines de milliers de personnes en 30 ans, a aussi été l’occasion
+                            de donner à la ville des habits de fête à une période où le soleil
+                            fait souvent défaut.<br></br><br></br>
+
                         </p>
                         <img className='actu-img' src={actu6} alt="coupe du monde d'escrime à Beauvais" />
                     </div>
