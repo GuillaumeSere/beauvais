@@ -17,6 +17,16 @@ const videoData = [
         src: './videos/video3.mp4',
         title: 'Vidéo 3',
       },
+      {
+        id: 4,
+        src: './videos/video4.mp4',
+        title: 'Vidéo 4',
+      },
+      {
+        id: 5,
+        src: './videos/video5.mp4',
+        title: 'Vidéo 5',
+      },
   ]
 
 const Home = () => {
@@ -28,7 +38,7 @@ const Home = () => {
         setCurrentVideoIndex((prevIndex) => 
           prevIndex === videoData.length - 1 ? 0 : prevIndex + 1
         )
-      }, 10000) // Change toutes les 10 secondes
+      }, 9000) // Change toutes les 10 secondes
   
       return () => clearInterval(interval)
     }, [])
