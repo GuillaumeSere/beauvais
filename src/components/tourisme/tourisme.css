@@ -56,9 +56,8 @@
     color: #333;
     text-decoration: none;
     font-size: 1.1rem;
-    transition: color 0.3s ease;
     font-weight: bold;
-    transition: all .5s;
+    transition: all 5s ease-in-out; 
 }
 
 .glass-card a:hover {
@@ -91,4 +90,20 @@ body {
         width: 200px;
         height: 200px;
     }
+}
+
+/* Pour les images */
+#cathedraleImage,
+#museeImage,
+#planEauImage,
+#maladrerieImage {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#cathedraleImage[style*="display: block"],
+#museeImage[style*="display: block"],
+#planEauImage[style*="display: block"],
+#maladrerieImage[style*="display: block"] {
+    opacity: 1;
 }
