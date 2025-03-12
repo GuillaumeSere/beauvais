@@ -17,6 +17,14 @@
     transition: opacity 0.3s ease-in-out;
 }
 
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
 .scroll-to-top-button:hover {
     opacity: 0.8;
 }
