@@ -58,11 +58,17 @@
     font-size: 1.1rem;
     transition: color 0.3s ease;
     font-weight: bold;
+    transition: all .5s;
 }
 
 .glass-card a:hover {
     color: #007bff;
     font-weight: bold;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
 }
 
 /* Pour assurer que l'effet fonctionne bien, ajoutez un fond à la page */
@@ -79,5 +85,10 @@ body {
 
     .glass-card a {
         font-size: 0.9rem !important;
+    }
+
+    .image{
+        width: 200px;
+        height: 200px;
     }
 }
