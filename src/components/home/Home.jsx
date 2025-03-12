@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './home.css';
+import Country from '../country/Country';
 
 const videoData = [
     {
@@ -51,6 +52,7 @@ const Home = () => {
     }, [nextVideoIndex]);
 
     return (
+        <>
       <section className="video-section">
         <video
           id={`video-${currentVideoIndex}`}
@@ -87,6 +89,8 @@ const Home = () => {
          <h1>Bienvenue à Beauvais</h1> 
         </div>
       </section>
+          <Country />
+      </>
     )
 
 };
