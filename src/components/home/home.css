@@ -123,6 +123,9 @@
     .video-section {
         height: 100vh;
     }
+    .overlay-container h1{
+        font-size: 28px;
+    }
 }
 
 /* Nouvelles classes pour le composant vidéo */
@@ -142,6 +145,7 @@
 
 .overlay-container {
     position: absolute;
+    text-align: center;
     display: flex;
     justify-content: center;
     margin-top:2rem;
