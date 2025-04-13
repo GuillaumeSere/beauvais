@@ -8,9 +8,8 @@ const Country = () => {
     return (
         <>
             <div className='container'>
-                <img src={img4} alt="banière blues" />
                 <button className='btn'>
-                    <a href="https://www.zincblues.com/lagenda/" target="_blank" rel="noopener noreferrer">voir la programmation</a>
+                    <a href="https://unitechdays.com" target="_blank" rel="noopener noreferrer">Pour plus d’infos</a>
                 </button>
             </div>
             <section className='country-section'>
