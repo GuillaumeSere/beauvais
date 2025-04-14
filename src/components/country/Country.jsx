@@ -1,6 +1,6 @@
 import React from 'react';
 import './country.css';
-import img4 from '../../images/banner.png';
+import banner from "../../images/banner.png"
 import { data } from '../../data/data.js';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
@@ -8,6 +8,7 @@ const Country = () => {
     return (
         <>
             <div className='container'>
+            <img src={banner} alt="Bannière" className="responsive-banner" />
                 <button className='btn'>
                     <a href="https://unitechdays.com" target="_blank" rel="noopener noreferrer">Pour plus d’infos</a>
                 </button>
