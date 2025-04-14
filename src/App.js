@@ -12,7 +12,7 @@ import Sorties from "./components/sorties/Sorties";
 
 function App() {
   return (
-    <div>
+    <>
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
             <Route path="/sorties" element={<Sorties />} />
         </Routes>
         <Footer />
-    </div>
+    </>
   );
 }
 

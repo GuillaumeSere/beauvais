@@ -4,7 +4,7 @@ import actu2 from '../../images/chat.png';
 import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
-import actu6 from '../../images/blues.png';
+import actu6 from '../../images/interville.jpg';
 import ecole from '../../images/ecole.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
@@ -45,22 +45,20 @@ const Actualites = () => {
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>1996 : lancement du « Blues autour du zinc »
-                                Trente années déjà !</h1><br></br>
-                            📣Trente années d’émotions, de frissons, de rencontres et de partage.
-                            Trente années à chercher et à soutenir les talents d’aujourd’hui et de demain,
-                            à accueillir des formes différentes démontrant la richesse de cette musique.
-                            📣 <a href='https://www.zincblues.com/' target="_blank">Plus d'info</a> 
-                            Je suis particulièrement fier d’avoir pu vous présenter au fil de ces années,
-                            Ray Charles, Maceo parker, Check Berry, Marcus Miller, Ahmad Jamal, The Temptations,
-                            Deep Purple et bien d’autres encore. Dianne Reeves, Beth Hart, Samantha Fish,
-                            Madeleine Peyroux et Sharon Jones… Depuis ses débuts,
-                            nous avons conçu le « Blues autour du zinc » comme une invitation à se retrouver autour de rencontres
-                            conviviales accessibles à tous. Ce festival qui a rassemblé plusieurs
-                            centaines de milliers de personnes en 30 ans, a aussi été l’occasion
-                            de donner à la ville des habits de fête à une période où le soleil
-                            fait souvent défaut.<br></br><br></br>
-
+                            <h1>Appel à Candidat(e)s : Représentez Beauvais dans Intervilles !</h1><br></br>
+                            📣Le mythique Intervilles sera tourné à Beauvais en juillet 2025. Nous recherchons dès à présent de 
+                            valeureux et courageux guerriers, 8 femmes et 8 hommes, pour porter les couleurs de notre Ville. Inscriptions avant le 16 avril !
+                            📣 <a href='https://limesurvey.beauvaisis.fr/index.php/235537' target="_blank">S'inscrire pour participer à intervilles Beauvais 2025</a> 
+                            Habitant(e) de Beauvais, majeur(e), passionné(e) de sport et avec un esprit d’équipe ?
+                             C'est le moment de relever un défi unique en intégrant l'équipe de Beauvais
+                              pour la prochaine édition d'Intervilles, qui sera tournée à domicile en juillet 2025 !<br></br>
+                            <h2>Un challenge sportif et convivial</h2>
+                            Intervilles revient avec des épreuves revisitées pour assurer une parité parfaite dans les équipes.
+                             Chaque ville candidate doit ainsi recruter 8 femmes et 8 hommes, 
+                             prêts à se surpasser dans des épreuves physiques, ludiques et spectaculaires.
+                             <h2>Des épreuves en direct sur France 2 !</h2>
+                             Une occasion exceptionnelle de représenter Beauvais et de vivre une expérience
+                              unique ! Les deux émissions seront diffusées en direct sur France 2 et les réseaux sociaux.
                         </p>
                         <img className='actu-img' src={actu6} alt="coupe du monde d'escrime à Beauvais" />
                     </div>
