@@ -100,7 +100,7 @@ const Actualites = () => {
                 </div>
 
                 <div className="actualites">
-                    <h2>Réouverture du Parc Saint Paul le samedi 5 avril 2025</h2>
+                    <h2 className='title-parc'>Réouverture du Parc Saint Paul le samedi 5 avril 2025</h2>
                     <div className="container-img2">
                         <img className='actu-img2' src={actu3} alt="4 sorcières déguisé pour halloween" />
                         <img className='actu-img2' src={actu4} alt="4 sorcières déguisé pour halloween" />
@@ -117,7 +117,9 @@ const Actualites = () => {
                         Venez passer une journée dans la bonne humeur pour tous !
                     </p>
                     <div className="instagram-embed">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ps6RGvcpk3o?si=RkxWIrMSLp71ja6S" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <video controls autoPlay name="media">
+                            <source src="https://www.parcsaintpaul.fr/wp-content/uploads/2017/02/Psp-aquasplash-320.mp4" type="video/mp4" />
+                        </video>
 
                         <div className="map-container">
                             <iframe
