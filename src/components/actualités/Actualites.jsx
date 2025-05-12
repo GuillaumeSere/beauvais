@@ -5,7 +5,7 @@ import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
 import actu6 from '../../images/interville.jpg';
-import ecole from '../../images/ecole.png';
+import tkr from '../../images/tkr.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
@@ -41,7 +41,7 @@ const Actualites = () => {
                             la capture des chats errants a été confiée à la Fondation Clara, en partenariat avec la Police municipale.<br></br><br></br>
                             Pour signaler la présence de chats errants, appelez la Police municipale au<strong> 0 800 850 850</strong>🐈
                         </p>
-                        <img className='actu-img' src={actu2} alt="bienvenue dans la féeries de Noël" />
+                        <img className='actu-img' src={actu2} alt="La campagne de stérilisation des chats" />
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
@@ -60,24 +60,30 @@ const Actualites = () => {
                              Une occasion exceptionnelle de représenter Beauvais et de vivre une expérience
                               unique ! Les deux émissions seront diffusées en direct sur France 2 et les réseaux sociaux.
                         </p>
-                        <img className='actu-img' src={actu6} alt="coupe du monde d'escrime à Beauvais" />
+                        <img className='actu-img' src={actu6} alt="Le mythique Intervilles sera tourné à Beauvais en juillet 2025" />
                     </div>
                 </div>
 
                 <div className="actualites">
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>Inscriptions scolaires pour l’année 2025/2026 - du 3 février au 25 avril 2025</h1><br></br>
-                            La campagne officielle des inscriptions aux écoles publiques de la ville de Beauvais,
-                            pour la prochaine rentrée scolaire 2025/2026, aura lieu du 3 février et au 25 avril 2024.
-                            Elle concerne les enfants nés à partir du 1er janvier 2022 ou nouvellement arrivés à Beauvais.<br></br><br></br>
-                            <strong>La campagne des inscriptions pour l’année 2025/2026 concerne :</strong>
-                            - les inscriptions en Petite Section (maternelle) et en CP (élémentaire)<br></br>
-                            -  les inscriptions pour les nouveaux arrivants<br></br>
-                            - les inscriptions en Toute Petite Section (TPS)*<br></br>
-                            - les demandes de dérogation à la carte scolaire*
+                            <h1>CHAMPIONNAT DU MONDE DE KICK BOXING</h1><br></br>
+                            Le samedi 24 mai, à partir de 18h30, l’Elispace accueillera le Tournoi King of the Ring 
+                            (TKR) 2025 avec plusieurs combats de K1, dont un championnat du monde. 
+                            Ce sera un grand show inédit à Beauvais.
+                            <br></br><br></br>
+                            La Ville de Beauvais continue de développer une programmation événementielle
+                             sportive ambitieuse et variée, avec un nouveau rendez-vous de dimension
+                              internationale, dédié cette fois à la promotion du K1, une discipline 
+                              pieds-poings très spectaculaire, proche du kick-boxing (mais autorisant davantage de coups).<br></br><br></br>
+                              Cette belle soirée de gala est programmée par le spécialiste français de la discipline,
+                               TKR Event, avec l’appui de la Team Baron, club de full-contact et de kickboxing de Beauvais.<br></br><br></br>
+                               L’événement comprendra 7 combats de K1, dont un championnat du monde professionnel
+                                opposant Jérémy Monteiro et Matthan Choinard, deux grands noms du pieds-poings
+                                 français qui combattront pour le titre mondial Wako Pro. L’ambiance devrait être électrique.
+                                 <a href='https://www.eventbrite.fr/' target="_blank">Billeterie</a>
                         </p>
-                        <img className='actu-img' src={ecole} alt="bienvenue dans la féeries de Noël" />
+                        <img className='actu-img' src={tkr} alt="Le samedi 24 mai, à partir de 18h30, l’Elispace accueillera le Tournoi King of the Ring " />
                     </div>
 
                     <div className='container-img1'>
@@ -94,7 +100,7 @@ const Actualites = () => {
                             - Mettre en avant leurs atouts pour attirer les candidats,
                             - Publier leurs offres d'emploi gratuitement.
                         </p>
-                        <img className='actu-img' src={actu1} alt="bienvenue dans la féeries de Noël" />
+                        <img className='actu-img' src={actu1} alt="" />
                     </div>
 
                 </div>

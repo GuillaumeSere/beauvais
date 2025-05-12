@@ -18,11 +18,13 @@
 .actualites h2 {
     font-size: 2rem;
     margin: 0 auto;
-    background-color: aqua;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     padding: 0.5rem;
     width: 90%;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -76,6 +78,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 600px;
     height: 600px;
+    border-radius: 16px;
 }
 
 .actu-img2 {
@@ -84,6 +87,7 @@
     object-fit: cover;
     margin-top: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
 }
 
 .map-container {
@@ -92,6 +96,7 @@
 
 .map-container iframe {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
 }
 
 .container-img h2 {
@@ -118,8 +123,10 @@
     align-items: center;
     max-width: 700px;
     justify-content: center;
-    background: rgba(2, 251, 255, 0.53);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     padding: 0.8rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -128,6 +135,7 @@ video{
     width: 550px;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    border-radius: 16px;
 }
 
 .scroll-to-top{
