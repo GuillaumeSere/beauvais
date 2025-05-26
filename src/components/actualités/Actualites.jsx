@@ -4,7 +4,7 @@ import actu2 from '../../images/chat.png';
 import actu3 from '../../images/actu3.png';
 import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
-import actu6 from '../../images/interville.jpg';
+import actu6 from '../../images/balavoine.png';
 import tkr from '../../images/tkr.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
@@ -45,45 +45,45 @@ const Actualites = () => {
                     </div>
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>Appel à Candidat(e)s : Représentez Beauvais dans Intervilles !</h1><br></br>
-                            📣Le mythique Intervilles sera tourné à Beauvais en juillet 2025. Nous recherchons dès à présent de 
-                            valeureux et courageux guerriers, 8 femmes et 8 hommes, pour porter les couleurs de notre Ville. Inscriptions avant le 16 avril !
-                            📣 <a href='https://limesurvey.beauvaisis.fr/index.php/235537' target="_blank">S'inscrire pour participer à intervilles Beauvais 2025</a> 
-                            Habitant(e) de Beauvais, majeur(e), passionné(e) de sport et avec un esprit d’équipe ?
-                             C'est le moment de relever un défi unique en intégrant l'équipe de Beauvais
-                              pour la prochaine édition d'Intervilles, qui sera tournée à domicile en juillet 2025 !<br></br>
-                            <h2>Un challenge sportif et convivial</h2>
-                            Intervilles revient avec des épreuves revisitées pour assurer une parité parfaite dans les équipes.
-                             Chaque ville candidate doit ainsi recruter 8 femmes et 8 hommes, 
-                             prêts à se surpasser dans des épreuves physiques, ludiques et spectaculaires.
-                             <h2>Des épreuves en direct sur France 2 !</h2>
-                             Une occasion exceptionnelle de représenter Beauvais et de vivre une expérience
-                              unique ! Les deux émissions seront diffusées en direct sur France 2 et les réseaux sociaux.
+                            <h1>BALAVOINE,MA BATAILLE</h1><br></br>
+                            <h2>🎤 Quarante ans après, sa voix résonne encore.</h2>
+                            <a href='https://elispace.fr/programmation/balavoinema-bataille' target="_blank">Billeterie</a>
+                            40 ans après la disparition de Daniel Balavoine, BALAVOINE Ma Bataille prendra vie sur la scène du
+                            Dôme de Paris – Palais des Sports le 22 janvier 2026, avant une grande tournée française dans les
+                            Zénith ou équivalents.<br></br><br></br>
+                            Ce spectacle-hommage unique célèbrera un artiste révolté, visionnaire et indomptable, en faisant renaître
+                            l’énergie brute et l’émotion pure de Daniel Balavoine, porté par ses anciens musiciens :<br></br>
+                            🎸 Christian Padovan<br></br>
+                            🎸 Alain Pewzner<br></br>
+                            🎸 Sébastien Chouard (fils d’Yves Chouard)<br></br>
+                            💡 Sous la direction lumineuse de Jacques Rouveyrollis, son créateur lumière historique
                         </p>
-                        <img className='actu-img' src={actu6} alt="Le mythique Intervilles sera tourné à Beauvais en juillet 2025" />
+                        <img className='actu-img' src={actu6} alt="BALAVOINE, MA BATAILLE" />
                     </div>
                 </div>
 
                 <div className="actualites">
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>CHAMPIONNAT DU MONDE DE KICK BOXING</h1><br></br>
-                            Le samedi 24 mai, à partir de 18h30, l’Elispace accueillera le Tournoi King of the Ring 
-                            (TKR) 2025 avec plusieurs combats de K1, dont un championnat du monde. 
-                            Ce sera un grand show inédit à Beauvais.
+                            <h1>Le 2e marché nocturne, une édition spéciale années 80</h1><br></br>
+                            La Ville de Beauvais organise son deuxième marché artisanal nocturne de l’année,
+                            samedi 14 juin, à partir de 17h, place Jeanne-Hachette. Un événement festif et convivial sur le thème des années 80.
                             <br></br><br></br>
-                            La Ville de Beauvais continue de développer une programmation événementielle
-                             sportive ambitieuse et variée, avec un nouveau rendez-vous de dimension
-                              internationale, dédié cette fois à la promotion du K1, une discipline 
-                              pieds-poings très spectaculaire, proche du kick-boxing (mais autorisant davantage de coups).<br></br><br></br>
-                              Cette belle soirée de gala est programmée par le spécialiste français de la discipline,
-                               TKR Event, avec l’appui de la Team Baron, club de full-contact et de kickboxing de Beauvais.<br></br><br></br>
-                               L’événement comprendra 7 combats de K1, dont un championnat du monde professionnel
-                                opposant Jérémy Monteiro et Matthan Choinard, deux grands noms du pieds-poings
-                                 français qui combattront pour le titre mondial Wako Pro. L’ambiance devrait être électrique.
-                                 <a href='https://www.eventbrite.fr/' target="_blank">Billeterie</a>
+                            Dans une ambiance rétro où se mêleront musique et souvenirs dansants, une vingtaine d’artisans
+                            proposeront une diversité de produits locaux. Un accordéoniste jouera les classiques
+                            de la chanson française, de 17h à 19h30. .<br></br><br></br>
+                            Puis, à partir de 19h30, le groupe Come Back 80 Forever fera revivre
+                            les tubes incontournables des années 80, de la variété française à la pop internationale.<br></br><br></br>
+                            <strong> Liste des exposants : </strong><br></br>
+                            Anelly I Perline Créations I Le Monde de K'tell I Salaisons St Just'Oise I Brasserie Pap's
+                            Bière I Rituel Parfumé I Shaneia I Flo et l'atelier des fées I Le cocon de Jenny
+                            I Talen Foods I Lamotte Noëlla I Le rucher d'aux Marais I Les confitures
+                            de Martine I Cécile Coud I Libraire'the I Les chocolats d'Isa et Steph I
+                            Les manies de Sophie I L'atelier Marjorie I Les délices d'Ansacq I
+                            Le moulin de Mathilde I Les délices de Josette I Camelia I Mamma-bébé.
+                            <a href='https://www.beauvais.fr/actualites/prochainement-a-beauvais/3750-le-2e-marche-nocturne-une-edition-speciale-annees-80.html' target="_blank">Information</a>
                         </p>
-                        <img className='actu-img' src={tkr} alt="Le samedi 24 mai, à partir de 18h30, l’Elispace accueillera le Tournoi King of the Ring " />
+                        <img className='actu-img' src={tkr} alt="La Ville de Beauvais organise son deuxième marché artisanal nocturne de l’année, samedi 14 juin" />
                     </div>
 
                     <div className='container-img1'>
