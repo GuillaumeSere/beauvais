@@ -10,7 +10,7 @@ const Country = () => {
             <div className='container'>
             <img src={banner} alt="Bannière" className="responsive-banner" />
                 <button className='btn'>
-                    <a href="https://unitechdays.com" target="_blank" rel="noopener noreferrer">Pour plus d’infos</a>
+                    <a href="https://elispace.fr/programmation/bo-way-ink-tattoo-festival" target="_blank" rel="noopener noreferrer">Pour plus d’infos</a>
                 </button>
             </div>
             <section className='country-section'>
