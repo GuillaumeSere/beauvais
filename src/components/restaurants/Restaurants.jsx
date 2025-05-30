@@ -16,7 +16,7 @@ const Restaurants = () => {
         { name: "Le Carthage", href: "https://restaurant-le-carthage-beauvais.fr/", image: require("../../images/carthage3.png") },
         { name: "Le Grill'Inn", href: "https://beauvais.grillinn.fr/", image: require("../../images/grille4.png") },
         { name: "L'Annexe De Chez Ludo", href: "https://lannexedechezludo.fr/", image: require("../../images/resto4.png") },
-        { name: "Le Carthage", href: "https://restaurant-le-carthage-beauvais.fr/", image: require("../../images/carthage4.png") },
+        { name: "Le Carthage", href: "https://restaurantcarthage.fr/", image: require("../../images/carthage4.png") },
     ];
 
     useEffect(() => {
