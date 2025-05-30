@@ -3,7 +3,7 @@ import './restaurants.css';
 
 const Restaurants = () => {
     const [shuffledRestaurants, setShuffledRestaurants] = useState([]);
-    const MAX_RESTAURANTS = 7; // Nombre maximum de restaurants à afficher
+    const MAX_RESTAURANTS = 8; // Nombre maximum de restaurants à afficher
 
     const restaurants = [
         {
@@ -55,6 +55,14 @@ const Restaurants = () => {
             images: [
                 require("../../images/gargouille.png"),
                 require("../../images/gargouille2.png")
+            ]
+        },
+        {
+            name: "Les Vins Par Faim",
+            href: "https://www.lesvinsparfaim.fr/",
+            images: [
+                require("../../images/les-vins-par-faim1.png"),
+                require("../../images/les-vins-par-faim2.png")
             ]
         }
     ];
