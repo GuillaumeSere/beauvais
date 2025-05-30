@@ -3,7 +3,7 @@ import './restaurants.css';
 
 const Restaurants = () => {
     const [shuffledRestaurants, setShuffledRestaurants] = useState([]);
-    const MAX_RESTAURANTS = 6; // Nombre maximum de restaurants à afficher
+    const MAX_RESTAURANTS = 7; // Nombre maximum de restaurants à afficher
 
     const restaurants = [
         {
@@ -47,6 +47,14 @@ const Restaurants = () => {
             images: [
                 require("../../images/mediterraneo.png"),
                 require("../../images/mediterraneo2.png")
+            ]
+        },
+        {
+            name: "La Gargouille",
+            href: "https://restaurant-beauvais.fr/",
+            images: [
+                require("../../images/gargouille.png"),
+                require("../../images/gargouille2.png")
             ]
         }
     ];
