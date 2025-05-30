@@ -3,6 +3,7 @@ import './restaurants.css';
 
 const Restaurants = () => {
     const [shuffledRestaurants, setShuffledRestaurants] = useState([]);
+    const MAX_RESTAURANTS = 6; // Nombre maximum de restaurants à afficher
 
     const restaurants = [
         {
@@ -51,6 +52,10 @@ const Restaurants = () => {
     ];
 
     useEffect(() => {
+        const getRandomImage = (images) => {
+            return images[Math.floor(Math.random() * images.length)];
+        };
+
         const shuffleArray = (array) => {
             let shuffled = [...array];
             for (let i = shuffled.length - 1; i > 0; i--) {
@@ -60,16 +65,17 @@ const Restaurants = () => {
             return shuffled;
         };
 
-        // Créer un tableau plat avec toutes les images
-        const flattenedRestaurants = restaurants.flatMap(restaurant => 
-            restaurant.images.map(image => ({
+        // Sélectionner aléatoirement MAX_RESTAURANTS restaurants
+        const selectedRestaurants = shuffleArray(restaurants)
+            .slice(0, MAX_RESTAURANTS)
+            .map(restaurant => ({
                 name: restaurant.name,
                 href: restaurant.href,
-                image: image
-            }))
-        );
+                image: getRandomImage(restaurant.images)
+            }));
 
-        setShuffledRestaurants(shuffleArray(flattenedRestaurants));
+        // Mélanger les restaurants sélectionnés
+        setShuffledRestaurants(shuffleArray(selectedRestaurants));
     }, []);
 
     return (
