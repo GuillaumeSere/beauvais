@@ -1,10 +1,10 @@
 import React from 'react';
 import './country.css';
 import banner from "../../images/banner.png"
-import tatoo1 from "../../images/tattoo.1.png"
-import tatoo2 from "../../images/tattoo.2.png"
-import tatoo3 from "../../images/tattoo.3.png"
-import tatoo4 from "../../images/tattoo.4.png"
+import tatoo1 from "../../images/tatoo1.png"
+import tatoo2 from "../../images/tatoo2.png"
+import tatoo3 from "../../images/tatoo3.png"
+import tatoo4 from "../../images/tatoo4.png"
 import { data } from '../../data/data.js';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import CountryCarousel from './CountryCarousel';
@@ -23,7 +23,7 @@ const Country = () => {
             <div className='container'>
                 <CountryCarousel images={images} />
                 <button className='btn'>
-                    <a href="https://elispace.fr/programmation/bo-way-ink-tattoo-festival" target="_blank" rel="noopener noreferrer">Pour plus d'infos</a>
+                    <a href="https://elispace.fr/" target="_blank" rel="noopener noreferrer">Pour plus d'infos</a>
                 </button>
             </div>
             <section className='country-section'>
