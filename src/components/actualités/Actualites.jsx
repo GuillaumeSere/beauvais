@@ -65,23 +65,15 @@ const Actualites = () => {
                 <div className="actualites">
                     <div className='container-img1'>
                         <p className='text-intro'>
-                            <h1>Le 2e marché nocturne, une édition spéciale années 80</h1><br></br>
-                            La Ville de Beauvais organise son deuxième marché artisanal nocturne de l’année,
-                            samedi 14 juin, à partir de 17h, place Jeanne-Hachette. Un événement festif et convivial sur le thème des années 80.
-                            <br></br><br></br>
-                            Dans une ambiance rétro où se mêleront musique et souvenirs dansants, une vingtaine d’artisans
-                            proposeront une diversité de produits locaux. Un accordéoniste jouera les classiques
-                            de la chanson française, de 17h à 19h30. .<br></br><br></br>
-                            Puis, à partir de 19h30, le groupe Come Back 80 Forever fera revivre
-                            les tubes incontournables des années 80, de la variété française à la pop internationale.<br></br><br></br>
-                            <strong> Liste des exposants : </strong><br></br>
-                            Anelly I Perline Créations I Le Monde de K'tell I Salaisons St Just'Oise I Brasserie Pap's
-                            Bière I Rituel Parfumé I Shaneia I Flo et l'atelier des fées I Le cocon de Jenny
-                            I Talen Foods I Lamotte Noëlla I Le rucher d'aux Marais I Les confitures
-                            de Martine I Cécile Coud I Libraire'the I Les chocolats d'Isa et Steph I
-                            Les manies de Sophie I L'atelier Marjorie I Les délices d'Ansacq I
-                            Le moulin de Mathilde I Les délices de Josette I Camelia I Mamma-bébé.
-                            <a href='https://www.beauvais.fr/actualites/prochainement-a-beauvais/3750-le-2e-marche-nocturne-une-edition-speciale-annees-80.html' target="_blank">Information</a>
+                            <h1>Karaoké : chantez c’est l’été</h1><br></br>
+                            Venez chanter à tue-tête et tester vos connaissances
+                            musicales lors de notre karaoké en plein air !
+                            Profitez de l'ambiance festive et conviviale
+                            pour interpréter vos morceaux préférés et participer à nos quiz musicaux.<br></br><br></br>
+                            <strong>De 17h à 20h – Plan d’Eau du Canada </strong><br></br>
+                            Renseignement auprès du Plan d’eau du Canada<br></br><br></br>
+                            Tél: 03 44 79 38 08
+                            <a href='https://www.google.com/maps/dir/49.41772,2.0826198/49.4558252,2.0601121/@49.4368096,2.0550874,5704m/data=!3m2!1e3!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D' target="_blank">Localisation</a>
                         </p>
                         <img className='actu-img' src={tkr} alt="La Ville de Beauvais organise son deuxième marché artisanal nocturne de l’année, samedi 14 juin" />
                     </div>
