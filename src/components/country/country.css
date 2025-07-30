@@ -67,10 +67,10 @@
     justify-content: space-evenly;
 }
 .box{
-    max-width: 400px;
+    max-width: auto;
     display: flex;
-    flex-direction: column;
-    height: auto;
+    flex-direction: row;
+    height: 500px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
@@ -83,7 +83,7 @@
     font-weight: 500;
 }
 .box img{
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -161,7 +161,8 @@
         font-size: 10px;
     }
     .box{
-        max-width: 320px;
+        flex-direction: column;
+        height: auto;
     }
     .carousel-button {
         width: 35px;

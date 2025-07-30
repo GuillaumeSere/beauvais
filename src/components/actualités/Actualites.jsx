@@ -10,16 +10,19 @@ import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 
 const Actualites = () => {
     useEffect(() => {
-        const script = document.createElement('script');
-        script.src = '//www.instagram.com/embed.js';
-        script.async = true;
-        document.body.appendChild(script);
+        const injectInstagramScript = () => {
+            const script = document.createElement('script');
+            script.src = '//www.instagram.com/embed.js';
+            script.async = true;
+            document.body.appendChild(script);
+        };
+
+        injectInstagramScript();
 
         return () => {
-            document.body.removeChild(script);
+            document.body.removeChild(document.querySelector('script[src*="instagram.com"]'));
         };
     }, []);
-
 
     return (
         <>
