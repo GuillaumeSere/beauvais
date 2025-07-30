@@ -76,6 +76,13 @@ body {
     min-height: 100vh;
 }
 
+@media (max-width: 800px){
+    .image{
+        width: 400px;
+        height: 400px;
+    }
+}
+
 @media (max-width: 380px) {
 
     .tourisme h2 {
