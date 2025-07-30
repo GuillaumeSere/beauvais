@@ -8,6 +8,8 @@ import tatoo4 from "../../images/tatoo4.png"
 import { data } from '../../data/data.js';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import CountryCarousel from './CountryCarousel';
+import { motion } from 'framer-motion';
+
 
 const Country = () => {
     const images = [
@@ -29,10 +31,18 @@ const Country = () => {
             <section className='country-section'>
                 <div className='box-container'>
                     {data.map(item => (
-                        <div className="box" key={item.id}>
+                        <motion.div
+                         className="box"
+                          key={item.id}
+                          initial={{ opacity: 0, y: 50 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          whileHover={{ scale: 1.05 }}
+                          transition={{ duration: 0.6, ease: 'easeOut' }}
+                          viewport={{ once: true }}
+                          >
                             <img src={item.image} alt={`Image de Beauvais ${item.id}`} />
                             <p>{item.description}</p>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
                 <ScrollToTopButton />
