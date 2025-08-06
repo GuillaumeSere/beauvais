@@ -64,9 +64,12 @@ const Actualites = () => {
       <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
         <motion.div className='container-img1' variants={fadeInUp}>
           <div className='text-intro'>
-            <h1>Karaoké : chantez c’est l’été</h1>
+            <h1>Scènes Ouvertes</h1>
             <p>
               Venez chanter en plein air ! 🎤<br /><br />
+              Musique en plein air, au bord de l’eau... Venez profiter ! 
+              Vous ne pouvez pas être présent ? Pas d’inquiétude, ce n’est que le début ! 
+              Tout l’été, des soirées gratuites et festives vous attendent<br /><br />
               📍 Plan d’Eau du Canada<br />
               ⏰ De 17h à 20h<br />
               ☎️ 03 44 79 38 08
