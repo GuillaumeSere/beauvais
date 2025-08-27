@@ -64,19 +64,21 @@ const Actualites = () => {
       <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
         <motion.div className='container-img1' variants={fadeInUp}>
           <div className='text-intro'>
-            <h1>Scènes Ouvertes</h1>
+            <h1>Frappadingue</h1>
             <p>
-              Venez chanter en plein air ! 🎤<br /><br />
-              Musique en plein air, au bord de l’eau... Venez profiter ! 
-              Vous ne pouvez pas être présent ? Pas d’inquiétude, ce n’est que le début ! 
-              Tout l’été, des soirées gratuites et festives vous attendent<br /><br />
-              📍 Plan d’Eau du Canada<br />
-              ⏰ De 17h à 20h<br />
-              ☎️ 03 44 79 38 08
+              C'est officiel ! La Frappadingue revient à Beauvais ! <br /><br />
+              RDV le 14 septembre 2025 : Boue, obstacles et bonne humeur :
+               tout ce qu’il faut pour une journée mémorable ! Prêt à relever le défi ?
+                Forme ton équipe, sort ton déguisement le plus fou, et viens partager
+                 une expérience unique avec nous. Inscris-toi dès maintenant !<br /><br />
+              📍 Beauvais<br />
+              ⏰ Toute la journée<br />
             </p>
-            <a href='https://www.google.com/maps/dir/49.41772,2.0826198/49.4558252,2.0601121' target="_blank" rel="noopener noreferrer">Localisation</a>
+            <a href='https://www.frappadingue.net/events/frappadingue-beauvais-2025-60/' target="_blank" rel="noopener noreferrer">Information</a>
           </div>
-          <motion.img className='actu-img' src={tkr} alt="Karaoké été" whileHover={{ scale: 1.03 }} />
+            <div style={{maxWidth: '100%', display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/UvhP4IgpIMw?si=uJUyiIKMoVoH3BvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </motion.div>
 
         <motion.div className='container-img1' variants={fadeInUp}>
