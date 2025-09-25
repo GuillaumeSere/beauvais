@@ -6,6 +6,7 @@ import actu1 from '../../images/actu1.png';
 import actu4 from '../../images/actu4.png';
 import actu6 from '../../images/balavoine.png';
 import rubik from '../../images/rubik.png';
+import dames from '../../images/dames.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -75,6 +76,23 @@ const Actualites = () => {
                     </div>
                     <a href="https://ruby-cube60.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <motion.img className='actu-img' src={rubik} alt="jeux rubik" whileHover={{ scale: 1.03 }} />
+                    </a>
+                </motion.div>
+
+                <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>🎮 Jouez aux Dames en ligne !</h1>
+                        <p>
+                        Plongez dans l’univers du jeu de dames, mais cette fois en version numérique et en 3D ✨ <br /><br />
+                        ♟️<strong>Fonctionnalités principales :</strong> <br /><br />
+                        Plateau de dames en 3D réaliste rendu avec Three.js<br></br>
+                        Pions interactifs avec mouvements et captures animés<br></br>
+                        Mode joueur contre ordinateur grâce à une IA intégrée<br></br>
+                            Expérience fluide et intuitive directement depuis votre navigateur, sans installation
+                        </p>
+                    </div>
+                    <a href="https://dames-3d.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={dames} alt="jeux rubik" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
