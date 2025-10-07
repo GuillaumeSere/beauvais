@@ -62,7 +62,7 @@ const Sorties = () => {
                         <div className="lieu">
                             <h3>
                                 <a
-                                    href="https://culture.beauvais.fr/acteur-culturel/theatre-du-beauvaisis"
+                                    href="https://www.theatredubeauvaisis.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
