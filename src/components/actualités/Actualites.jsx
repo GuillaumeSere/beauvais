@@ -7,6 +7,10 @@ import actu4 from '../../images/actu4.png';
 import actu6 from '../../images/balavoine.png';
 import rubik from '../../images/rubik.png';
 import dames from '../../images/dames.png';
+import oiseRando from '../../images/oise-rando.png';
+import appli from '../../images/appli.png';
+import apple from '../../images/logo-apple.png';
+import google from '../../images/logo-google.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -81,13 +85,41 @@ const Actualites = () => {
 
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
+                        <h1>L'Application Oise Rando</h1>
+                        <p>
+                            Vous aimez les balades en plein air ? Alors, cette nouvelle va vous plaire…
+                            L’arrivée de l’application Oise Rando !<br></br> Cette nouvelle appli vous aide
+                            à explorer les plus beaux coins de l’Oise, que ce soit dans
+                            le Pays de Bray, vers Compiègne ou dans le Beauvaisis. <br></br>
+                            Avec plus de 350 parcours accessibles à pied,
+                            à vélo ou même en VTT, il y en a pour tous les goûts !<br></br>
+                            <div className="box-app">
+                                <div className='link-container'>
+                                    <img className='icon' src={apple} alt="" />
+                                    <a className='link-actu' href='https://apps.apple.com/fr/app/oise-rando-gps-randonn%C3%A9e/id6670748249' target="_blank" rel="noopener noreferrer">l'Appli sur Apple Store</a>
+                                </div>
+                                <div className='link-container'>
+                                    <img className='icon' src={google} alt="" />
+                                    <a className='link-actu' href='https://play.google.com/store/apps/details?id=com.oisetourisme.oiserando&pli=1' target="_blank" rel="noopener noreferrer"> l'Appli sur Google Play</a>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <div className='app-container'>
+                        <img className='app-img' src={appli} alt="" />
+                        <motion.img className='actu-img' src={oiseRando} alt="info oise rando" whileHover={{ scale: 1.03 }} />
+                    </div>
+                </motion.div>
+
+                <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
                         <h1>🎮 Jouez aux Dames en ligne !</h1>
                         <p>
-                        Plongez dans l’univers du jeu de dames, mais cette fois en version numérique et en 3D ✨ <br /><br />
-                        ♟️<strong>Fonctionnalités principales :</strong> <br /><br />
-                        Plateau de dames en 3D réaliste rendu avec Three.js<br></br>
-                        Pions interactifs avec mouvements et captures animés<br></br>
-                        Mode joueur contre ordinateur grâce à une IA intégrée<br></br>
+                            Plongez dans l’univers du jeu de dames, mais cette fois en version numérique et en 3D ✨ <br /><br />
+                            ♟️<strong>Fonctionnalités principales :</strong> <br /><br />
+                            Plateau de dames en 3D réaliste rendu avec Three.js<br></br>
+                            Pions interactifs avec mouvements et captures animés<br></br>
+                            Mode joueur contre ordinateur grâce à une IA intégrée<br></br>
                             Expérience fluide et intuitive directement depuis votre navigateur, sans installation
                         </p>
                     </div>
