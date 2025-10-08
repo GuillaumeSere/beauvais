@@ -5,6 +5,9 @@ import tatoo1 from "../../images/tatoo1.png"
 import tatoo2 from "../../images/tatoo2.png"
 import tatoo3 from "../../images/tatoo3.png"
 import tatoo4 from "../../images/tatoo4.png"
+import tatoo5 from "../../images/tatoo5.png"
+import tatoo6 from "../../images/tatoo6.png"
+import tatoo7 from "../../images/tatoo7.png"
 import { data } from '../../data/data.js';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import CountryCarousel from './CountryCarousel';
@@ -17,7 +20,10 @@ const Country = () => {
         banner,
         tatoo2,
         tatoo3,
-        tatoo4
+        tatoo4,
+        tatoo5,
+        tatoo6,
+        tatoo7
     ];
 
     return (
@@ -40,7 +46,7 @@ const Country = () => {
                           transition={{ duration: 0.6, ease: 'easeOut' }}
                           viewport={{ once: true }}
                           >
-                            <img src={item.image} alt={`Image de Beauvais ${item.id}`} />
+                            <img src={item.image} alt={`Evènement bientôt sur Beauvais ${item.id}`} />
                             <p>{item.description}</p>
                         </motion.div>
                     ))}
