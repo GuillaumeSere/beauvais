@@ -55,7 +55,7 @@ const Actualites = () => {
                     <div className='text-intro'>
                         <h1>BALAVOINE, MA BATAILLE</h1>
                         <h2>🎤 Quarante ans après, sa voix résonne encore.</h2>
-                        <a href='https://elispace.fr/programmation/balavoinema-bataille' target="_blank" rel="noopener noreferrer">Billeterie</a>
+                        <a className='btn-billeterie' href='https://elispace.fr/programmation/balavoinema-bataille' target="_blank" rel="noopener noreferrer">Billeterie</a>
                         <p>
                             Un spectacle-hommage à Daniel Balavoine aura lieu au Dôme de Paris le 22 janvier 2026, suivi d’une tournée française.<br /><br />
                             🎸 Christian Padovan, Alain Pewzner, Sébastien Chouard<br />
@@ -132,7 +132,7 @@ const Actualites = () => {
                     <div className='text-intro'>
                         <h1>Un nouveau site web pour l’emploi local</h1>
                         <p>
-                            La CAB lance la plateforme <a href='https://emploi.beauvaisis.fr/' target="_blank" rel="noopener noreferrer">emploi.beauvaisis.fr</a><br /><br />
+                            La CAB lance la plateforme <a className='btn-billeterie' href='https://emploi.beauvaisis.fr/' target="_blank" rel="noopener noreferrer">emploi.beauvaisis.fr</a><br /><br />
                             Pour faciliter les liens entre entreprises et candidats : stages, apprentissages, emplois.<br />
                             Les entreprises peuvent créer un compte, publier des offres et valoriser leur image.
                         </p>

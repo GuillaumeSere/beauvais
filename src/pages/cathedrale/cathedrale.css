@@ -13,6 +13,25 @@
     padding: 2rem;
 }
 
+.cathedrale-container{
+    margin: 0 auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+}
+
+.cathedrale h1{
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
 .cathedrale h2{
     font-size: 2rem;
     font-weight: bold;
@@ -24,7 +43,7 @@
     max-width: 450px;
     line-height: 1.5;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -35,12 +54,16 @@
     padding: 1rem;
 }
 
+.cathedrale ul{
+   margin-bottom: 1rem;
+}
+
 .cathedrale li{
     list-style: none;
     margin: 0 auto;
     max-width: 300px;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -52,13 +75,12 @@
 }
 
 .retour-link{
-    margin-top: 1rem;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
 .retour-link:hover{
-    color: #007bff;
+    color: #171717;
 }
 
 @media (max-width: 768px) {

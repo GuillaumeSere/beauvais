@@ -13,6 +13,18 @@
     padding: 2rem;
 }
 
+.musee-container{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .musee h1{
     font-size: 2rem;
     font-weight: bold;
@@ -32,7 +44,7 @@
     max-width: 450px;
     line-height: 1.5;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -40,13 +52,14 @@
     padding: 1rem;
     font-weight: 500;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .musee ul{
     margin: 0 auto;
     max-width: 300px;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);

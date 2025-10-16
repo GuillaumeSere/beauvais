@@ -5,7 +5,8 @@ import './cathedrale.css';
 const Cathedrale = () => {
     return (
         <div className="cathedrale">
-            <h1>La Cathédrale Saint-Pierre de Beauvais</h1>
+            <div className="cathedrale-container">
+                  <h1 className='title'>La Cathédrale Saint-Pierre de Beauvais</h1>
             <p>
                 La Cathédrale Saint-Pierre de Beauvais est un chef-d'œuvre de l'architecture gothique. 
                 Commencée en 1225, elle est célèbre pour son chœur gothique, le plus haut du monde avec une voûte culminant à 48,50 mètres.
@@ -20,6 +21,7 @@ const Cathedrale = () => {
                 <li>Les vitraux du XIIIe siècle</li>
             </ul>
             <Link to="/tourisme" className="retour-link">Retour aux attractions touristiques</Link>
+            </div>
         </div>
     );
 };
