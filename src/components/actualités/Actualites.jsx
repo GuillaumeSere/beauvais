@@ -132,10 +132,11 @@ const Actualites = () => {
                     <div className='text-intro'>
                         <h1>Un nouveau site web pour l’emploi local</h1>
                         <p>
-                            La CAB lance la plateforme <a className='btn-billeterie' href='https://emploi.beauvaisis.fr/' target="_blank" rel="noopener noreferrer">emploi.beauvaisis.fr</a><br /><br />
+                            La CAB lance la plateforme 
                             Pour faciliter les liens entre entreprises et candidats : stages, apprentissages, emplois.<br />
                             Les entreprises peuvent créer un compte, publier des offres et valoriser leur image.
                         </p>
+                        <a className='btn-billeterie' href='https://emploi.beauvaisis.fr/' target="_blank" rel="noopener noreferrer">emploi.beauvaisis.fr</a>
                     </div>
                     <motion.img className='actu-img' src={actu1} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
                 </motion.div>
