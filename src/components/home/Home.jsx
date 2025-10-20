@@ -38,7 +38,7 @@ const Home = () => {
         setNextVideoIndex((prevIndex) => 
           prevIndex === videoData.length - 1 ? 0 : prevIndex + 1
         )
-      }, 9000) // Change toutes les 9 secondes
+      }, 4000)
   
       return () => clearInterval(interval)
     }, [])
