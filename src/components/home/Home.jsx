@@ -49,7 +49,7 @@ const Home = () => {
         videoElement.load();
         videoElement.play();
       }
-    }, [nextVideoIndex]);
+    }, [nextVideoIndex])
 
     return (
         <>
