@@ -1,5 +1,5 @@
 .background {
-    background: linear-gradient(90deg, #0d0c0c 0%, #fff 100%);
+    background: linear-gradient(90deg, #393434 0%, #fff 100%);
     margin-top: -1rem;
 }
 
@@ -18,13 +18,13 @@
 .actualites h2 {
     font-size: 2rem;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.026);
+    border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 0.5rem;
-    width: 90%;
+    width: 50%;
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -32,13 +32,13 @@
 .title-parc {
     background-color: aqua;
     padding: 0.5rem;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .actualites p {
     font-size: 1.2rem;
     margin-top: 1rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .actualites li {
@@ -79,7 +79,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     width: 600px;
     height: 600px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .actu-img2 {
@@ -88,7 +88,7 @@
     object-fit: cover;
     margin-top: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .map-container {
@@ -97,7 +97,7 @@
 
 .map-container iframe {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .container-img h2 {
@@ -108,10 +108,10 @@
 .actu-text {
     line-height: 1.5;
     font-weight: bold;
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -125,7 +125,7 @@
     max-width: 700px;
     justify-content: center;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+    border-radius: 5px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 0.8rem;
@@ -137,7 +137,7 @@ video {
     width: 550px;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    border-radius: 16px;
+    border-radius: 5px;
 }
 
 .scroll-to-top {
@@ -268,6 +268,25 @@ video {
         display: flex;
         justify-content: center;
     }
+    .actualites h2 {
+    width: 100%;
+    font-size: 20px;
+}
+.actualites p {
+    font-size: 16px;
+}   
+.text-intro {
+    font-size: 12px;
+}
+.text-intro h1{
+    font-size: 20px;
+}
+.text-intro h2{
+    font-size: 18px;
+}
+.text-intro p{
+    font-size: 16px;
+}
 }
 
 @media (max-width: 580px) {
