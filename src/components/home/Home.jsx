@@ -5,8 +5,9 @@ import Country from '../country/Country';
 // ...existing code... (ancien tableau videoData)
 // Remplacé par deux URLs de webcam configurables via REACT_APP_WEBCAM_URL_1 et REACT_APP_WEBCAM_URL_2
 const WEBCAM_URLS = [
-  process.env.REACT_APP_WEBCAM_URL_1 || 'https://www.skaping.com/beauvais/place-jeanne-hachette/live',
+  process.env.REACT_APP_WEBCAM_URL_1 || 'https://www.skaping.com/beauvais/cathedrale-saint-pierre/video',
   process.env.REACT_APP_WEBCAM_URL_2 || 'https://www.skaping.com/beauvais/plan-d-eau-du-canada/live/',
+    process.env.REACT_APP_WEBCAM_URL_3 || 'https://www.skaping.com/beauvais/place-jeanne-hachette/live',
 ];
 
 const Home = () => {
