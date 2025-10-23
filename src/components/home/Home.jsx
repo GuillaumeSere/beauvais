@@ -12,7 +12,7 @@ const WEBCAM_URLS = [
 
 const Home = () => {
 
-    // Rotation entre les deux webcams toutes les 2 minutes
+    // Rotation entre les deux webcams toutes les 1 minutes
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {

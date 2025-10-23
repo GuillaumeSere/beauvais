@@ -11,6 +11,7 @@ import oiseRando from '../../images/oise-rando.png';
 import appli from '../../images/appli.png';
 import apple from '../../images/logo-apple.png';
 import google from '../../images/logo-google.png';
+import gare from '../../images/gare.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -49,6 +50,19 @@ const Actualites = () => {
                         </p>
                     </div>
                     <motion.img className='actu-img' src={actu2} alt="Stérilisation des chats" whileHover={{ scale: 1.03 }} />
+                </motion.div>
+
+                  <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>🕒 Horaires des trains SNCF en direct</h1>
+                        <p>
+                            Consulter les horaires des trains SNCF en temps réel, avec un affichage 
+                            identique à celui des panneaux présents dans les gares. ✨. <br /><br />
+                        </p>
+                    </div>
+                    <a href="https://train-sncf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={gare} alt="jeux rubik" whileHover={{ scale: 1.03 }} />
+                    </a>
                 </motion.div>
 
                 <motion.div className='container-img1' variants={fadeInUp}>
