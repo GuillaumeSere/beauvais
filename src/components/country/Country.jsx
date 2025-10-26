@@ -8,6 +8,14 @@ import tatoo4 from "../../images/tatoo4.png"
 import tatoo5 from "../../images/tatoo5.png"
 import tatoo6 from "../../images/tatoo6.png"
 import tatoo7 from "../../images/tatoo7.png"
+import tatoo8 from "../../images/tatoo8.png"
+import tatoo9 from "../../images/tatoo9.png"
+import tatoo10 from "../../images/tatoo10.png"
+import tatoo11 from "../../images/tatoo11.png"
+import tatoo12 from "../../images/tatoo12.png"
+import tatoo13 from "../../images/tatoo13.png"
+import tatoo14 from "../../images/tatoo14.png"
+import tatoo15 from "../../images/tatoo15.png"
 import { data } from '../../data/data.js';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import CountryCarousel from './CountryCarousel';
@@ -23,7 +31,15 @@ const Country = () => {
         tatoo4,
         tatoo5,
         tatoo6,
-        tatoo7
+        tatoo7,
+        tatoo8,
+        tatoo9,
+        tatoo10,
+        tatoo11,
+        tatoo12,
+        tatoo13,
+        tatoo14,
+        tatoo15
     ];
 
     return (
@@ -38,14 +54,14 @@ const Country = () => {
                 <div className='box-container'>
                     {data.map(item => (
                         <motion.div
-                         className="box"
-                          key={item.id}
-                          initial={{ opacity: 0, y: 50 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          whileHover={{ scale: 1.05 }}
-                          transition={{ duration: 0.6, ease: 'easeOut' }}
-                          viewport={{ once: true }}
-                          >
+                            className="box"
+                            key={item.id}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            whileHover={{ scale: 1.05 }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            viewport={{ once: true }}
+                        >
                             <img src={item.image} alt={`Evènement bientôt sur Beauvais ${item.id}`} />
                             <p>{item.description}</p>
                         </motion.div>
