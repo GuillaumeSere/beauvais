@@ -48,8 +48,7 @@
 .slide a {
     position: absolute;
     bottom: 20px; /* Position en bas de l'image */
-    left: 50%;
-    transform: translateX(-50%);
+    left: 40%;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px 20px;
@@ -89,8 +88,15 @@
     }
 
     .slide a {
-        font-size: 1rem;
+        font-size: .7rem;
         padding: 8px 16px;
+        left:34px;
+    }
+}
+
+@media (max-width: 550px){
+    .restaurants h2 {
+        font-size: 1rem;
     }
 }
 

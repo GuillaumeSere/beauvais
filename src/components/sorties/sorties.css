@@ -10,23 +10,23 @@
 }
 
 .sorties h1,
- .sorties p{
+.sorties p {
     margin: 0 auto;
     margin-top: 1rem;
     text-align: center;
     color: white;
 }
 
-.sorties p{
+.sorties p {
     max-width: 800px;
     margin: 0 auto;
     margin-top: 1rem;
-      background-color: rgba(0, 0, 0, 0.437);
-     padding: 1rem;
-     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.437);
+    padding: 1rem;
+    border-radius: 5px;
 }
 
-.lieux-populaires{
+.lieux-populaires {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -34,25 +34,25 @@
     max-width: 1500px;
 }
 
-.lieux-grid{
+.lieux-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
 }
 
-.lieu{
+.lieu {
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.lieu h3{
+.lieu h3 {
     margin-bottom: 1rem;
 }
 
-.lieu h3 a{
+.lieu h3 a {
     margin-bottom: 0.5rem;
     background: #000;
     color: #fff;
@@ -61,7 +61,7 @@
     text-decoration: none;
 }
 
-.lieu h3 a:hover{
+.lieu h3 a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 0.5rem;
     border-radius: 5px;
@@ -71,47 +71,62 @@
 .lieu img,
 .lieu iframe {
     width: 100%;
-    height: 300px; 
+    height: 300px;
     max-width: 500px;
     border-radius: 5px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .lieu iframe {
-    object-fit: fill; 
+    object-fit: fill;
 }
 
-.restaurants{
+.restaurants {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.description{
+.description {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.description-title{
+.description-title {
     color: white;
     text-align: center;
 }
-.description p{
+
+.description p {
     color: white;
     text-align: center;
-    margin:  1rem;
+    margin: 1rem;
     line-height: 25px;
-     background-color: rgba(0, 0, 0, 0.437);
-     padding: 1rem;
-     border-radius: 5px;
-}   
+    background-color: rgba(0, 0, 0, 0.437);
+    padding: 1rem;
+    border-radius: 5px;
+}
 
 
 @media (max-width: 550px) {
+
     .lieu img,
     .lieu iframe {
-        height: 200px; 
+        height: 200px;
+    }
+    .sorties h1 {
+        font-size: 1.5rem;
+    }
+
+    .sorties p {
+        font-size: 0.8rem;
+    }
+
+    .description-title {
+        font-size: 1rem;
+    }
+    .lieu h3 a{
+        font-size: .8rem;
     }
 }
-
