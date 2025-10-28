@@ -11,6 +11,7 @@ import oiseRando from '../../images/oise-rando.png';
 import appli from '../../images/appli.png';
 import apple from '../../images/logo-apple.png';
 import google from '../../images/logo-google.png';
+import live from '../../images/live-radio.png';
 import gare from '../../images/gare.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
@@ -153,6 +154,23 @@ const Actualites = () => {
                         <a className='btn-billeterie' href='https://emploi.beauvaisis.fr/' target="_blank" rel="noopener noreferrer">emploi.beauvaisis.fr</a>
                     </div>
                     <motion.img className='actu-img' src={actu1} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                </motion.div>
+
+                        <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>🎧 Live-Radio — Écoutez la musique qui vous accompagne</h1>
+                        <p>
+                            Découvrez Live-Radio, une plateforme de radio en ligne offrant des styles
+                             musicaux variés : du classique au rock, en passant par la country et bien plus encore.
+                           <br />
+                           Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
+                            travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br>
+                            👉 Accédez à la radio en cliquant sur l'image.
+                        </p>
+                    </div>
+                       <a href='https://live-radios.vercel.app/' target="_blank" rel="noopener noreferrer">
+                              <motion.img className='actu-img' src={live} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                        </a>
                 </motion.div>
             </motion.div>
 
