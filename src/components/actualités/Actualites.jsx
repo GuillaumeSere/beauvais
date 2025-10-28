@@ -53,11 +53,11 @@ const Actualites = () => {
                     <motion.img className='actu-img' src={actu2} alt="Stérilisation des chats" whileHover={{ scale: 1.03 }} />
                 </motion.div>
 
-                  <motion.div className='container-img1' variants={fadeInUp}>
+                <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
                         <h1>🕒 Horaires des trains SNCF en direct</h1>
                         <p>
-                            Consulter les horaires des trains SNCF en temps réel, avec un affichage 
+                            Consulter les horaires des trains SNCF en temps réel, avec un affichage
                             identique à celui des panneaux présents dans les gares. ✨. <br /><br />
                         </p>
                     </div>
@@ -125,7 +125,9 @@ const Actualites = () => {
                         <motion.img className='actu-img' src={oiseRando} alt="info oise rando" whileHover={{ scale: 1.03 }} />
                     </div>
                 </motion.div>
+            </motion.div>
 
+                  <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
                         <h1>🎮 Jouez aux Dames en ligne !</h1>
@@ -147,7 +149,7 @@ const Actualites = () => {
                     <div className='text-intro'>
                         <h1>Un nouveau site web pour l’emploi local</h1>
                         <p>
-                            La CAB lance la plateforme 
+                            La CAB lance la plateforme
                             Pour faciliter les liens entre entreprises et candidats : stages, apprentissages, emplois.<br />
                             Les entreprises peuvent créer un compte, publier des offres et valoriser leur image.
                         </p>
@@ -156,21 +158,21 @@ const Actualites = () => {
                     <motion.img className='actu-img' src={actu1} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
                 </motion.div>
 
-                        <motion.div className='container-img1' variants={fadeInUp}>
+                <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
                         <h1>🎧 Live-Radio — Écoutez la musique qui vous accompagne</h1>
                         <p>
                             Découvrez Live-Radio, une plateforme de radio en ligne offrant des styles
-                             musicaux variés : du classique au rock, en passant par la country et bien plus encore.
-                           <br />
-                           Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
+                            musicaux variés : du classique au rock, en passant par la country et bien plus encore.
+                            <br />
+                            Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
                             travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br>
                             👉 Accédez à la radio en cliquant sur l'image.
                         </p>
                     </div>
-                       <a href='https://live-radios.vercel.app/' target="_blank" rel="noopener noreferrer">
-                              <motion.img className='actu-img' src={live} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
-                        </a>
+                    <a href='https://live-radios.vercel.app/' target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={live} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                    </a>
                 </motion.div>
             </motion.div>
 
