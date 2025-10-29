@@ -13,6 +13,8 @@ import apple from '../../images/logo-apple.png';
 import google from '../../images/logo-google.png';
 import live from '../../images/live-radio.png';
 import gare from '../../images/gare.png';
+import jardinage from '../../images/jardinage.png';
+import sudoku from '../../images/sudoku.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -172,6 +174,41 @@ const Actualites = () => {
                     </div>
                     <a href='https://live-radios.vercel.app/' target="_blank" rel="noopener noreferrer">
                         <motion.img className='actu-img' src={live} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                    </a>
+                </motion.div>
+
+                       <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>🌱 Vergers urbains 🌱</h1>
+                        <p>
+                          Depuis 2022, Beauvais développe des vergers urbains partagés dans chaque quartier.
+                           Ces espaces de proximité favorisent la convivialité, la biodiversité 
+                           et l’accès à des fruits en libre cueillette pour tous les habitants.
+                            <br />
+                            Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
+                            travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br>
+                            👉 Pour plus d'informations cliquez sur l'image.
+                        </p>
+                    </div>
+                    <a href='https://www.beauvaisis.fr/vie-pratique/espaces-publics/parcs-et-jardins/vergers-urbains/' target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={jardinage} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                    </a>
+                </motion.div>
+
+                          <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>🧩 Sudoku en ligne – Jouez directement dans votre navigateur !</h1>
+                        <p>
+                          Découvrez une version moderne du célèbre jeu de réflexion Sudoku,
+                           entièrement jouable sans téléchargement et sans inscription.
+                            <br />
+                            Que vous soyez débutant ou expert, ce Sudoku s’adapte à votre niveau
+                             avec plusieurs grilles de difficulté et une interface simple à utiliser.<br></br>
+                            👉 Pour jouer cliquez sur l'image.
+                        </p>
+                    </div>
+                    <a href='https://sudoku-60.vercel.app/' target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={sudoku} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
             </motion.div>
