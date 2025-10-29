@@ -15,6 +15,7 @@ import live from '../../images/live-radio.png';
 import gare from '../../images/gare.png';
 import jardinage from '../../images/jardinage.png';
 import sudoku from '../../images/sudoku.png';
+import framboisier from '../../images/framboisier.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -129,7 +130,7 @@ const Actualites = () => {
                 </motion.div>
             </motion.div>
 
-                  <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
+            <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
                         <h1>🎮 Jouez aux Dames en ligne !</h1>
@@ -177,16 +178,17 @@ const Actualites = () => {
                     </a>
                 </motion.div>
 
-                       <motion.div className='container-img1' variants={fadeInUp}>
+                <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
                         <h1>🌱 Vergers urbains 🌱</h1>
                         <p>
-                          Depuis 2022, Beauvais développe des vergers urbains partagés dans chaque quartier.
-                           Ces espaces de proximité favorisent la convivialité, la biodiversité 
-                           et l’accès à des fruits en libre cueillette pour tous les habitants.
+                            Depuis 2022, Beauvais développe des vergers urbains partagés dans chaque quartier.
+                            Ces espaces de proximité favorisent la convivialité, la biodiversité
+                            et l’accès à des fruits en libre cueillette pour tous les habitants.<br></br>
                             <br />
+                                <img className='verger-img' src={framboisier} alt="framboise" />
                             Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
-                            travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br>
+                            travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br><br></br>
                             👉 Pour plus d'informations cliquez sur l'image.
                         </p>
                     </div>
@@ -195,15 +197,15 @@ const Actualites = () => {
                     </a>
                 </motion.div>
 
-                          <motion.div className='container-img1' variants={fadeInUp}>
+                <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
                         <h1>🧩 Sudoku en ligne – Jouez directement dans votre navigateur !</h1>
                         <p>
-                          Découvrez une version moderne du célèbre jeu de réflexion Sudoku,
-                           entièrement jouable sans téléchargement et sans inscription.
+                            Découvrez une version moderne du célèbre jeu de réflexion Sudoku,
+                            entièrement jouable sans téléchargement et sans inscription.<br></br>
                             <br />
                             Que vous soyez débutant ou expert, ce Sudoku s’adapte à votre niveau
-                             avec plusieurs grilles de difficulté et une interface simple à utiliser.<br></br>
+                            avec plusieurs grilles de difficulté et une interface simple à utiliser.<br></br><br></br>
                             👉 Pour jouer cliquez sur l'image.
                         </p>
                     </div>
