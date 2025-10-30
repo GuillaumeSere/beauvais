@@ -216,7 +216,7 @@ const Actualites = () => {
             </motion.div>
 
             <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
-                <h2 className='title-parc'>Réouverture du Parc Saint Paul – samedi 5 avril 2025</h2>
+                <h2 className='title-parc'>Fermeture du Parc Saint Paul – lundi 3 novembre 2025</h2>
                 <motion.div className="container-img2" variants={fadeInUp}>
                     <motion.img className='actu-img2' src={actu3} alt="Parc Saint Paul 1" whileHover={{ scale: 1.03 }} />
                     <motion.img className='actu-img2' src={actu4} alt="Parc Saint Paul 2" whileHover={{ scale: 1.03 }} />
