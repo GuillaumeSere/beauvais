@@ -169,7 +169,7 @@ const Actualites = () => {
                             musicaux variés : du classique au rock, en passant par la country et bien plus encore.
                             <br />
                             Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
-                            travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br>
+                            travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br><br></br>
                             👉 Accédez à la radio en cliquant sur l'image.
                         </p>
                     </div>
