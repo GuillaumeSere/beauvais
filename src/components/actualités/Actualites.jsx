@@ -16,6 +16,7 @@ import gare from '../../images/gare.png';
 import jardinage from '../../images/jardinage.png';
 import sudoku from '../../images/sudoku.png';
 import framboisier from '../../images/framboisier.png';
+import avion from '../../images/avion.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -42,6 +43,26 @@ const Actualites = () => {
             <motion.div className="actualites" initial="hidden" whileInView="visible" variants={fadeInUp} viewport={{ once: true }}>
                 <h2>Actualités de Beauvais</h2>
                 <p>Restez informé des dernières nouvelles et événements de notre ville.</p>
+
+                <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>✈️ Devenir pilote le temps d’un vol : l’expérience unique de l’Aéroclub de Beauvais-Tillé</h1>
+                        <p>
+                            L’Aéroclub de Beauvais-Tillé invite petits et grands à vivre une expérience
+                            inoubliable : prendre les commandes d’un avion, accompagné d’un instructeur.
+                            Sous l’impulsion de son président, Bruno Maillard lui-même passionné depuis
+                            son plus jeune âge grâce à son père, fondateur du club.
+                            <br /><br />
+                            L’établissement propose une formule séduisante : 15 minutes de briefing puis
+                            30 minutes de vol réel aux commandes. Un cadeau original, un rêve pour beaucoup,
+                            et une occasion unique de toucher du doigt la magie du pilotage, la tête dans les nuages.<br></br><br></br>
+                                   👉 Pour plus d'informations cliquez sur l'image.
+                        </p>
+                    </div>
+                    <a href="https://aeroclubeauvaistille.wixsite.com/acbt60" target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={avion} alt="aéroclub de Beauvais" whileHover={{ scale: 1.03 }} />
+                    </a>
+                </motion.div>
 
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
@@ -186,7 +207,7 @@ const Actualites = () => {
                             Ces espaces de proximité favorisent la convivialité, la biodiversité
                             et l’accès à des fruits en libre cueillette pour tous les habitants.<br></br>
                             <br />
-                                <img className='verger-img' src={framboisier} alt="framboise" />
+                            <img className='verger-img' src={framboisier} alt="framboise" />
                             Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
                             travail, soirée ou voyage : il y a toujours une station faite pour vous !<br></br><br></br>
                             👉 Pour plus d'informations cliquez sur l'image.
