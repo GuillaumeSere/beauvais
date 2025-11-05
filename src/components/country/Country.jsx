@@ -16,6 +16,7 @@ import tatoo12 from "../../images/tatoo12.png"
 import tatoo13 from "../../images/tatoo13.png"
 import tatoo14 from "../../images/tatoo14.png"
 import tatoo15 from "../../images/tatoo15.png"
+import tatoo16 from "../../images/tatoo16.png"
 import { data } from '../../data/data.js';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import CountryCarousel from './CountryCarousel';
@@ -39,7 +40,8 @@ const Country = () => {
         tatoo12,
         tatoo13,
         tatoo14,
-        tatoo15
+        tatoo15,
+        tatoo16
     ];
 
     return (
@@ -47,7 +49,7 @@ const Country = () => {
             <div className='container'>
                 <CountryCarousel images={images} />
                 <button className='btn'>
-                    <a href="https://elispace.fr/" target="_blank" rel="noopener noreferrer">Pour plus d'infos</a>
+                    <a href="https://elispace.fr/" target="_blank" rel="noopener noreferrer">Plus d'infos</a>
                 </button>
             </div>
             <section className='country-section'>
