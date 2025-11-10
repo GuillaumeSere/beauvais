@@ -20,14 +20,14 @@ const CountryCarousel = ({ images }) => {
         setCurrentIndex(index);
     };
 
-    // Auto-play functionality
+    // Auto-play functionality (use functional update to avoid depending on handleNext)
     useEffect(() => {
         const interval = setInterval(() => {
-            handleNext();
+            setCurrentIndex(prevIndex => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
         }, 5000); // Change slide every 5 seconds
 
         return () => clearInterval(interval);
-    }, [currentIndex]);
+    }, [images.length]);
 
     return (
         <div className="carousel-container">

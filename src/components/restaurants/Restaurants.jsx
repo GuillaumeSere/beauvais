@@ -2,52 +2,53 @@ import React, { useEffect, useState } from 'react';
 import './restaurants.css';
 import { motion } from 'framer-motion';
 
+const MAX_RESTAURANTS = 8;
+
+const restaurants = [
+  {
+    name: "Le Grill'Inn",
+    href: "https://beauvais.grillinn.fr/",
+    images: [require("../../images/grille2.png"), require("../../images/grille3.png"), require("../../images/grille4.png")]
+  },
+  {
+    name: "L'Annexe De Chez Ludo",
+    href: "https://lannexedechezludo.fr/",
+    images: [require("../../images/resto1.png"), require("../../images/resto4.png")]
+  },
+  {
+    name: "Le Carthage",
+    href: "https://restaurantcarthage.fr/",
+    images: [require("../../images/carthage1.png"), require("../../images/carthage4.png")]
+  },
+  {
+    name: "Le Senseo",
+    href: "https://www.sensobeauvais.fr/",
+    images: [require("../../images/senseo.png")]
+  },
+  {
+    name: "Autrement",
+    href: "https://www.autrement-restaurant.fr/",
+    images: [require("../../images/autrement.png")]
+  },
+  {
+    name: "Mediterraneo",
+    href: "https://www.restaurantmediterraneo.fr/",
+    images: [require("../../images/mediterraneo.png"), require("../../images/mediterraneo2.png")]
+  },
+  {
+    name: "La Gargouille",
+    href: "https://restaurant-beauvais.fr/",
+    images: [require("../../images/gargouille.png"), require("../../images/gargouille2.png")]
+  },
+  {
+    name: "Les Vins Par Faim",
+    href: "https://www.lesvinsparfaim.fr/",
+    images: [require("../../images/les-vins-par-faim1.png"), require("../../images/les-vins-par-faim2.png")]
+  }
+];
+
 const Restaurants = () => {
   const [shuffledRestaurants, setShuffledRestaurants] = useState([]);
-  const MAX_RESTAURANTS = 8;
-
-  const restaurants = [
-    {
-      name: "Le Grill'Inn",
-      href: "https://beauvais.grillinn.fr/",
-      images: [require("../../images/grille2.png"), require("../../images/grille3.png"), require("../../images/grille4.png")]
-    },
-    {
-      name: "L'Annexe De Chez Ludo",
-      href: "https://lannexedechezludo.fr/",
-      images: [require("../../images/resto1.png"), require("../../images/resto4.png")]
-    },
-    {
-      name: "Le Carthage",
-      href: "https://restaurantcarthage.fr/",
-      images: [require("../../images/carthage1.png"), require("../../images/carthage4.png")]
-    },
-    {
-      name: "Le Senseo",
-      href: "https://www.sensobeauvais.fr/",
-      images: [require("../../images/senseo.png")]
-    },
-    {
-      name: "Autrement",
-      href: "https://www.autrement-restaurant.fr/",
-      images: [require("../../images/autrement.png")]
-    },
-    {
-      name: "Mediterraneo",
-      href: "https://www.restaurantmediterraneo.fr/",
-      images: [require("../../images/mediterraneo.png"), require("../../images/mediterraneo2.png")]
-    },
-    {
-      name: "La Gargouille",
-      href: "https://restaurant-beauvais.fr/",
-      images: [require("../../images/gargouille.png"), require("../../images/gargouille2.png")]
-    },
-    {
-      name: "Les Vins Par Faim",
-      href: "https://www.lesvinsparfaim.fr/",
-      images: [require("../../images/les-vins-par-faim1.png"), require("../../images/les-vins-par-faim2.png")]
-    }
-  ];
 
   useEffect(() => {
     const getRandomImage = (images) => images[Math.floor(Math.random() * images.length)];
