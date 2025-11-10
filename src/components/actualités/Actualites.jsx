@@ -86,7 +86,7 @@ const Actualites = () => {
                         </p>
                     </div>
                     <a href="https://train-sncf.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={gare} alt="jeux rubik" whileHover={{ scale: 1.03 }} />
+                        <motion.img className='actu-img' src={gare} alt="horaires des trains sncf" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
@@ -118,7 +118,7 @@ const Actualites = () => {
                         </p>
                     </div>
                     <a href="https://ruby-cube60.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={rubik} alt="jeux rubik" whileHover={{ scale: 1.03 }} />
+                        <motion.img className='actu-img' src={rubik} alt="jeux rubik cube" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
@@ -165,7 +165,7 @@ const Actualites = () => {
                         </p>
                     </div>
                     <a href="https://dames-3d.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={dames} alt="jeux rubik" whileHover={{ scale: 1.03 }} />
+                        <motion.img className='actu-img' src={dames} alt="jeux de dames en ligne" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
@@ -195,7 +195,7 @@ const Actualites = () => {
                         </p>
                     </div>
                     <a href='https://live-radios.vercel.app/' target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={live} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                        <motion.img className='actu-img' src={live} alt="Live radio, la radio en ligne" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
@@ -214,7 +214,7 @@ const Actualites = () => {
                         </p>
                     </div>
                     <a href='https://www.beauvaisis.fr/vie-pratique/espaces-publics/parcs-et-jardins/vergers-urbains/' target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={jardinage} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                        <motion.img className='actu-img' src={jardinage} alt="verger urbains" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
@@ -231,7 +231,7 @@ const Actualites = () => {
                         </p>
                     </div>
                     <a href='https://sudoku-60.vercel.app/' target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={sudoku} alt="Site emploi Beauvais" whileHover={{ scale: 1.03 }} />
+                        <motion.img className='actu-img' src={sudoku} alt="Jeux Sudoku en ligne" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
             </motion.div>
