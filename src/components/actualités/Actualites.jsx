@@ -184,9 +184,9 @@ const Actualites = () => {
 
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
-                        <h1>🎧 Live-Radio — Écoutez la musique qui vous accompagne</h1>
+                        <h1>🎧 Online-Radio-60 — Écoutez la musique qui vous accompagne</h1>
                         <p>
-                            Découvrez Live-Radio, une plateforme de radio en ligne offrant des styles
+                            Découvrez Online-Radio-60, une plateforme de radio en ligne offrant des styles
                             musicaux variés : du classique au rock, en passant par la country et bien plus encore.
                             <br />
                             Écoutez en direct, sans inscription, depuis n’importe où. Ambiance détente,
@@ -194,8 +194,8 @@ const Actualites = () => {
                             👉 Accédez à la radio en cliquant sur l'image.
                         </p>
                     </div>
-                    <a href='https://live-radios.vercel.app/' target="_blank" rel="noopener noreferrer">
-                        <motion.img className='actu-img' src={live} alt="Live radio, la radio en ligne" whileHover={{ scale: 1.03 }} />
+                    <a href='https://online-radio-60.vercel.app/' target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={live} alt="Online-radio-60, la radio en ligne" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
