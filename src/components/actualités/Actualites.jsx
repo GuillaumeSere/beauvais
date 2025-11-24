@@ -17,6 +17,7 @@ import jardinage from '../../images/jardinage.png';
 import sudoku from '../../images/sudoku.png';
 import framboisier from '../../images/framboisier.png';
 import avion from '../../images/avion.png';
+import tv from '../../images/tv.png';
 import ScrollToTopButton from '../scrollToTopButton/ScollToTopButton';
 import { motion } from 'framer-motion';
 
@@ -56,11 +57,36 @@ const Actualites = () => {
                             L’établissement propose une formule séduisante : 15 minutes de briefing puis
                             30 minutes de vol réel aux commandes. Un cadeau original, un rêve pour beaucoup,
                             et une occasion unique de toucher du doigt la magie du pilotage, la tête dans les nuages.<br></br><br></br>
-                                   👉 Pour plus d'informations cliquez sur l'image.
+                            👉 Pour plus d'informations cliquez sur l'image.
                         </p>
                     </div>
                     <a href="https://aeroclubeauvaistille.wixsite.com/acbt60" target="_blank" rel="noopener noreferrer">
                         <motion.img className='actu-img' src={avion} alt="aéroclub de Beauvais" whileHover={{ scale: 1.03 }} />
+                    </a>
+                </motion.div>
+
+                <motion.div className='container-img1' variants={fadeInUp}>
+                    <div className='text-intro'>
+                        <h1>📺✨ Découvrez IPTV 60 — Votre nouveau hub IPTV gratuit et ultra-rapide !</h1>
+                        <p>
+                            Marre de chercher des liens IPTV partout ?
+                            👉 Avec IPTV 60, vous avez toutes vos chaînes réunies au même endroit, dans une interface moderne, simple et super rapide.
+                            <br /><br />
+                            🔥 Ce que vous pouvez faire sur IPTV 60 :<br></br><br></br>
+
+                            ✅ Consulter des milliers de chaînes du monde entier<br></br>
+                            ✅ Filtrer par pays grâce aux drapeaux (🇫🇷 🇹🇭 🇺🇸…)<br></br>
+                            ✅ Voir le drapeau + le nom du pays sur chaque chaîne pour une navigation stylée et intuitive<br></br>
+                            ✅ Accéder aux logos officiels des chaînes<br></br>
+                            ✅ Voir la qualité, le flux, les infos…<br></br>
+                            ✅ Lire les chaînes en un clic directement dans le lecteur intégré<br></br>
+                            ✅ Ajouter vos chaînes préférées en favoris<br></br>
+                            ✅ Interface optimisée pour mobile, tablette et PC<br></br><br></br>
+                            👉 Pour plus d'informations cliquez sur l'image.
+                        </p>
+                    </div>
+                    <a href="https://iptv-60.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <motion.img className='actu-img' src={tv} alt="IPTV 60" whileHover={{ scale: 1.03 }} />
                     </a>
                 </motion.div>
 
