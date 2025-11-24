@@ -67,11 +67,10 @@ const Actualites = () => {
 
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
-                        <h1>📺✨ Découvrez IPTV 60 — Votre nouveau hub IPTV gratuit et ultra-rapide !</h1>
+                        <h1>📺 Découvrez IPTV 60 ✨</h1><br></br> 
+                        <h3>Votre nouveau hub IPTV gratuit et ultra-rapide !</h3>
                         <p>
-                            Marre de chercher des liens IPTV partout ?
-                            👉 Avec IPTV 60, vous avez toutes vos chaînes réunies au même endroit, dans une interface moderne, simple et super rapide.
-                            <br /><br />
+                           
                             🔥 Ce que vous pouvez faire sur IPTV 60 :<br></br><br></br>
 
                             ✅ Consulter des milliers de chaînes du monde entier<br></br>
@@ -118,8 +117,8 @@ const Actualites = () => {
 
                 <motion.div className='container-img1' variants={fadeInUp}>
                     <div className='text-intro'>
-                        <h1>BALAVOINE, MA BATAILLE</h1>
-                        <h2>🎤 Quarante ans après, sa voix résonne encore.</h2>
+                        <h1>BALAVOINE, MA BATAILLE</h1><br></br>
+                        <h3>🎤 Quarante ans après, sa voix résonne encore.</h3>
                         <a className='btn-billeterie' href='https://elispace.fr/programmation/balavoinema-bataille' target="_blank" rel="noopener noreferrer">Billeterie</a>
                         <p>
                             Un spectacle-hommage à Daniel Balavoine aura lieu au Dôme de Paris le 22 janvier 2026, suivi d’une tournée française.<br /><br />
