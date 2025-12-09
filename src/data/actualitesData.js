@@ -1,5 +1,5 @@
 import avion from '../images/avion.png';
-import actu2 from '../images/chat.png';
+import chat from '../images/chat.png';
 import gare from '../images/gare.png';
 import actu6 from '../images/balavoine.png';
 import rubik from '../images/rubik.png';
@@ -14,12 +14,21 @@ import live from '../images/live-radio.png';
 import jardinage from '../images/jardinage.png';
 import sudoku from '../images/sudoku.png';
 import noel from '../images/noel.png';
+import actu2 from '../images/actu2.png';
 
 export const newsItems = [
+       {
+        id: 'ferie',
+        title: '🎭 Entre Ciel & Terre ✨',
+        content: `Pour clore cette année de festivités, la cathédrale de Beauvais accueille un mapping spectaculaire 🎆 signé Yann Nguema, Entre Ciel & Terre. Inspiré par la grandeur et la richesse architecturale du monument ⛪, l’artiste met en lumière les grandes étapes de son histoire avec poésie et émotion ✨.<br /><br />Pendant 13 soirées exceptionnelles, découvrez la cathédrale comme jamais auparavant. Art digital, poésie et technologie s’unissent pour offrir un voyage visuel et musical inoubliable 🎶🌌, du 5 au 21 décembre.`,
+        image: actu2,
+        alt: 'Entre Ciel & Terre',
+        link: 'https://sortir.beauvais.fr/entre-ciel-terre-le-mapping-de-yann-nguema-cathedrale-saint-pierre'
+    },
     {
         id: 'noel',
         title: '🎄 Joyeuses Féeries de Noël ✨',
-        content: `En décembre, la ville s’illumine et les Féeries de Noël reviennent avec un programme riche et festif 🎉. Le marché de Noël artisanal proposera créations fait main 🎁 et spécialités gourmandes, idéal pour des cadeaux uniques et des moments conviviaux.Tout au long du mois, spectacles de rue, animations, parade, rencontres avec le Père Noël 🎅, grande roue 🎡, manèges et ateliers créatifs émerveilleront petits et grands .📅 Rendez-vous le vendredi 5 décembre à 18h pour l’ouverture des festivités, avec un mapping exceptionnel célébrant les 800 ans de la cathédrale. Venez flâner, vous émerveiller ✨ et partager la magie de Noël 🎄 en centre-ville.`,
+        content: `En décembre, la ville s’illumine et les Féeries de Noël reviennent avec un programme riche et festif 🎉. Le marché de Noël artisanal proposera créations fait main 🎁 et spécialités gourmandes, idéal pour des cadeaux uniques et des moments conviviaux.Tout au long du mois, spectacles de rue, animations, parade, rencontres avec le Père Noël 🎅<br /><br /> Grande roue 🎡, manèges et ateliers créatifs émerveilleront petits et grands .📅 Rendez-vous le vendredi 5 décembre à 18h pour l’ouverture des festivités, avec un mapping exceptionnel célébrant les 800 ans de la cathédrale. Venez flâner, vous émerveiller ✨ et partager la magie de Noël 🎄 en centre-ville.`,
         image: noel,
         alt: ' Joyeuses Féeries de Noël ',
         link: 'https://sortir.beauvais.fr/categorie/feeries-de-noel'
@@ -44,7 +53,7 @@ export const newsItems = [
         id: 'sterilisation-chats',
         title: "La campagne de stérilisation des chats errants s’intensifie en 2025",
         content: `Depuis 2019, la Ville de Beauvais s’engage pour la protection animale via des campagnes de stérilisation des chats errants 🐈.<br /><br />Ces campagnes permettent de limiter la reproduction incontrôlée, les nuisances et la propagation de maladies.<br /><br />Depuis le 1er janvier 2025, la Fondation Clara, avec la Police municipale, est chargée de capturer les chats errants.<br /><br />Pour signaler leur présence : <strong>0 800 850 850</strong>`,
-        image: actu2,
+        image: chat,
         alt: 'Stérilisation des chats'
     },
     {
