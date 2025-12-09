@@ -59,7 +59,7 @@ export const newsItems = [
     {
         id: 'sncf',
         title: '🕒 Horaires des trains SNCF en direct',
-        content: `Consulter les horaires des trains SNCF en temps réel, avec un affichage identique à celui des panneaux présents dans les gares. ✨.`,
+        content: `Consulter les horaires des trains SNCF en temps réel, avec un affichage identique à celui des panneaux présents dans les gares.<br /><br /> Planifier un trajet, détails complets : durées, correspondances, quais  ✨.`,
         image: gare,
         alt: 'horaires des trains sncf',
         link: 'https://train-sncf.vercel.app/'
