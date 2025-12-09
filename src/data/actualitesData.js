@@ -1,0 +1,128 @@
+import avion from '../images/avion.png';
+import actu2 from '../images/chat.png';
+import gare from '../images/gare.png';
+import actu6 from '../images/balavoine.png';
+import rubik from '../images/rubik.png';
+import tv from '../images/tv.png';
+import oiseRando from '../images/oise-rando.png';
+import appli from '../images/appli.png';
+import apple from '../images/logo-apple.png';
+import google from '../images/logo-google.png';
+import dames from '../images/dames.png';
+import actu1 from '../images/actu1.png';
+import live from '../images/live-radio.png';
+import jardinage from '../images/jardinage.png';
+import sudoku from '../images/sudoku.png';
+import noel from '../images/noel.png';
+
+export const newsItems = [
+    {
+        id: 'noel',
+        title: '🎄 Joyeuses Féeries de Noël ✨',
+        content: `En décembre, la ville s’illumine et les Féeries de Noël reviennent avec un programme riche et festif 🎉. Le marché de Noël artisanal proposera créations fait main 🎁 et spécialités gourmandes, idéal pour des cadeaux uniques et des moments conviviaux.Tout au long du mois, spectacles de rue, animations, parade, rencontres avec le Père Noël 🎅, grande roue 🎡, manèges et ateliers créatifs émerveilleront petits et grands .📅 Rendez-vous le vendredi 5 décembre à 18h pour l’ouverture des festivités, avec un mapping exceptionnel célébrant les 800 ans de la cathédrale. Venez flâner, vous émerveiller ✨ et partager la magie de Noël 🎄 en centre-ville.`,
+        image: noel,
+        alt: ' Joyeuses Féeries de Noël ',
+        link: 'https://sortir.beauvais.fr/categorie/feeries-de-noel'
+    },
+    {
+        id: 'aeroclub',
+        title: '✈️ Devenir pilote le temps d’un vol : l’expérience unique de l’Aéroclub de Beauvais-Tillé',
+        content: `L’Aéroclub de Beauvais-Tillé invite petits et grands à vivre une expérience inoubliable : prendre les commandes d’un avion, accompagné d’un instructeur. Sous l’impulsion de son président, Bruno Maillard lui-même passionné depuis son plus jeune âge grâce à son père, fondateur du club.<br /><br />L’établissement propose une formule séduisante : 15 minutes de briefing puis 30 minutes de vol réel aux commandes. Un cadeau original, un rêve pour beaucoup, et une occasion unique de toucher du doigt la magie du pilotage, la tête dans les nuages.<br /><br /><strong>👉 Pour plus d\'informations cliquez sur l\'image.</strong>`,
+        image: avion,
+        alt: 'aéroclub de Beauvais',
+        link: 'https://aeroclubeauvaistille.wixsite.com/acbt60'
+    },
+    {
+        id: 'iptv',
+        title: '📺 Découvrez IPTV 60 ✨',
+        content: `Votre nouveau hub IPTV gratuit et ultra-rapide !<br /><br />🔥 Ce que vous pouvez faire sur IPTV 60 :<br /><br />✅ Consulter des milliers de chaînes du monde entier<br />✅ Filtrer par pays grâce aux drapeaux (🇫🇷 🇹🇭 🇺🇸…)<br />✅ Voir le drapeau + le nom du pays sur chaque chaîne pour une navigation stylée et intuitive<br />✅ Accéder aux logos officiels des chaînes<br />✅ Voir la qualité, le flux, les infos…<br />✅ Lire les chaînes en un clic directement dans le lecteur intégré<br />✅ Ajouter vos chaînes préférées en favoris<br />✅ Interface optimisée pour mobile, tablette et PC<br /><br /><strong>👉 Pour plus d\'informations cliquez sur l\'image.</strong>`,
+        image: tv,
+        alt: 'IPTV 60',
+        link: 'https://iptv-60.vercel.app/'
+    },
+    {
+        id: 'sterilisation-chats',
+        title: "La campagne de stérilisation des chats errants s’intensifie en 2025",
+        content: `Depuis 2019, la Ville de Beauvais s’engage pour la protection animale via des campagnes de stérilisation des chats errants 🐈.<br /><br />Ces campagnes permettent de limiter la reproduction incontrôlée, les nuisances et la propagation de maladies.<br /><br />Depuis le 1er janvier 2025, la Fondation Clara, avec la Police municipale, est chargée de capturer les chats errants.<br /><br />Pour signaler leur présence : <strong>0 800 850 850</strong>`,
+        image: actu2,
+        alt: 'Stérilisation des chats'
+    },
+    {
+        id: 'sncf',
+        title: '🕒 Horaires des trains SNCF en direct',
+        content: `Consulter les horaires des trains SNCF en temps réel, avec un affichage identique à celui des panneaux présents dans les gares. ✨.`,
+        image: gare,
+        alt: 'horaires des trains sncf',
+        link: 'https://train-sncf.vercel.app/'
+    },
+    {
+        id: 'balavoine',
+        title: 'BALAVOINE, MA BATAILLE',
+        content: `🎤 Quarante ans après, sa voix résonne encore.<br /><br /><a class=\"btn-billeterie\" href=\"https://elispace.fr/programmation/balavoinema-bataille\" target=\"_blank\" rel=\"noopener noreferrer\">Billeterie</a><br /><br />Un spectacle-hommage à Daniel Balavoine aura lieu au Dôme de Paris le 22 janvier 2026, suivi d’une tournée française.<br /><br />🎸 Christian Padovan, Alain Pewzner, Sébastien Chouard<br />💡 Direction lumière : Jacques Rouveyrollis`,
+        image: actu6,
+        alt: 'Balavoine Ma Bataille'
+    },
+    {
+        id: 'rubik',
+        title: '🎮 Jouez au Rubik’s Cube en 3D directement dans votre navigateur !',
+        content: `Plongez dans l’univers du célèbre Rubik’s Cube, mais cette fois en version numérique ✨. <br /><br />🧩<strong>Fonctionnalités principales :</strong> <br /><br />Cube en 3D réaliste rendu avec Three.js<br>Contrôles interactifs pour tourner et manipuler les faces<br>Expérience fluide et intuitive directement depuis votre navigateur, sans installation`,
+        image: rubik,
+        alt: 'jeux rubik cube',
+        link: 'https://ruby-cube60.vercel.app/'
+    },
+    {
+        id: 'oise-rando',
+        title: "L'Application Oise Rando",
+        content: `Vous aimez les balades en plein air ? Alors, cette nouvelle va vous plaire… L’arrivée de l’application Oise Rando ! Cette nouvelle appli vous aide à explorer les plus beaux coins de l’Oise, que ce soit dans le Pays de Bray, vers Compiègne ou dans le Beauvaisis. Avec plus de 350 parcours accessibles à pied, à vélo ou même en VTT, il y en a pour tous les goûts !`,
+        image: oiseRando,
+        alt: 'info oise rando',
+        type: 'app',
+        appIcon: appli,
+        appStore: 'https://apps.apple.com/fr/app/oise-rando-gps-randonn%C3%A9e/id6670748249',
+        playStore: 'https://play.google.com/store/apps/details?id=com.oisetourisme.oiserando&pli=1',
+        appleIcon: apple,
+        googleIcon: google
+    },
+    {
+        id: 'dames',
+        title: '🎮 Jouez aux Dames en ligne !',
+        content: `Plongez dans l’univers du jeu de dames, mais cette fois en version numérique et en 3D ✨ <br /><br />♟️<strong>Fonctionnalités principales :</strong> <br /><br />Plateau de dames en 3D réaliste rendu avec Three.js<br> Pions interactifs avec mouvements et captures animés<br> Mode joueur contre ordinateur grâce à une IA intégrée`,
+        image: dames,
+        alt: 'jeux de dames en ligne',
+        link: 'https://dames-3d.vercel.app/'
+    },
+    {
+        id: 'emploi',
+        title: 'Un nouveau site web pour l’emploi local',
+        content: `La CAB lance la plateforme. Pour faciliter les liens entre entreprises et candidats : stages, apprentissages, emplois. Les entreprises peuvent créer un compte, publier des offres et valoriser leur image.`,
+        image: actu1,
+        alt: 'Site emploi Beauvais',
+        link: 'https://emploi.beauvaisis.fr/'
+    },
+    {
+        id: 'Online-radio',
+        title: '🎧 Online-radio-60 — Écoutez la musique qui vous accompagne',
+        content: `Découvrez Online-radio-60, une plateforme de radio en ligne offrant des styles musicaux variés : du classique au rock, en passant par la country et bien plus encore.`,
+        image: live,
+        alt: 'Online radio, la radio en ligne',
+        link: 'https://online-radio-60.vercel.app/'
+    },
+    {
+        id: 'vergers',
+        title: '🌱 Vergers urbains 🌱',
+        content: `Depuis 2022, Beauvais développe des vergers urbains partagés dans chaque quartier. Ces espaces de proximité favorisent la convivialité, la biodiversité et l’accès à des fruits en libre cueillette pour tous les habitants.`,
+        image: jardinage,
+        alt: 'verger urbains',
+        link: 'https://www.beauvaisis.fr/vie-pratique/espaces-publics/parcs-et-jardins/vergers-urbains/'
+    },
+    {
+        id: 'sudoku',
+        title: '🧩 Sudoku en ligne – Jouez directement dans votre navigateur !',
+        content: `Découvrez une version moderne du célèbre jeu de réflexion Sudoku, entièrement jouable sans téléchargement et sans inscription.`,
+        image: sudoku,
+        alt: 'Jeux Sudoku en ligne',
+        link: 'https://sudoku-60.vercel.app/'
+    }
+];
+
+export default newsItems;
