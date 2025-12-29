@@ -28,13 +28,12 @@ export default function WeatherHeader() {
     fetchWeather();
   }, []);
 
-  // ⛔ Gestion des états
   if (loading) return <div className="weather">🌡️</div>;
   if (error || !weather?.main || !weather?.weather) return null;
 
   const temp = Math.round(weather.main.temp);
-  const condition = weather.weather[0]?.main;
-  const description = weather.weather[0]?.description;
+  const condition = weather.weather[0].main;
+  const description = weather.weather[0].description;
 
   const iconMap = {
     Clear: "☀️",
@@ -48,12 +47,45 @@ export default function WeatherHeader() {
 
   const icon = iconMap[condition] || "🌡️";
 
+  // 🎨 Couleur selon température
+  const getTempColor = (t) => {
+    if (t <= 0) return "temp-freezing";
+    if (t <= 10) return "temp-cold";
+    if (t <= 18) return "temp-mild";
+    if (t <= 25) return "temp-warm";
+    return "temp-hot";
+  };
+
+  // 🏷️ Badge intelligent
+  const getBadge = () => {
+    if ((condition === "Clear" || condition === "Clouds") && temp >= 15) {
+      return { text: "Bon moment pour sortir", class: "badge-good" };
+    }
+
+    if (condition === "Rain" || condition === "Snow" || temp < 10) {
+      return { text: "Plutôt activités intérieures", class: "badge-bad" };
+    }
+
+    return { text: "Temps mitigé", class: "badge-neutral" };
+  };
+
+  const badge = getBadge();
+
   return (
     <div
-      className="weather"
+      className={`weather ${getTempColor(temp)}`}
       title={`Beauvais – ${description}`}
     >
-      {icon} {temp}°C <br></br>{description}
+      <div className="weather-main">
+        <span className="weather-icon">{icon}</span>
+        <span className="weather-temp">{temp}°C</span>
+      </div>
+
+      <div className="weather-desc">{description}</div>
+
+      <span className={`weather-badge ${badge.class}`}>
+        {badge.text}
+      </span>
     </div>
   );
 }

@@ -2,5 +2,71 @@
     position:absolute;
     color: white;
     font-size: 16px;
-    left:15rem;
+    left:20rem;
+    top:1rem;
+}
+
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.weather-icon {
+  font-size: 20px;
+}
+
+.weather-temp {
+  font-weight: 600;
+}
+
+/* 🌡️ Couleurs température */
+.temp-freezing { color: #4fc3f7; }
+.temp-cold { color: #2196f3; }
+.temp-mild { color: #4caf50; }
+.temp-warm { color: #ff9800; }
+.temp-hot { color: #f44336; }
+
+.weather-desc {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* 🏷️ Badge */
+.weather-badge {
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.badge-good {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-bad {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.badge-neutral {
+  background: #eeeeee;
+  color: #424242;
+}
+
+@media(max-width: 750px){
+    .weather {
+  display: flex;
+  left:0;
+  top:-8rem;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+}
 }

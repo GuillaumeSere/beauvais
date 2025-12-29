@@ -113,6 +113,9 @@
     .desktop-nav {
         display: none;
     }
+    .desktop-weather{
+        display: none;
+    }
     
     .burger-menu {
         display: block;
