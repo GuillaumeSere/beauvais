@@ -35,8 +35,8 @@ export const newsItems = [
     },
     {
         id: 'aeroclub',
-        title: '✈️ Devenir pilote le temps d’un vol : l’expérience unique de l’Aéroclub de Beauvais-Tillé',
-        content: `L’Aéroclub de Beauvais-Tillé invite petits et grands à vivre une expérience inoubliable : prendre les commandes d’un avion, accompagné d’un instructeur. Sous l’impulsion de son président, Bruno Maillard lui-même passionné depuis son plus jeune âge grâce à son père, fondateur du club.<br /><br />L’établissement propose une formule séduisante : 15 minutes de briefing puis 30 minutes de vol réel aux commandes. Un cadeau original, un rêve pour beaucoup, et une occasion unique de toucher du doigt la magie du pilotage, la tête dans les nuages.<br /><br /><strong>👉 Pour plus d\'informations cliquez sur l\'image.</strong>`,
+        title: "✈️ Devenir pilote le temps d’un vol : l’expérience unique de l’Aéroclub de Beauvais-Tillé",
+        content: `L’Aéroclub de Beauvais-Tillé invite petits et grands à vivre une expérience inoubliable : prendre les commandes d’un avion, accompagné d’un instructeur. Sous l’impulsion de son président, Bruno Maillard lui-même passionné depuis son plus jeune âge grâce à son père, fondateur du club.<br /><br />L’établissement propose une formule séduisante : 15 minutes de briefing puis 30 minutes de vol réel aux commandes. Un cadeau original, un rêve pour beaucoup, et une occasion unique de toucher du doigt la magie du pilotage, la tête dans les nuages.<br /><br /><strong>👉 Pour plus d'informations cliquez sur l'image.</strong>`,
         image: avion,
         alt: 'aéroclub de Beauvais',
         link: 'https://aeroclubeauvaistille.wixsite.com/acbt60'
@@ -44,7 +44,7 @@ export const newsItems = [
     {
         id: 'iptv',
         title: '📺 Découvrez IPTV 60 ✨',
-        content: `Votre nouveau hub IPTV gratuit et ultra-rapide !<br /><br />🔥 Ce que vous pouvez faire sur IPTV 60 :<br /><br />✅ Consulter des milliers de chaînes du monde entier<br />✅ Filtrer par pays grâce aux drapeaux (🇫🇷 🇹🇭 🇺🇸…)<br />✅ Voir le drapeau + le nom du pays sur chaque chaîne pour une navigation stylée et intuitive<br />✅ Accéder aux logos officiels des chaînes<br />✅ Voir la qualité, le flux, les infos…<br />✅ Lire les chaînes en un clic directement dans le lecteur intégré<br />✅ Ajouter vos chaînes préférées en favoris<br />✅ Interface optimisée pour mobile, tablette et PC<br /><br /><strong>👉 Pour plus d\'informations cliquez sur l\'image.</strong>`,
+        content: `Votre nouveau hub IPTV gratuit et ultra-rapide !<br /><br />🔥 Ce que vous pouvez faire sur IPTV 60 :<br /><br />✅ Consulter des milliers de chaînes du monde entier<br />✅ Filtrer par pays grâce aux drapeaux (🇫🇷 🇹🇭 🇺🇸…)<br />✅ Voir le drapeau + le nom du pays sur chaque chaîne pour une navigation stylée et intuitive<br />✅ Accéder aux logos officiels des chaînes<br />✅ Voir la qualité, le flux, les infos…<br />✅ Lire les chaînes en un clic directement dans le lecteur intégré<br />✅ Ajouter vos chaînes préférées en favoris<br />✅ Interface optimisée pour mobile, tablette et PC<br /><br /><strong>👉 Pour plus d'informations cliquez sur l'image.</strong>`,
         image: tv,
         alt: 'IPTV 60',
         link: 'https://iptv-60.vercel.app/'
@@ -67,7 +67,7 @@ export const newsItems = [
     {
         id: 'balavoine',
         title: 'BALAVOINE, MA BATAILLE',
-        content: `🎤 Quarante ans après, sa voix résonne encore.<br /><br /><a class=\"btn-billeterie\" href=\"https://elispace.fr/programmation/balavoinema-bataille\" target=\"_blank\" rel=\"noopener noreferrer\">Billeterie</a><br /><br />Un spectacle-hommage à Daniel Balavoine aura lieu au Dôme de Paris le 22 janvier 2026, suivi d’une tournée française.<br /><br />🎸 Christian Padovan, Alain Pewzner, Sébastien Chouard<br />💡 Direction lumière : Jacques Rouveyrollis`,
+        content: `🎤 Quarante ans après, sa voix résonne encore.<br /><br /><a class="btn-billeterie" href="https://elispace.fr/programmation/balavoinema-bataille" target="_blank" rel="noopener noreferrer">Billeterie</a><br /><br />Un spectacle-hommage à Daniel Balavoine aura lieu au Dôme de Paris le 22 janvier 2026, suivi d’une tournée française.<br /><br />🎸 Christian Padovan, Alain Pewzner, Sébastien Chouard<br />💡 Direction lumière : Jacques Rouveyrollis`,
         image: actu6,
         alt: 'Balavoine Ma Bataille'
     },

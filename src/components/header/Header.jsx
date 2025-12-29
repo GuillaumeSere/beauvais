@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './header.css';
 import logo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
+import WeatherHeader from '../WeatherHeader/WeatherHeader';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +14,7 @@ const Header = () => {
     return (
         <header className="header">
             <img className='logo' src={logo} alt="logo" />
+            <WeatherHeader />
             <nav className="desktop-nav">
                 <Link to="/">Accueil</Link>
                 <Link to="/tourisme">Tourisme</Link>
