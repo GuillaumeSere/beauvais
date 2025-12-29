@@ -18,12 +18,12 @@ import actu2 from '../images/actu2.png';
 
 export const newsItems = [
        {
-        id: 'ferie',
-        title: '🎭 Entre Ciel & Terre ✨',
-        content: `Pour clore cette année de festivités, la cathédrale de Beauvais accueille un mapping spectaculaire 🎆 signé Yann Nguema, Entre Ciel & Terre. Inspiré par la grandeur et la richesse architecturale du monument ⛪, l’artiste met en lumière les grandes étapes de son histoire avec poésie et émotion ✨.<br /><br />Pendant 13 soirées exceptionnelles, découvrez la cathédrale comme jamais auparavant. Art digital, poésie et technologie s’unissent pour offrir un voyage visuel et musical inoubliable 🎶🌌, du 5 au 21 décembre.`,
+        id: 'World-radio-60',
+        title: '🌍 World Radio 60 🎧',
+        content: `Je suis ravi de vous présenter World Radio 60, mon tout nouveau site web qui vous permet d’explorer et d’écouter des radios du monde entier.<br /><br />Vous pouvez parcourir les radios par pays avec drapeaux et informations détaillées.Rechercher rapidement par nom de radio, ville ou pays.Sélection et lecture directe des flux audio depuis le site.`,
         image: actu2,
-        alt: 'Entre Ciel & Terre',
-        link: 'https://sortir.beauvais.fr/entre-ciel-terre-le-mapping-de-yann-nguema-cathedrale-saint-pierre'
+        alt: 'World radio 60',
+        link: 'https://world-radio-60.vercel.app/'
     },
     {
         id: 'noel',
