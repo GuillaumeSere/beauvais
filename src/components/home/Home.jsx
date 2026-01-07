@@ -1,48 +1,71 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './home.css';
 import Country from '../country/Country';
 
-// ...existing code... (ancien tableau videoData)
-// Remplacé par deux URLs de webcam configurables via REACT_APP_WEBCAM_URL_1 et REACT_APP_WEBCAM_URL_2
 const WEBCAM_URLS = [
     process.env.REACT_APP_WEBCAM_URL_1 || 'https://www.skaping.com/beauvais/cathedrale-saint-pierre/video',
     process.env.REACT_APP_WEBCAM_URL_2 || 'https://www.skaping.com/beauvais/place-jeanne-hachette/live',
     process.env.REACT_APP_WEBCAM_URL_3 || 'https://www.skaping.com/beauvais/plan-d-eau-du-canada/live/',
 ];
 
-const Home = () => {
+const ROTATION_TIME = 60000; // 1 minute
 
-    // Rotation entre les deux webcams toutes les 1 minutes
+const Home = () => {
     const [activeIndex, setActiveIndex] = useState(0);
+    const intervalRef = useRef(null);
+
+    const startRotation = () => {
+        intervalRef.current = setInterval(() => {
+            setActiveIndex(i => (i + 1) % WEBCAM_URLS.length);
+        }, ROTATION_TIME);
+    };
+
+    const resetRotation = () => {
+        clearInterval(intervalRef.current);
+        startRotation();
+    };
+
+    const changeWebcam = (index) => {
+        setActiveIndex(index);
+        resetRotation();
+    };
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            setActiveIndex(i => (i + 1) % WEBCAM_URLS.length);
-        }, 60000); // 1 minutes
-
-        return () => clearInterval(interval);
+        startRotation();
+        return () => clearInterval(intervalRef.current);
     }, []);
 
     return (
         <>
             <section className="video-section">
-                <div className="webcam-container" style={{ position: 'relative', width: '100%', height: '100%', paddingTop: '56.25%' }}>
+                <div className="webcam-container">
                     <iframe
                         key={activeIndex}
-                        title={`Webcam en direct ${activeIndex + 1}`}
+                        title={`Webcam ${activeIndex + 1}`}
                         src={WEBCAM_URLS[activeIndex]}
-                        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
                         allow="camera; microphone; fullscreen; autoplay; encrypted-media"
                         loading="lazy"
                     />
-                </div>
-                <div className="overlay-container">
+
+                    {/* Boutons overlay */}
+                    <div className="webcam-controls">
+                        {WEBCAM_URLS.map((_, index) => (
+                            <button
+                                key={index}
+                                className={index === activeIndex ? 'active' : ''}
+                                onClick={() => changeWebcam(index)}
+                            >
+                                {index + 1}
+                            </button>
+                        ))}
+                    </div>
                 </div>
             </section>
+
             <Country />
         </>
-    )
-
+    );
 };
 
 export default Home;
+
