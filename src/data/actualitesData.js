@@ -13,7 +13,7 @@ import actu1 from '../images/actu1.png';
 import live from '../images/live-radio.png';
 import jardinage from '../images/jardinage.png';
 import sudoku from '../images/sudoku.png';
-import noel from '../images/noel.png';
+import gastronomie from '../images/gastronomie.png';
 import actu2 from '../images/actu2.png';
 
 export const newsItems = [
@@ -26,12 +26,12 @@ export const newsItems = [
         link: 'https://world-radio-60.vercel.app/'
     },
     {
-        id: 'noel',
-        title: '🎄 Joyeuses Féeries de Noël ✨',
-        content: `En décembre, la ville s’illumine et les Féeries de Noël reviennent avec un programme riche et festif 🎉. Le marché de Noël artisanal proposera créations fait main 🎁 et spécialités gourmandes, idéal pour des cadeaux uniques et des moments conviviaux.Tout au long du mois, spectacles de rue, animations, parade, rencontres avec le Père Noël 🎅<br /><br /> Grande roue 🎡, manèges et ateliers créatifs émerveilleront petits et grands .📅 Rendez-vous le vendredi 5 décembre à 18h pour l’ouverture des festivités, avec un mapping exceptionnel célébrant les 800 ans de la cathédrale. Venez flâner, vous émerveiller ✨ et partager la magie de Noël 🎄 en centre-ville.`,
-        image: noel,
-        alt: ' Joyeuses Féeries de Noël ',
-        link: 'https://sortir.beauvais.fr/categorie/feeries-de-noel'
+        id: 'gastronomie',
+        title: 'Une carte pour mieux manger… et mieux explorer la gastronomie beauvaisienne ! 🍽️',
+        content: `Du centre-ville historique aux zones commerciales, des petites pépites confidentielles aux tables incontournables, cette carte regroupe plus de 100 adresses classées par type :<br><br>🍴 Restaurants<br>☕ Cafés et salons de thé<br>🍔 Fast-foods et snacks<br>🍣 Spécialités du monde<br>🥐 Boulangeries et pâtisseries<br>🍺 Brasseries, crêperies, friteries<br>Chaque adresse est accompagnée d’informations pratiques : horaires, jours d’ouverture, coordonnées et liens vers les sites web ou réseaux sociaux.<br /><br /><strong>👉 Pour plus d'informations cliquez sur l'image.</strong>`,
+        image: gastronomie,
+        alt: 'Une carte pour mieux manger… et mieux explorer la gastronomie beauvaisienne',
+        link: 'https://www.visitbeauvais.fr/content/uploads/2025/05/WEB-OTBeauvais-Cartegourmande2025.pdf'
     },
     {
         id: 'aeroclub',
