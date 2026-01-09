@@ -1,7 +1,7 @@
 import avion from '../images/avion.png';
 import chat from '../images/chat.png';
 import gare from '../images/gare.png';
-import actu6 from '../images/balavoine.png';
+import actu6 from '../images/tatoo15.png';
 import rubik from '../images/rubik.png';
 import tv from '../images/tv.png';
 import oiseRando from '../images/oise-rando.png';
@@ -65,9 +65,9 @@ export const newsItems = [
         link: 'https://train-sncf.vercel.app/'
     },
     {
-        id: 'balavoine',
-        title: 'BALAVOINE, MA BATAILLE',
-        content: `🎤 Quarante ans après, sa voix résonne encore.<br /><br /><a class="btn-billeterie" href="https://elispace.fr/programmation/balavoinema-bataille" target="_blank" rel="noopener noreferrer">Billeterie</a><br /><br />Un spectacle-hommage à Daniel Balavoine aura lieu au Dôme de Paris le 22 janvier 2026, suivi d’une tournée française.<br /><br />🎸 Christian Padovan, Alain Pewzner, Sébastien Chouard<br />💡 Direction lumière : Jacques Rouveyrollis`,
+        id: 'SO FLOYD',
+        title: 'SO FLOYD 🎤',
+        content: `Après l'incroyable succès de leurs premiers concerts, le groupe SO FLOYD revient sur scène pour une tournée dans les plus grandes salles de France.<br /><br /><a class="btn-billeterie" href="https://elispace.fr/programmation/so-floyd" target="_blank" rel="noopener noreferrer">Billeterie</a><br /><br /> SO FLOYD revisite les plus grands succès du groupe britannique, des morceaux ancrés dans la mémoire collective et des concerts inscrits au panthéon de la musique !<br /><br />🎸 Un show en 4 actes, correspondant à autant d’univers visuels et sonores, qui permet de retrouver les différentes époques de la production musicale riche et variée du groupe culte. <br />💡  Deux heures de spectacle pour un hommage troublant qui promet un bond dans le temps et une approche originale de l’œuvre du plus grand groupe des années 70 !`,
         image: actu6,
         alt: 'Balavoine Ma Bataille'
     },
