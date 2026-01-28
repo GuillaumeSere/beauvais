@@ -47,7 +47,8 @@
 .video-section {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 ratio */
+    padding-top: 56.25%;
+    pointer-events: auto;
 }
 
 .webcam-container {
@@ -97,98 +98,6 @@
     background: #ff3300;
     color: black;
 }
-
-
-.scrolling-container {
-    display: flex;
-    animation: scroll 1000s linear infinite;
-}
-
-.scrolling-container-inner {
-    display: flex;
-}
-
-.card-galerie-1 {
-    width: 500px;
-    height: 500px;
-    cursor: pointer;
-}
-
-.card-img-galerie-1 img {
-    width: 500px;
-    height: 500px;
-    box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.984);
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
-}
-
-@media (max-width: 400px) {
-
-    .home h1 {
-        font-size: 20px;
-    }
-}
-
-
-@media (max-width: 678px) {
-    .card-galerie-1 {
-        width: 400px;
-        height: 400px;
-        margin-top: 35rem;
-    }
-
-    .card-img-galerie-1 img {
-        width: 400px;
-        height: 400px;
-    }
-
-}
-
-@keyframes scrollvertical {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-50%);
-    }
-}
-
-@media (max-width: 450px) {
-    .card-galerie-1 {
-        width: 300px;
-        height: 300px;
-        margin-top: 3rem;
-    }
-
-    .card-img-galerie-1 img {
-        width: 300px;
-        height: 300px;
-    }
-
-    .scrolling-container-inner {
-        display: flex;
-        flex-direction: column;
-        animation: scrollvertical 1000s linear infinite;
-    }
-
-    .video-section {
-        height: 100vh;
-    }
-
-    .overlay-container h1 {
-        font-size: 28px;
-    }
-}
-
 
 .video-player {
     width: 100%;
