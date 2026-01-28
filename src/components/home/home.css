@@ -1,8 +1,8 @@
-.homes{
+.homes {
     background: linear-gradient(90deg, #0d0c0c 0%, #fff 100%);
 }
 
-.home{
+.home {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,13 +11,13 @@
     max-width: 900px;
 }
 
-.home h1{
+.home h1 {
     margin-top: 2rem;
     color: white;
     z-index: 3;
 }
 
-.home p{
+.home p {
     margin-top: 1rem;
     font-size: 12px;
     font-weight: 500;
@@ -47,6 +47,7 @@
 .webcam-container {
     width: 100%;
     aspect-ratio: 16 / 9;
+    overflow: hidden;
     background: black;
 }
 
@@ -58,6 +59,7 @@
     border: 0;
     object-fit: cover;
     pointer-events: none;
+    z-index: 1;
 }
 
 
@@ -68,7 +70,8 @@
     right: 15px;
     display: flex;
     gap: 8px;
-    z-index: 10;
+    z-index: 2;
+    pointer-events: auto;
 }
 
 
@@ -120,6 +123,7 @@
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -127,7 +131,7 @@
 
 @media (max-width: 400px) {
 
-    .home h1{
+    .home h1 {
         font-size: 20px;
     }
 }
@@ -139,17 +143,19 @@
         height: 400px;
         margin-top: 35rem;
     }
+
     .card-img-galerie-1 img {
         width: 400px;
         height: 400px;
     }
-    
+
 }
 
 @keyframes scrollvertical {
     0% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(-50%);
     }
@@ -161,6 +167,7 @@
         height: 300px;
         margin-top: 3rem;
     }
+
     .card-img-galerie-1 img {
         width: 300px;
         height: 300px;
@@ -175,7 +182,8 @@
     .video-section {
         height: 100vh;
     }
-    .overlay-container h1{
+
+    .overlay-container h1 {
         font-size: 28px;
     }
 }
@@ -200,11 +208,10 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top:2rem;
+    margin-top: 2rem;
     inset: 0;
     margin-left: auto;
     margin-right: auto;
     max-width: 1280px;
     font-size: 30px;
 }
-

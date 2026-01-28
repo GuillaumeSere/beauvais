@@ -8,7 +8,7 @@ const WEBCAM_URLS = [
     process.env.REACT_APP_WEBCAM_URL_3 || 'https://www.skaping.com/beauvais/plan-d-eau-du-canada/live/',
 ];
 
-const ROTATION_TIME = 60000; // 1 minute
+const ROTATION_TIME = 30000; // 30 secondes
 
 const Home = () => {
     const [activeIndex, setActiveIndex] = useState(0);
