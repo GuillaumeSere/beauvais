@@ -44,33 +44,37 @@
     margin-top: -34.5rem;
 }
 
-.webcam-container {
+.video-section {
+    position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    padding-top: 56.25%; /* 16:9 ratio */
     overflow: hidden;
-    background: black;
+}
+
+.webcam-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .webcam-container iframe {
-    position: absolute;
-    inset: 0;
     width: 100%;
     height: 100%;
     border: 0;
-    object-fit: cover;
-    pointer-events: none;
-    z-index: 1;
+    object-fit: cover; 
+    z-index: -1; 
+    pointer-events: none; 
 }
 
-
-/* Overlay boutons */
 .webcam-controls {
     position: absolute;
     bottom: 15px;
     right: 15px;
     display: flex;
     gap: 8px;
-    z-index: 2;
+    z-index: 1; 
     pointer-events: auto;
 }
 
@@ -188,12 +192,6 @@
     }
 }
 
-/* Nouvelles classes pour le composant vidéo */
-.video-section {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
 
 .video-player {
     width: 100%;

@@ -46,19 +46,18 @@ const Home = () => {
                         allow="camera; microphone; fullscreen; autoplay; encrypted-media"
                         loading="lazy"
                     />
+                </div>
 
-                    {/* Boutons overlay */}
-                    <div className="webcam-controls">
-                        {WEBCAM_URLS.map((_, index) => (
-                            <button
-                                key={index}
-                                className={index === activeIndex ? 'active' : ''}
-                                onClick={() => changeWebcam(index)}
-                            >
-                                {index + 1}
-                            </button>
-                        ))}
-                    </div>
+                <div className="webcam-controls">
+                    {WEBCAM_URLS.map((_, index) => (
+                        <button
+                            key={index}
+                            className={index === activeIndex ? 'active' : ''}
+                            onClick={() => changeWebcam(index)}
+                        >
+                            {index + 1}
+                        </button>
+                    ))}
                 </div>
             </section>
 
