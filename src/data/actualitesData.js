@@ -31,7 +31,7 @@ export const newsItems = [
         content: `Du centre-ville historique aux zones commerciales, des petites pépites confidentielles aux tables incontournables, cette carte regroupe plus de 100 adresses classées par type :<br><br>🍴 Restaurants<br>☕ Cafés et salons de thé<br>🍔 Fast-foods et snacks<br>🍣 Spécialités du monde<br>🥐 Boulangeries et pâtisseries<br>🍺 Brasseries, crêperies, friteries<br>Chaque adresse est accompagnée d’informations pratiques : horaires, jours d’ouverture, coordonnées et liens vers les sites web ou réseaux sociaux.<br /><br /><strong>👉 Pour plus d'informations cliquez sur l'image.</strong>`,
         image: gastronomie,
         alt: 'Une carte pour mieux manger… et mieux explorer la gastronomie beauvaisienne',
-        link: 'https://www.visitbeauvais.fr/content/uploads/2025/05/WEB-OTBeauvais-Cartegourmande2025.pdf'
+        link: 'https://www.visitbeauvais.fr/content/uploads/2026/02/Carte_restaurants_Beauvais_2025-2026.pdf'
     },
     {
         id: 'aeroclub',
