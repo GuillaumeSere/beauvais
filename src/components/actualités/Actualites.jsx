@@ -75,7 +75,7 @@ const Actualites = () => {
                     <motion.img className='actu-img2' src={actu4} alt="Parc Saint Paul 2" whileHover={{ scale: 1.03 }} />
                 </motion.div>
                 <motion.p className='actu-text' variants={fadeInUp}>
-                    Le Parc Saint Paul revient avec 45 attractions 🎢, des spectacles et une ambiance familiale !<br />
+                    Le Parc Saint Paul revient avec 38 attractions 🎢, des spectacles et une ambiance familiale !<br />
                     À proximité de Beauvais, vivez une journée pleine de bonne humeur.
                 </motion.p>
 
