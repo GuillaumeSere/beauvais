@@ -9,6 +9,7 @@ import appli from '../images/appli.png';
 import apple from '../images/logo-apple.png';
 import google from '../images/logo-google.png';
 import dames from '../images/dames.png';
+import zone from '../images/zone.png';
 import actu1 from '../images/actu1.png';
 import live from '../images/live-radio.png';
 import jardinage from '../images/jardinage.png';
@@ -17,6 +18,14 @@ import gastronomie from '../images/gastronomie.png';
 import actu2 from '../images/actu2.png';
 
 export const newsItems = [
+          {
+        id: 'Ma Zone 60',
+        title: '🔥 Ma Zone 60 – Trouvez les meilleurs événements près de vous 🎉',
+        content: `MaZone est une plateforme intuitive qui vous permet de découvrir en quelques secondes les événements autour de vous : concerts, festivals, spectacles et bien plus encore. Grâce à une interface moderne et une carte interactive, vous accédez rapidement aux sorties disponibles dans votre zone.<br /><br /><strong>🔍 Une recherche simple et efficace.</strong><br></br> Même en cas de problème de localisation, MaZone continue d’afficher les événements disponibles pour ne rien manquer.<br></br><strong>🗺️ Une carte interactive</strong><br></br>Visualisez instantanément les événements autour de vous grâce à une carte dynamique avec des marqueurs. Cela permet de repérer facilement les lieux et d’organiser vos sorties en un coup d’œil.`,
+        image: zone,
+        alt: 'Ma Zone 60',
+        link: 'https://ma-zone-60.vercel.app/'
+    },
        {
         id: 'World-radio-60',
         title: '🌍 World Radio 60 🎧',
@@ -65,11 +74,11 @@ export const newsItems = [
         link: 'https://train-sncf.vercel.app/'
     },
     {
-        id: 'SO FLOYD',
-        title: 'SO FLOYD 🎤',
-        content: `Après l'incroyable succès de leurs premiers concerts, le groupe SO FLOYD revient sur scène pour une tournée dans les plus grandes salles de France.<br /><br /><a class="btn-billeterie" href="https://elispace.fr/programmation/so-floyd" target="_blank" rel="noopener noreferrer">Billeterie</a><br /><br /> SO FLOYD revisite les plus grands succès du groupe britannique, des morceaux ancrés dans la mémoire collective et des concerts inscrits au panthéon de la musique !<br /><br />🎸 Un show en 4 actes, correspondant à autant d’univers visuels et sonores, qui permet de retrouver les différentes époques de la production musicale riche et variée du groupe culte. <br />💡  Deux heures de spectacle pour un hommage troublant qui promet un bond dans le temps et une approche originale de l’œuvre du plus grand groupe des années 70 !`,
+        id: 'Goldman',
+        title: 'GOLDMEN de GOLDMAN à FREDERICKS GOLDMAN JONES 🎤',
+        content: `Actuellement en tournée événement, rassemblant des centaines de milliers de fans à travers la France, les GOLDMEN seront de retour en 2026 pour un nouveau show 100% tubes, de l’univers de Jean-Jacques GOLDMAN à celui du trio FREDERICKS GOLDMAN JONES.<br /><br /><a class="btn-billeterie" href="https://www.ginger.fr/manifestation/goldmen-de-goldman-a-fredericks-goldman-jones-33/" target="_blank" rel="noopener noreferrer">Billeterie</a><br /><br /> Porté par Alain Stevez, véritable miroir vocal du chanteur iconique et avec Sabrina, la voix de Carole Frédéricks, les GOLDMEN vont continuer à écumer les scènes pour le 35èmeanniversaire de la tournée Frédéricks Goldman Jones. `,
         image: actu6,
-        alt: 'Balavoine Ma Bataille'
+        alt: 'Goldman'
     },
     {
         id: 'rubik',
