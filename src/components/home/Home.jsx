@@ -39,6 +39,14 @@ const Home = () => {
         <>
             <section className="video-section">
                 <div className="webcam-container">
+                    <div className="webcam-overlay">
+                        <h1>Webcams en direct de Beauvais</h1>
+                        <p>
+                            Regardez Beauvais en direct grâce aux webcams de la
+                            cathédrale Saint-Pierre, de la place Jeanne Hachette
+                            et du plan d’eau du Canada.
+                        </p>
+                    </div>
                     <iframe
                         key={activeIndex}
                         title={`Webcam ${activeIndex + 1}`}
