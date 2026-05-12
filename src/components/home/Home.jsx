@@ -61,6 +61,35 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="seo-container">
+                <div className="seo-content">
+                    <h1>Guide complet de Beauvais</h1>
+
+                    <p>
+                        Découvrez Beauvais, une ville historique située dans l’Oise en
+                        Hauts-de-France. Retrouvez les meilleurs lieux à visiter,
+                        restaurants, bars, sorties, événements et actualités locales
+                        pour profiter pleinement de la ville.
+                    </p>
+
+                    <h2>Que faire à Beauvais ?</h2>
+
+                    <p>
+                        Explorez les incontournables comme la cathédrale Saint-Pierre,
+                        le plan d’eau du Canada, la place Jeanne Hachette et les nombreux
+                        lieux culturels de Beauvais.
+                    </p>
+
+                    <h2>Les meilleurs lieux à visiter à Beauvais</h2>
+
+                    <p>
+                        Que vous soyez habitant ou touriste, trouvez facilement les
+                        meilleures activités, les restaurants, les bars et les endroits
+                        à découvrir à Beauvais.
+                    </p>
+                </div>
+            </section>
+
             <Country />
         </>
     );

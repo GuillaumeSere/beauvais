@@ -98,6 +98,46 @@
     background: #ff3300;
     color: black;
 }
+.seo-container{
+    display: flex;
+    justify-content: center;
+}
+.seo-content {
+    max-width: 960px;
+    margin: 2rem;
+    padding: 2rem 2.2rem;
+    background: rgba(10, 10, 10, 0.76);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+    color: #f5f5f5;
+    backdrop-filter: blur(12px);
+    position: relative;
+    z-index: 2;
+}
+
+.seo-content h1,
+.seo-content h2 {
+    margin: 0 0 1rem;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.seo-content h1 {
+    font-size: clamp(2.1rem, 2.4vw, 3rem);
+}
+
+.seo-content h2 {
+    font-size: clamp(1.4rem, 1.8vw, 2rem);
+    margin-top: 1.75rem;
+}
+
+.seo-content p {
+    margin: 0 0 1.25rem;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.84);
+}
 
 .video-player {
     width: 100%;
