@@ -67,10 +67,13 @@
 }
 
 .webcam-overlay {
+    background: rgba(0, 0, 0, 0.333);
+    padding: 1.5rem 2rem;
     position: absolute;
-    left: 2rem;
-    right: 2rem;
-    top: 2rem;
+    border-radius: 0 0 10px 0;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
     z-index: 2;
     max-width: 700px;
 }
@@ -133,17 +136,19 @@
     background: #ff3300;
     color: black;
 }
-.seo-container{
+
+.seo-container {
     display: flex;
     justify-content: center;
 }
+
 .seo-content {
     max-width: 960px;
     margin: 2rem;
     padding: 2rem 2.2rem;
     background: rgba(10, 10, 10, 0.76);
     border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 24px;
+    border-radius: 10px;
     box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
     color: #f5f5f5;
     backdrop-filter: blur(12px);
@@ -193,4 +198,36 @@
     margin-right: auto;
     max-width: 1280px;
     font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .home h1 {
+        font-size: 1.8rem;
+    }
+
+    .home p {
+        font-size: 10px;
+    }
+
+    .webcam-overlay h1 {
+        font-size: clamp(1.5rem, 2vw, 2.2rem);
+    }
+
+    .webcam-overlay p {
+        font-size: 0.9rem;
+    }
+
+    .seo-content h1 {
+        font-size: clamp(1.8rem, 2.2vw, 2.5rem);
+    }
+
+    .seo-content h2 {
+        font-size: clamp(1.2rem, 1.6vw, 1.8rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .webcam-overlay{
+        display: none;
+    } 
 }
