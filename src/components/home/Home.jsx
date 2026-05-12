@@ -72,7 +72,6 @@ const Home = () => {
             <section className="seo-container">
                 <div className="seo-content">
                     <h1>Guide complet de Beauvais</h1>
-
                     <p>
                         Découvrez Beauvais, une ville historique située dans l’Oise en
                         Hauts-de-France. Retrouvez les meilleurs lieux à visiter,
@@ -81,7 +80,6 @@ const Home = () => {
                     </p>
 
                     <h2>Que faire à Beauvais ?</h2>
-
                     <p>
                         Explorez les incontournables comme la cathédrale Saint-Pierre,
                         le plan d’eau du Canada, la place Jeanne Hachette et les nombreux
