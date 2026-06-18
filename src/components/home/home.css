@@ -100,6 +100,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 8px;
+    margin-bottom: 1rem;
     min-height: 420px;
     box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
     border: 1px solid rgba(255, 255, 255, 0.18);

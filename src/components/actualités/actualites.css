@@ -388,8 +388,15 @@
         grid-template-columns: 1fr;
     }
 
+    .actualites-grid {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
     .actualites-card {
         grid-template-rows: 220px 1fr;
+        opacity: 1 !important;
+        transform: none !important;
     }
 
     .actualites-card-content {
