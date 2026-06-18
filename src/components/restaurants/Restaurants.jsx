@@ -96,16 +96,14 @@ const Restaurants = () => {
             >
               <div className="image-container">
                 <img src={restaurant.image} alt={restaurant.name} className="restaurant-img" />
-                <motion.a
+                <a
                   href={restaurant.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="restaurant-link"
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ type: 'spring', stiffness: 300 }}
                 >
                   {restaurant.name}
-                </motion.a>
+                </a>
               </div>
             </motion.div>
           ))}
