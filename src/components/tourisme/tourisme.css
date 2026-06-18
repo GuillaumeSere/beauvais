@@ -1,116 +1,340 @@
-.tourisme{
-    background-image: url('../../images/mairie.png');
+.tourisme {
+    min-height: 100vh;
+    width: 100%;
+    padding: 3rem clamp(1rem, 4vw, 4rem) 4rem;
+    color: #f8fafc;
+    background:
+        linear-gradient(135deg, rgba(8, 13, 20, 0.92), rgba(22, 31, 35, 0.78)),
+        url('../../images/mairie.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100vh;
+}
+
+.tourisme-hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
+    gap: clamp(1.5rem, 4vw, 4rem);
+    align-items: center;
+    min-height: 540px;
+}
+
+.tourisme-hero-content {
+    max-width: 680px;
+}
+
+.tourisme-kicker,
+.tourisme-card-meta,
+.tourisme-highlight-caption,
+.tourisme-card-link,
+.tourisme-primary-link,
+.tourisme-secondary-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tourisme-kicker {
+    padding: 0.55rem 0.75rem;
+    background: rgba(250, 204, 21, 0.16);
+    border: 1px solid rgba(250, 204, 21, 0.36);
+    border-radius: 999px;
+    color: #fde68a;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.tourisme h1 {
+    margin: 1.2rem 0 0;
+    font-size: clamp(2.5rem, 6vw, 5.6rem);
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.tourisme-hero-content p {
+    margin: 1.25rem 0 0;
+    max-width: 620px;
+    color: rgba(248, 250, 252, 0.86);
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+.tourisme-actions {
+    margin-top: 1.8rem;
+}
+
+.tourisme-primary-link,
+.tourisme-secondary-link {
+    min-height: 46px;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+
+.tourisme-primary-link {
+    background: #facc15;
+    color: #111827;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+}
+
+.tourisme-primary-link:hover,
+.tourisme-secondary-link:hover {
+    transform: translateY(-2px);
+}
+
+.tourisme-highlight {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    min-height: 420px;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tourisme-highlight img {
     width: 100%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    height: 100%;
+    min-height: 420px;
+    display: block;
+    object-fit: cover;
+}
+
+.tourisme-highlight::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.58));
+}
+
+.tourisme-highlight-caption {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 1;
+    padding: 0.85rem 1rem;
+    background: rgba(5, 10, 18, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    font-weight: 800;
+}
+
+.tourisme-stats {
+    max-width: 1180px;
+    margin: 0 auto 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.tourisme-stats div {
+    padding: 1.1rem;
+    background: rgba(255, 255, 255, 0.9);
+    color: #172033;
+    border-radius: 8px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+.tourisme-stats strong {
+    display: block;
+    font-size: clamp(1.45rem, 2.5vw, 2.15rem);
+    line-height: 1.1;
+}
+
+.tourisme-stats span {
+    display: block;
+    margin-top: 0.3rem;
+    color: #4b5563;
+    font-weight: 700;
+}
+
+.tourisme-grid {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.tourisme-card {
+    min-width: 0;
+}
+
+.tourisme-card a {
+    display: grid;
+    grid-template-rows: 220px 1fr;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #172033;
+    text-decoration: none;
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tourisme-card a:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
+}
+
+.tourisme-card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.tourisme-card-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.tourisme-card a:hover .tourisme-card-image img {
+    transform: scale(1.05);
+}
+
+.tourisme-card-image span {
+    position: absolute;
+    left: 0.75rem;
+    top: 0.75rem;
+    padding: 0.38rem 0.58rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #111827;
+    font-size: 0.78rem;
+    font-weight: 900;
+}
+
+.tourisme-card-content {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    min-height: 260px;
 }
 
-.tourisme h2{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 1rem;
+.tourisme-card-meta {
+    color: #2f6f61;
+    font-size: 0.85rem;
+    font-weight: 900;
 }
 
-.tourisme p{
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 1rem;
+.tourisme-card h2 {
+    margin: 0.7rem 0 0;
+    color: #111827;
+    font-size: 1.22rem;
+    line-height: 1.2;
 }
 
-.tourisme li{
-    list-style: none;
-    margin-top: 1rem;
+.tourisme-card p {
+    margin: 0.75rem 0 0;
+    color: #4b5563;
+    line-height: 1.55;
+    font-size: 0.96rem;
 }
 
-.glass-card {
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 0.5rem;
-    margin-top: 2rem;
-    z-index: 1;
+.tourisme-card-link {
+    margin-top: auto;
+    padding-top: 1rem;
+    color: #b45309;
+    font-weight: 900;
 }
 
-.glass-card ul {
-    list-style-type: none;
-    padding: 0;
-    transition: all 1s ease-in-out;
+.tourisme-itinerary {
+    max-width: 1180px;
+    margin: 1rem auto 0;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 8px;
+    background: rgba(9, 14, 22, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(12px);
 }
 
-.glass-card li {
-    margin-bottom: 1rem;
+.tourisme-itinerary h2 {
+    margin: 0;
+    font-size: clamp(1.3rem, 2vw, 1.8rem);
 }
 
-.glass-card a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: bold;
-    transition: all 5s ease-in-out; 
+.tourisme-itinerary p {
+    margin: 0.55rem 0 0;
+    max-width: 720px;
+    color: rgba(248, 250, 252, 0.82);
+    line-height: 1.65;
 }
 
-.glass-card a:hover {
-    font-weight: bold;
+.tourisme-secondary-link {
+    flex: 0 0 auto;
+    background: #ffffff;
+    color: #111827;
 }
 
-.image{
-    max-width: 800px;
-    height: 500px;
-}
-
-/* Pour assurer que l'effet fonctionne bien, ajoutez un fond à la page */
-body {
-    background: linear-gradient(45deg, #f3f3f3, #e6e6e6);
-    min-height: 100vh;
-}
-
-@media (max-width: 800px){
-    .image{
-        width: 400px;
-        height: 400px;
+@media (max-width: 1100px) {
+    .tourisme-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-@media (max-width: 380px) {
-
-    .tourisme h2 {
-        font-size: 1.2rem;
+@media (max-width: 860px) {
+    .tourisme {
+        padding-top: 2rem;
+        background-attachment: scroll;
     }
 
-    .glass-card a {
-        font-size: 0.9rem !important;
+    .tourisme-hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
     }
 
-    .image{
-        width: 200px;
-        height: 200px;
+    .tourisme-highlight,
+    .tourisme-highlight img {
+        min-height: 320px;
+    }
+
+    .tourisme-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .tourisme-itinerary {
+        align-items: flex-start;
+        flex-direction: column;
     }
 }
 
-/* Pour les images */
-#cathedraleImage,
-#museeImage,
-#planEauImage,
-#maladrerieImage {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
+@media (max-width: 560px) {
+    .tourisme {
+        padding-inline: 1rem;
+    }
 
-#cathedraleImage[style*="display: block"],
-#museeImage[style*="display: block"],
-#planEauImage[style*="display: block"],
-#maladrerieImage[style*="display: block"] {
-    opacity: 1;
+    .tourisme-kicker {
+        border-radius: 8px;
+        align-items: flex-start;
+    }
+
+    .tourisme-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tourisme-card a {
+        grid-template-rows: 210px 1fr;
+    }
+
+    .tourisme-card-content {
+        min-height: auto;
+    }
+
+    .tourisme-primary-link,
+    .tourisme-secondary-link {
+        width: 100%;
+        justify-content: center;
+    }
 }

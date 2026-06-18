@@ -16,9 +16,54 @@ import jardinage from '../images/jardinage.png';
 import sudoku from '../images/sudoku.png';
 import gastronomie from '../images/gastronomie.png';
 import actu2 from '../images/actu2.png';
+import placeJeanneHachette from '../images/place-jeanneHachette.png';
+import planEau from '../images/plan-eau.png';
+import theatre from '../images/theatre.png';
+import elispace from '../images/elispace.png';
+import mairie from '../images/mairie.png';
 
 export const newsItems = [
-          {
+    {
+        id: 'fetes-jeanne-hachette-2026',
+        title: 'Fêtes Jeanne Hachette : Beauvais célèbre son héroïne',
+        content: `Chaque fin juin, Beauvais fait revivre l'histoire de Jeanne Hachette avec des défilés en costumes, des animations et un grand rendez-vous populaire autour du centre-ville.<br /><br />Cette fête rappelle la résistance beauvaisienne face au siège de 1472 et reste l'un des temps forts de l'année locale.<br /><br /><strong>👉 Programme et infos pratiques : cliquez sur l'image.</strong>`,
+        image: placeJeanneHachette,
+        alt: 'Fêtes Jeanne Hachette à Beauvais',
+        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/les-fetes-jeanne-hachette/'
+    },
+    {
+        id: 'scenes-ete-beauvais-2026',
+        title: "Scènes d'été : des animations dans toute la ville",
+        content: `De juin à septembre, Beauvais propose traditionnellement les Scènes d'été : concerts, spectacles, rendez-vous familiaux et animations en plein air dans différents quartiers.<br /><br />Une bonne idée pour profiter des beaux jours, découvrir des artistes et sortir sans forcément quitter la ville.<br /><br /><strong>👉 Consultez l'agenda pour les prochaines dates.</strong>`,
+        image: theatre,
+        alt: "Scènes d'été à Beauvais",
+        link: 'https://www.beauvaisis.fr/evenements/scenes-dete-2026-le-rendez-vous-musical-incontournable-des-vendredis-de-juillet-a-beauvais/'
+    },
+    {
+        id: 'beach-beauvais-2026',
+        title: 'Beach Beauvais et Plan d’eau du Canada : cap sur l’été',
+        content: `Le Plan d'eau du Canada reste l'un des lieux préférés des Beauvaisiens pour marcher, courir, se détendre et profiter des animations estivales comme Beach Beauvais.<br /><br />Le site est connu pour son cadre naturel, ses activités de loisirs et son accès à la baignade en période estivale selon les ouvertures annoncées par la ville.<br /><br /><strong>👉 Pour les horaires et conditions, cliquez sur l'image.</strong>`,
+        image: planEau,
+        alt: "Plan d'eau du Canada à Beauvais",
+        link: 'https://www.visitbeauvais.fr/fiche/base-de-loisirs-du-plan-d-eau-du-canada/'
+    },
+    {
+        id: 'vie-culturelle-beauvais-2026',
+        title: 'Les grands rendez-vous culturels à suivre à Beauvais',
+        content: `Beauvais continue d'être animée par plusieurs rendez-vous culturels réguliers : Blues autour du Zinc, Festival du Film, Pianoscope, Malices et Merveilles, Les Photaumnales ou encore les Féeries de Noël.<br /><br />Ces événements font vivre le centre-ville, les équipements culturels et les quartiers tout au long de l'année.<br /><br /><strong>👉 Retrouvez les prochaines sorties dans l'agenda.</strong>`,
+        image: elispace,
+        alt: 'Agenda culturel de Beauvais',
+        link: 'https://www.visitbeauvais.fr/sejourner/agenda/'
+    },
+    {
+        id: 'municipales-beauvais-2026',
+        title: 'Municipales 2026 : Franck Pia réélu maire de Beauvais',
+        content: `À l'issue des élections municipales de 2026, Franck Pia conserve la mairie de Beauvais. Les résultats publiés indiquent un second tour remporté avec 47,34 % des suffrages, devant Roxane Lundy et Claire Marais-Beuil.<br /><br />Cette actualité fixe le nouveau cadre politique local pour le mandat 2026-2032.<br /><br /><strong>👉 Consultez le détail des résultats en cliquant sur l'image.</strong>`,
+        image: mairie,
+        alt: 'Mairie de Beauvais',
+        link: 'https://fr.wikipedia.org/wiki/%C3%89lections_municipales_de_2026_dans_l%27Oise'
+    },
+    {
         id: 'Ma Zone 60',
         title: '🔥 Ma Zone 60 – Trouvez les meilleurs événements près de vous 🎉',
         content: `MaZone est une plateforme intuitive qui vous permet de découvrir en quelques secondes les événements autour de vous : concerts, festivals, spectacles et bien plus encore. Grâce à une interface moderne et une carte interactive, vous accédez rapidement aux sorties disponibles dans votre zone.<br /><br /><strong>🔍 Une recherche simple et efficace.</strong><br></br> Même en cas de problème de localisation, MaZone continue d’afficher les événements disponibles pour ne rien manquer.<br></br><strong>🗺️ Une carte interactive</strong><br></br>Visualisez instantanément les événements autour de vous grâce à une carte dynamique avec des marqueurs. Cela permet de repérer facilement les lieux et d’organiser vos sorties en un coup d’œil.`,
