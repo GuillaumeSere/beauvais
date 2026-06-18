@@ -1,53 +1,250 @@
-.homes {
-    background: linear-gradient(90deg, #0d0c0c 0%, #fff 100%);
+.home-page {
+    min-height: 100vh;
+    width: 100%;
+    padding: 3rem clamp(1rem, 4vw, 4rem) 4rem;
+    color: #f8fafc;
+    background:
+        linear-gradient(135deg, rgba(8, 13, 20, 0.94), rgba(24, 33, 35, 0.82)),
+        url('../../images/mairie.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.home {
+.home-hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
+    gap: clamp(1.5rem, 4vw, 4rem);
+    align-items: center;
+    min-height: 540px;
+}
+
+.home-hero-content {
+    max-width: 700px;
+}
+
+.home-kicker,
+.home-primary-link,
+.home-secondary-link,
+.home-hero-caption,
+.home-feature-image span,
+.home-feature-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home-kicker {
+    padding: 0.55rem 0.75rem;
+    background: rgba(250, 204, 21, 0.16);
+    border: 1px solid rgba(250, 204, 21, 0.36);
+    border-radius: 999px;
+    color: #fde68a;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.home-hero h1 {
+    margin: 1.2rem 0 0;
+    font-size: clamp(2.45rem, 5.8vw, 5.35rem);
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.home-hero-content p,
+.home-section-heading p {
+    margin: 1.25rem 0 0;
+    max-width: 640px;
+    color: rgba(248, 250, 252, 0.86);
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+.home-actions {
+    margin-top: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.home-primary-link,
+.home-secondary-link {
+    min-height: 46px;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+
+.home-primary-link {
+    background: #facc15;
+    color: #111827;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+}
+
+.home-secondary-link {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.home-primary-link:hover,
+.home-secondary-link:hover {
+    transform: translateY(-2px);
+}
+
+.home-hero-visual {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    min-height: 420px;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.home-hero-visual img {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    display: block;
+    object-fit: cover;
+}
+
+.home-hero-visual::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.58));
+}
+
+.home-hero-caption {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 1;
+    padding: 0.85rem 1rem;
+    background: rgba(5, 10, 18, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    font-weight: 900;
+}
+
+.home-feature-grid {
+    max-width: 1180px;
+    margin: 0 auto 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.home-feature-card {
+    min-width: 0;
+}
+
+.home-feature-card a {
+    display: grid;
+    grid-template-rows: 180px 1fr;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #172033;
+    text-decoration: none;
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.home-feature-card a:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
+}
+
+.home-feature-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-feature-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.home-feature-card a:hover .home-feature-image img {
+    transform: scale(1.05);
+}
+
+.home-feature-image span {
+    position: absolute;
+    left: 0.75rem;
+    top: 0.75rem;
+    padding: 0.38rem 0.58rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #111827;
+    font-size: 0.78rem;
+    font-weight: 900;
+}
+
+.home-feature-content {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 900px;
+    min-height: 210px;
 }
 
-.home h1 {
-    margin-top: 2rem;
-    color: white;
-    z-index: 3;
+.home-feature-content h2 {
+    margin: 0;
+    color: #111827;
+    font-size: 1.22rem;
+    line-height: 1.2;
 }
 
-.home p {
-    margin-top: 1rem;
-    font-size: 12px;
-    font-weight: 500;
-    color: white;
-    z-index: 3;
+.home-feature-content p {
+    margin: 0.75rem 0 0;
+    color: #4b5563;
+    line-height: 1.55;
+    font-size: 0.96rem;
 }
 
-.video-container {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 1rem;
-    z-index: 2;
+.home-feature-link {
+    margin-top: auto;
+    padding-top: 1rem;
+    color: #b45309;
+    font-weight: 900;
 }
 
-/* galerie1.css */
-.container-galerie-1 {
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10rem;
-    position: relative;
-    width: 100%;
-    margin-top: -34.5rem;
+.home-webcam-section {
+    max-width: 1180px;
+    margin: 0 auto 2rem;
+}
+
+.home-section-heading {
+    margin-bottom: 1rem;
+}
+
+.home-section-heading h2 {
+    margin: 1rem 0 0;
+    font-size: clamp(1.8rem, 3.4vw, 3rem);
+    line-height: 1.1;
 }
 
 .video-section {
     position: relative;
     width: 100%;
-    padding-top: 56.25%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #0f172a;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.16);
     pointer-events: auto;
 }
 
@@ -61,40 +258,9 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.6));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.28));
     pointer-events: none;
     z-index: 1;
-}
-
-.webcam-overlay {
-    background: rgba(0, 0, 0, 0.333);
-    padding: 1.5rem 2rem;
-    position: absolute;
-    border-radius: 0 0 10px 0;
-    left: 0rem;
-    right: 0rem;
-    top: 0rem;
-    z-index: 2;
-    max-width: 700px;
-}
-
-.webcam-overlay h1,
-.webcam-overlay p {
-    margin: 0;
-    color: #ffffff;
-    text-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
-}
-
-.webcam-overlay h1 {
-    font-size: clamp(2rem, 2.3vw, 2.6rem);
-    line-height: 1.08;
-}
-
-.webcam-overlay p {
-    margin-top: 0.8rem;
-    font-size: 1rem;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.92);
 }
 
 .webcam-container iframe {
@@ -108,126 +274,145 @@
 
 .webcam-controls {
     position: absolute;
-    bottom: 15px;
-    right: 15px;
+    bottom: 1rem;
+    right: 1rem;
     display: flex;
-    gap: 8px;
-    z-index: 1;
+    gap: 0.5rem;
+    z-index: 2;
     pointer-events: auto;
 }
 
 .webcam-controls button {
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    border: none;
-    padding: 6px 10px;
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    color: #111827;
+    border: 0;
     border-radius: 50%;
     cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s;
+    font-weight: 900;
+    transition: transform 0.25s ease, background 0.25s ease;
 }
 
 .webcam-controls button:hover {
-    background: rgba(255, 255, 255, 0.8);
-    color: black;
+    transform: translateY(-2px);
+    background: #ffffff;
 }
 
 .webcam-controls button.active {
-    background: #ff3300;
-    color: black;
+    background: #facc15;
+    color: #111827;
 }
 
 .seo-container {
-    display: flex;
-    justify-content: center;
+    max-width: 1180px;
+    margin: 0 auto 2rem;
 }
 
 .seo-content {
-    max-width: 960px;
-    margin: 2rem;
-    padding: 2rem 2.2rem;
-    background: rgba(10, 10, 10, 0.76);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 10px;
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
-    color: #f5f5f5;
+    padding: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    background: rgba(9, 14, 22, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.18);
     backdrop-filter: blur(12px);
-    position: relative;
-    z-index: 2;
 }
 
-.seo-content h1,
 .seo-content h2 {
-    margin: 0 0 1rem;
+    margin: 0 0 0.75rem;
     color: #fff;
     line-height: 1.2;
-}
-
-.seo-content h1 {
-    font-size: clamp(2.1rem, 2.4vw, 3rem);
-}
-
-.seo-content h2 {
-    font-size: clamp(1.4rem, 1.8vw, 2rem);
-    margin-top: 1.75rem;
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
 .seo-content p {
-    margin: 0 0 1.25rem;
-    line-height: 1.8;
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.84);
+    margin: 0;
+    line-height: 1.75;
+    font-size: 0.98rem;
+    color: rgba(255, 255, 255, 0.82);
 }
 
-.video-player {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    inset: 0;
-    object-fit: cover;
+.video-player,
+.overlay-container,
+.homes,
+.home,
+.video-container,
+.container-galerie-1,
+.webcam-overlay {
+    display: none;
 }
 
-.overlay-container {
-    position: absolute;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    inset: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1280px;
-    font-size: 30px;
-}
-
-@media (max-width: 768px) {
-    .home h1 {
-        font-size: 1.8rem;
+@media (max-width: 1100px) {
+    .home-feature-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .home p {
-        font-size: 10px;
-    }
-
-    .webcam-overlay h1 {
-        font-size: clamp(1.5rem, 2vw, 2.2rem);
-    }
-
-    .webcam-overlay p {
-        font-size: 0.9rem;
-    }
-
-    .seo-content h1 {
-        font-size: clamp(1.8rem, 2.2vw, 2.5rem);
-    }
-
-    .seo-content h2 {
-        font-size: clamp(1.2rem, 1.6vw, 1.8rem);
+    .seo-content {
+        grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 480px) {
-    .webcam-overlay{
-        display: none;
-    } 
+@media (max-width: 860px) {
+    .home-page {
+        padding-top: 2rem;
+        background-attachment: scroll;
+    }
+
+    .home-hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .home-hero-visual,
+    .home-hero-visual img {
+        min-height: 320px;
+    }
+}
+
+@media (max-width: 560px) {
+    .home-page {
+        padding-inline: 1rem;
+    }
+
+    .home-kicker {
+        border-radius: 8px;
+        align-items: flex-start;
+    }
+
+    .home-actions {
+        flex-direction: column;
+    }
+
+    .home-primary-link,
+    .home-secondary-link {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .home-feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-feature-card a {
+        grid-template-rows: 180px 1fr;
+    }
+
+    .home-feature-content {
+        min-height: auto;
+    }
+
+    .video-section {
+        aspect-ratio: 4 / 3;
+    }
+
+    .webcam-controls {
+        left: 1rem;
+        right: auto;
+    }
 }

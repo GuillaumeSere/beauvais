@@ -55,7 +55,6 @@
 }
 .country-section{
     width: 100%;
-    background: linear-gradient(90deg, #0d0c0c 0%, #fff 100%);
 }
 .box-container{
     max-width: 1600px;
@@ -71,6 +70,7 @@
     flex-direction: row;
     height: 500px;
     background-color: #fff;
+    color: #172033;
     border-radius: 10px;
     box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
     margin-top: 1rem;
@@ -80,6 +80,7 @@
     padding: 1rem;
     line-height: 30px;
     font-weight: 500;
+    color: #172033;
 }
 .box img{
     max-width: 100%;
