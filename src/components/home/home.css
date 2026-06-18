@@ -314,8 +314,8 @@
 
 .seo-content {
     padding: 1.4rem;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     background: rgba(9, 14, 22, 0.78);
     border: 1px solid rgba(255, 255, 255, 0.14);
