@@ -22,6 +22,8 @@ const itemVariants = {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } }
 };
 
+const parcSaintPaulVideoUrl = 'https://www.youtube.com/embed/ZLsU1N0ahmc';
+
 const Actualites = () => {
     return (
         <main className="actualites-page">
@@ -137,9 +139,14 @@ const Actualites = () => {
                 </div>
 
                 <div className="parc-media-grid">
-                    <video controls autoPlay muted>
-                        <source src="https://www.parcsaintpaul.fr/wp-content/uploads/2017/02/Psp-aquasplash-320.mp4" type="video/mp4" />
-                    </video>
+                    <iframe
+                        className="parc-video-frame"
+                        src={parcSaintPaulVideoUrl}
+                        title="Le parc Saint-Paul investit 5 millions pour se renouveler"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                    ></iframe>
                     <div className="map-container">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d99379.75454135577!2d1.9004166419013513!3d49.421454725968474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47e70367264b24ab%3A0xccf4998214efae21!2s47%20Rue%20de%20l&#39;Avelon%2C%2060650%20Saint-Paul!3m2!1d49.421484!2d1.9828169999999998!5e1!3m2!1sfr!2sfr!4v1729503988114!5m2!1sfr!2sfr"
