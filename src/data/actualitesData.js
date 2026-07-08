@@ -21,6 +21,8 @@ import planEau from '../images/plan-eau.png';
 import theatre from '../images/theatre.png';
 import elispace from '../images/elispace.png';
 import mairie from '../images/mairie.png';
+import musee from '../images/musee.png';
+import festivals from '../images/festivals.png';
 
 export const newsItems = [
     {
@@ -40,6 +42,14 @@ export const newsItems = [
         link: 'https://www.beauvaisis.fr/evenements/scenes-dete-2026-le-rendez-vous-musical-incontournable-des-vendredis-de-juillet-a-beauvais/'
     },
     {
+        id: 'agenda-festivals-beauvais-2026',
+        title: 'Agenda Festivals France : les festivals autour de Beauvais',
+        content: `Agenda Festivals France permet de repérer rapidement les festivals par ville, discipline ou période. Le lien est déjà préfiltré sur Beauvais pour retrouver les sorties musicales et culturelles proches de la ville.<br /><br /><strong>Consultez la carte et la liste des festivals en cliquant sur l'image.</strong>`,
+        image: festivals,
+        alt: 'Agenda Festivals France autour de Beauvais',
+        link: 'https://agenda-festivals.vercel.app/?q=beauvais'
+    },
+    {
         id: 'beach-beauvais-2026',
         title: 'Beach Beauvais et Plan d’eau du Canada : cap sur l’été',
         content: `Le Plan d'eau du Canada reste l'un des lieux préférés des Beauvaisiens pour marcher, courir, se détendre et profiter des animations estivales comme Beach Beauvais.<br /><br />Le site est connu pour son cadre naturel, ses activités de loisirs et son accès à la baignade en période estivale selon les ouvertures annoncées par la ville.<br /><br /><strong>👉 Pour les horaires et conditions, cliquez sur l'image.</strong>`,
@@ -54,6 +64,22 @@ export const newsItems = [
         image: elispace,
         alt: 'Agenda culturel de Beauvais',
         link: 'https://www.visitbeauvais.fr/sejourner/agenda/'
+    },
+    {
+        id: 'sortir-beauvais-juillet-2026',
+        title: 'Sortir à Beauvais : les rendez-vous de juillet',
+        content: `L'agenda officiel Sortir à Beauvais rassemble les animations locales du moment : sport, ateliers, familles, bien-être, expositions et rendez-vous au Plan d'eau du Canada.<br /><br />Autour du 8 juillet 2026, l'agenda met notamment en avant l'Olympique Tour du 6 au 10 juillet, des animations jeunesse et des activités estivales au Plan d'eau.<br /><br /><strong>Retrouvez les prochains événements en cliquant sur l'image.</strong>`,
+        image: planEau,
+        alt: 'Agenda Sortir à Beauvais en juillet',
+        link: 'https://sortir.beauvais.fr/'
+    },
+    {
+        id: 'exposition-enterrer-le-soleil-2026',
+        title: 'Le Quadrilatère : exposition Enterrer le soleil',
+        content: `Le Quadrilatère - Centre d'art de Beauvais accueille l'exposition collective Enterrer le soleil du 4 avril au 30 août 2026.<br /><br />Le parcours propose une plongée dans les mondes souterrains, entre crypte archéologique, centre d'interprétation et galeries d'art contemporain.<br /><br /><strong>Horaires, tarifs et informations pratiques : cliquez sur l'image.</strong>`,
+        image: musee,
+        alt: 'Exposition Enterrer le soleil au Quadrilatère de Beauvais',
+        link: 'https://www.beauvaisis.fr/evenements/exposition-enterrer-le-soleil-au-quadrilatere/'
     },
     {
         id: 'municipales-beauvais-2026',
