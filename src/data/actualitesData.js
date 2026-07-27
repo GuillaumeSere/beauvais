@@ -16,22 +16,22 @@ import jardinage from '../images/jardinage.png';
 import sudoku from '../images/sudoku.png';
 import gastronomie from '../images/gastronomie.png';
 import actu2 from '../images/actu2.png';
-import placeJeanneHachette from '../images/place-jeanneHachette.png';
 import planEau from '../images/plan-eau.png';
 import theatre from '../images/theatre.png';
 import elispace from '../images/elispace.png';
 import mairie from '../images/mairie.png';
 import musee from '../images/musee.png';
 import festivals from '../images/festivals.png';
+import musée from '../images/musée.png';
 
 export const newsItems = [
     {
-        id: 'fetes-jeanne-hachette-2026',
-        title: 'Fêtes Jeanne Hachette : Beauvais célèbre son héroïne',
-        content: `Chaque fin juin, Beauvais fait revivre l'histoire de Jeanne Hachette avec des défilés en costumes, des animations et un grand rendez-vous populaire autour du centre-ville.<br /><br />Cette fête rappelle la résistance beauvaisienne face au siège de 1472 et reste l'un des temps forts de l'année locale.<br /><br /><strong>👉 Programme et infos pratiques : cliquez sur l'image.</strong>`,
-        image: placeJeanneHachette,
-        alt: 'Fêtes Jeanne Hachette à Beauvais',
-        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/les-fetes-jeanne-hachette/'
+        id: 'Visite guidée',
+        title: "Visite guidée des collections permanentes du MUDO-Musée de l'Oise",
+        content: `Profitez de l'œil expert d'un membre de l'équipe scientifique du musée pour (re)découvrir autrement les collections. L'occasion de voir les œuvres sous un autre jour, entre anecdotes et coups de cœur, et de lever le voile sur les coulisses du musée.`,
+        image: musée,
+        alt: "Visite guidée des collections permanentes du MUDO-Musée de l'Oise",
+        link: 'https://www.visitbeauvais.fr/fiche/visite-guidee-des-collections-permanentes-du-mudo-musee-de-l-oise-QCOl2J4BMEJK_xwFzJk-/'
     },
     {
         id: 'scenes-ete-beauvais-2026',
@@ -47,7 +47,7 @@ export const newsItems = [
         content: `Agenda Festivals France permet de repérer rapidement les festivals par ville, discipline ou période. Le lien est déjà préfiltré sur Beauvais pour retrouver les sorties musicales et culturelles proches de la ville.<br /><br /><strong>Consultez la carte et la liste des festivals en cliquant sur l'image.</strong>`,
         image: festivals,
         alt: 'Agenda Festivals France autour de Beauvais',
-        link: 'https://agenda-festivals.vercel.app/?q=beauvais'
+        link: 'https://agenda-festivals-60.vercel.app/?q=beauvais'
     },
     {
         id: 'beach-beauvais-2026',
