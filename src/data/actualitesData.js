@@ -95,7 +95,7 @@ export const newsItems = [
         content: `MaZone est une plateforme intuitive qui vous permet de découvrir en quelques secondes les événements autour de vous : concerts, festivals, spectacles et bien plus encore. Grâce à une interface moderne et une carte interactive, vous accédez rapidement aux sorties disponibles dans votre zone.<br /><br /><strong>🔍 Une recherche simple et efficace.</strong><br></br> Même en cas de problème de localisation, MaZone continue d’afficher les événements disponibles pour ne rien manquer.<br></br><strong>🗺️ Une carte interactive</strong><br></br>Visualisez instantanément les événements autour de vous grâce à une carte dynamique avec des marqueurs. Cela permet de repérer facilement les lieux et d’organiser vos sorties en un coup d’œil.`,
         image: zone,
         alt: 'Ma Zone 60',
-        link: 'https://ma-zone-60.vercel.app/'
+        link: 'https://ma-zone-sortie.vercel.app/'
     },
        {
         id: 'World-radio-60',
@@ -103,7 +103,7 @@ export const newsItems = [
         content: `Je suis ravi de vous présenter World Radio 60, mon tout nouveau site web qui vous permet d’explorer et d’écouter des radios du monde entier.<br /><br />Vous pouvez parcourir les radios par pays avec drapeaux et informations détaillées.Rechercher rapidement par nom de radio, ville ou pays.Sélection et lecture directe des flux audio depuis le site.`,
         image: actu2,
         alt: 'World radio 60',
-        link: 'https://world-radio-60.vercel.app/'
+        link: 'https://world-radio-6z.vercel.app/'
     },
     {
         id: 'gastronomie',
@@ -127,7 +127,7 @@ export const newsItems = [
         content: `Votre nouveau hub IPTV gratuit et ultra-rapide !<br /><br />🔥 Ce que vous pouvez faire sur IPTV 60 :<br /><br />✅ Consulter des milliers de chaînes du monde entier<br />✅ Filtrer par pays grâce aux drapeaux (🇫🇷 🇹🇭 🇺🇸…)<br />✅ Voir le drapeau + le nom du pays sur chaque chaîne pour une navigation stylée et intuitive<br />✅ Accéder aux logos officiels des chaînes<br />✅ Voir la qualité, le flux, les infos…<br />✅ Lire les chaînes en un clic directement dans le lecteur intégré<br />✅ Ajouter vos chaînes préférées en favoris<br />✅ Interface optimisée pour mobile, tablette et PC<br /><br /><strong>👉 Pour plus d'informations cliquez sur l'image.</strong>`,
         image: tv,
         alt: 'IPTV 60',
-        link: 'https://iptv-60.vercel.app/'
+        link: 'https://iptv-60-one.vercel.app/'
     },
     {
         id: 'sterilisation-chats',
@@ -142,7 +142,7 @@ export const newsItems = [
         content: `Consulter les horaires des trains SNCF en temps réel, avec un affichage identique à celui des panneaux présents dans les gares.<br /><br /> Planifier un trajet, détails complets : durées, correspondances, quais  ✨.`,
         image: gare,
         alt: 'horaires des trains sncf',
-        link: 'https://train-sncf.vercel.app/'
+        link: 'https://horaires-sncf.vercel.app/'
     },
     {
         id: 'Goldman',
@@ -157,7 +157,7 @@ export const newsItems = [
         content: `Plongez dans l’univers du célèbre Rubik’s Cube, mais cette fois en version numérique ✨. <br /><br />🧩<strong>Fonctionnalités principales :</strong> <br /><br />Cube en 3D réaliste rendu avec Three.js<br>Contrôles interactifs pour tourner et manipuler les faces<br>Expérience fluide et intuitive directement depuis votre navigateur, sans installation`,
         image: rubik,
         alt: 'jeux rubik cube',
-        link: 'https://ruby-cube60.vercel.app/'
+        link: 'https://ruby-cube-60.vercel.app/'
     },
     {
         id: 'oise-rando',
@@ -178,7 +178,7 @@ export const newsItems = [
         content: `Plongez dans l’univers du jeu de dames, mais cette fois en version numérique et en 3D ✨ <br /><br />♟️<strong>Fonctionnalités principales :</strong> <br /><br />Plateau de dames en 3D réaliste rendu avec Three.js<br> Pions interactifs avec mouvements et captures animés<br> Mode joueur contre ordinateur grâce à une IA intégrée`,
         image: dames,
         alt: 'jeux de dames en ligne',
-        link: 'https://dames-3d.vercel.app/'
+        link: 'https://dames-3d-60.vercel.app/'
     },
     {
         id: 'emploi',
@@ -194,7 +194,7 @@ export const newsItems = [
         content: `Découvrez Online-radio-60, une plateforme de radio en ligne offrant des styles musicaux variés : du classique au rock, en passant par la country et bien plus encore.`,
         image: live,
         alt: 'Online radio, la radio en ligne',
-        link: 'https://online-radio-60.vercel.app/'
+        link: 'https://online-radio-6z.vercel.app/'
     },
     {
         id: 'vergers',
@@ -210,7 +210,7 @@ export const newsItems = [
         content: `Découvrez une version moderne du célèbre jeu de réflexion Sudoku, entièrement jouable sans téléchargement et sans inscription.`,
         image: sudoku,
         alt: 'Jeux Sudoku en ligne',
-        link: 'https://sudoku-60.vercel.app/'
+        link: 'https://sudoku-gratuit.vercel.app/'
     }
 ];
 
