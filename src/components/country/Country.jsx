@@ -1,6 +1,6 @@
 import React from 'react';
 import './country.css';
-import banner from "../../images/banner.png"
+import tatoo6 from "../../images/tatoo6.png"
 import tatoo1 from "../../images/tatoo1.png"
 import tatoo2 from "../../images/tatoo2.png"
 import tatoo3 from "../../images/tatoo3.png"
@@ -23,11 +23,11 @@ import { motion } from 'framer-motion';
 const Country = () => {
     const images = [
         tatoo1,
-        banner,
         tatoo2,
         tatoo3,
         tatoo4,
         tatoo5,
+        tatoo6,
         tatoo7,
         tatoo9,
         tatoo10,
