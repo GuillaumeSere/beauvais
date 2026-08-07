@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://beauvais.vercel.app/</loc>
+    <loc>https://beauvais-60.netlify.app/</loc>
     <priority>1.0</priority>
   </url>
 
@@ -12,32 +12,32 @@
   </url>
 
   <url>
-    <loc>https://beauvais.vercel.app/musee</loc>
+    <loc>https://beauvais-60.netlify.app/musee</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://beauvais.vercel.app/cathedrale</loc>
+    <loc>https://beauvais-60.netlify.app/cathedrale</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://beauvais.vercel.app/plan-eau</loc>
+    <loc>https://beauvais-60.netlify.app/plan-eau</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://beauvais.vercel.app/maladrerie</loc>
+    <loc>https://beauvais-60.netlify.app/maladrerie</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://beauvais.vercel.app/actualites</loc>
+    <loc>https://beauvais-60.netlify.app/actualites</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://beauvais.vercel.app/sorties</loc>
+    <loc>https://beauvais-60.netlify.app/sorties</loc>
     <priority>0.7</priority>
   </url>
 
