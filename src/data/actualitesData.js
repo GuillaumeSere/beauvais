@@ -12,13 +12,15 @@ import dames from '../images/dames.png';
 import zone from '../images/zone.png';
 import actu1 from '../images/actu1.png';
 import live from '../images/live-radio.png';
-import jardinage from '../images/jardinage.png';
+import carotte from '../images/carotte.png';
+import photaumnales from '../images/photaumnales.png';
 import sudoku from '../images/sudoku.png';
 import gastronomie from '../images/gastronomie.png';
+import beauvaisiennes from '../images/beauvaisiennes.png';
 import actu2 from '../images/actu2.png';
-import planEau from '../images/plan-eau.png';
 import theatre from '../images/theatre.png';
 import elispace from '../images/elispace.png';
+import livres from '../images/livres.png';
 import mairie from '../images/mairie.png';
 import musee from '../images/musee.png';
 import festivals from '../images/festivals.png';
@@ -34,12 +36,44 @@ export const newsItems = [
         link: 'https://www.visitbeauvais.fr/fiche/visite-guidee-des-collections-permanentes-du-mudo-musee-de-l-oise-QCOl2J4BMEJK_xwFzJk-/'
     },
     {
-        id: 'scenes-ete-beauvais-2026',
-        title: "Scènes d'été : des animations dans toute la ville",
-        content: `De juin à septembre, Beauvais propose traditionnellement les Scènes d'été : concerts, spectacles, rendez-vous familiaux et animations en plein air dans différents quartiers.<br /><br />Une bonne idée pour profiter des beaux jours, découvrir des artistes et sortir sans forcément quitter la ville.<br /><br /><strong>👉 Consultez l'agenda pour les prochaines dates.</strong>`,
+        id: 'fete-carottes-brocante-beauvais-2026',
+        title: 'Fête à Carottes & Brocante à Beauvais',
+        content: `Du 5 au 7 septembre 2026, le quartier de Voisinlieu accueille la traditionnelle Fête à la Carotte. Au programme : repas partagé, concert, feu d'artifice, grande brocante, spectacles de rue, animations associatives et activités pour les enfants.<br /><br />Cette fête populaire, héritière d'une tradition ancienne, rassemble chaque année de nombreux habitants dans une ambiance conviviale et familiale.<br /><br /><strong>👉 Découvrez le programme complet et les horaires de l'événement.</strong>`,
+        image: carotte,
+        alt: 'Fête à Carottes et brocante à Beauvais',
+        link: 'https://www.visitbeauvais.fr/fiche/fete-a-carottes-brocante/'
+    },
+    {
+        id: 'photaumnales-beauvais-2026',
+        title: 'Les Photaumnales 2026',
+        content: `À partir du 19 septembre 2026, Beauvais accueille la 23e édition des Photaumnales. Le festival de photographie revient notamment au Quadrilatère avec une programmation consacrée aux transformations de l'image à l'ère de la post-photographie.<br /><br />Cette nouvelle édition explore les nouvelles pratiques artistiques : archives, procédés photographiques historiques, installations immersives, intelligence artificielle et art contemporain.<br /><br /><strong>👉 Découvrez le programme des Photaumnales 2026.</strong>`,
+        image: photaumnales,
+        alt: 'Les Photaumnales 2026 à Beauvais',
+        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/les-photomnales/'
+    },
+    {
+        id: 'brocante-livre-beauvais-2026',
+        title: '8e édition de la Brocante du Livre',
+        content: `Le samedi 12 septembre 2026, la Place Jeanne Hachette accueille la 8e édition de la Brocante du Livre. Les amateurs de littérature et de beaux livres pourront partir à la recherche de romans, bandes dessinées, ouvrages anciens et autres trésors.<br /><br />Un rendez-vous convivial au cœur de Beauvais pour les amoureux du papier et de la lecture.<br /><br /><strong>👉 Retrouvez les informations pratiques et les horaires de la brocante.</strong>`,
+        image: livres,
+        alt: 'Brocante du Livre à Beauvais',
+        link: 'https://sortir.beauvais.fr/lieu/place-jeanne-hachette'
+    },
+    {
+        id: 'beauvenitiennes-beauvais-2026',
+        title: 'Les Beauvénitiennes 2026',
+        content: `Les samedi 26 et dimanche 27 septembre 2026, Beauvais se transforme en véritable décor de carnaval vénitien à l'occasion de la 7e édition des Beauvénitiennes.<br /><br />Plus de 70 personnages costumés, masques, costumes spectaculaires et déambulations poétiques investiront le centre-ville, la Place Jeanne Hachette et le parc Marcel-Dassault.<br /><br />Le grand défilé aura lieu samedi à 15h sur la Place Jeanne Hachette, tandis que les déambulations se poursuivront dimanche au parc Marcel-Dassault.<br /><br /><strong>👉 Découvrez le programme complet des Beauvénitiennes 2026.</strong>`,
+        image: beauvaisiennes,
+        alt: 'Les Beauvénitiennes 2026 à Beauvais',
+        link: 'https://www.visitbeauvais.fr/fiche/les-beauvenitiennes-2026/'
+    },
+    {
+        id: 'fete-saison-theatre-beauvais-2026',
+        title: 'Fête de saison du Théâtre du Beauvaisis',
+        content: `Le samedi 26 septembre 2026, le Théâtre du Beauvaisis donne le coup d'envoi de sa nouvelle saison culturelle avec une grande fête ouverte au public.<br /><br />Du parvis aux salles du théâtre, la musique classique, le hip-hop et le rock accompagneront cette journée festive consacrée à la création et au spectacle vivant.<br /><br /><strong>👉 Découvrez la programmation et les horaires de la Fête de saison.</strong>`,
         image: theatre,
-        alt: "Scènes d'été à Beauvais",
-        link: 'https://www.beauvaisis.fr/evenements/scenes-dete-2026-le-rendez-vous-musical-incontournable-des-vendredis-de-juillet-a-beauvais/'
+        alt: 'Fête de saison du Théâtre du Beauvaisis',
+        link: 'https://www.visitbeauvais.fr/fiche/fete-de-saison/'
     },
     {
         id: 'agenda-festivals-beauvais-2026',
@@ -47,15 +81,7 @@ export const newsItems = [
         content: `Agenda Festivals France permet de repérer rapidement les festivals par ville, discipline ou période. Le lien est déjà préfiltré sur Beauvais pour retrouver les sorties musicales et culturelles proches de la ville.<br /><br /><strong>Consultez la carte et la liste des festivals en cliquant sur l'image.</strong>`,
         image: festivals,
         alt: 'Agenda Festivals France autour de Beauvais',
-        link: 'https://agenda-festivals-60.vercel.app/?q=beauvais'
-    },
-    {
-        id: 'beach-beauvais-2026',
-        title: 'Beach Beauvais et Plan d’eau du Canada : cap sur l’été',
-        content: `Le Plan d'eau du Canada reste l'un des lieux préférés des Beauvaisiens pour marcher, courir, se détendre et profiter des animations estivales comme Beach Beauvais.<br /><br />Le site est connu pour son cadre naturel, ses activités de loisirs et son accès à la baignade en période estivale selon les ouvertures annoncées par la ville.<br /><br /><strong>👉 Pour les horaires et conditions, cliquez sur l'image.</strong>`,
-        image: planEau,
-        alt: "Plan d'eau du Canada à Beauvais",
-        link: 'https://www.visitbeauvais.fr/fiche/base-de-loisirs-du-plan-d-eau-du-canada/'
+        link: 'https://agenda-festivals.netlify.app/?q=beauvais'
     },
     {
         id: 'vie-culturelle-beauvais-2026',
@@ -66,14 +92,6 @@ export const newsItems = [
         link: 'https://www.visitbeauvais.fr/sejourner/agenda/'
     },
     {
-        id: 'sortir-beauvais-juillet-2026',
-        title: 'Sortir à Beauvais : les rendez-vous de juillet',
-        content: `L'agenda officiel Sortir à Beauvais rassemble les animations locales du moment : sport, ateliers, familles, bien-être, expositions et rendez-vous au Plan d'eau du Canada.<br /><br />Autour du 8 juillet 2026, l'agenda met notamment en avant l'Olympique Tour du 6 au 10 juillet, des animations jeunesse et des activités estivales au Plan d'eau.<br /><br /><strong>Retrouvez les prochains événements en cliquant sur l'image.</strong>`,
-        image: planEau,
-        alt: 'Agenda Sortir à Beauvais en juillet',
-        link: 'https://sortir.beauvais.fr/'
-    },
-    {
         id: 'exposition-enterrer-le-soleil-2026',
         title: 'Le Quadrilatère : exposition Enterrer le soleil',
         content: `Le Quadrilatère - Centre d'art de Beauvais accueille l'exposition collective Enterrer le soleil du 4 avril au 30 août 2026.<br /><br />Le parcours propose une plongée dans les mondes souterrains, entre crypte archéologique, centre d'interprétation et galeries d'art contemporain.<br /><br /><strong>Horaires, tarifs et informations pratiques : cliquez sur l'image.</strong>`,
@@ -81,29 +99,22 @@ export const newsItems = [
         alt: 'Exposition Enterrer le soleil au Quadrilatère de Beauvais',
         link: 'https://www.beauvaisis.fr/evenements/exposition-enterrer-le-soleil-au-quadrilatere/'
     },
-    {
-        id: 'municipales-beauvais-2026',
-        title: 'Municipales 2026 : Franck Pia réélu maire de Beauvais',
-        content: `À l'issue des élections municipales de 2026, Franck Pia conserve la mairie de Beauvais. Les résultats publiés indiquent un second tour remporté avec 47,34 % des suffrages, devant Roxane Lundy et Claire Marais-Beuil.<br /><br />Cette actualité fixe le nouveau cadre politique local pour le mandat 2026-2032.<br /><br /><strong>👉 Consultez le détail des résultats en cliquant sur l'image.</strong>`,
-        image: mairie,
-        alt: 'Mairie de Beauvais',
-        link: 'https://fr.wikipedia.org/wiki/%C3%89lections_municipales_de_2026_dans_l%27Oise'
-    },
+
     {
         id: 'Ma Zone 60',
         title: '🔥 Ma Zone 60 – Trouvez les meilleurs événements près de vous 🎉',
         content: `MaZone est une plateforme intuitive qui vous permet de découvrir en quelques secondes les événements autour de vous : concerts, festivals, spectacles et bien plus encore. Grâce à une interface moderne et une carte interactive, vous accédez rapidement aux sorties disponibles dans votre zone.<br /><br /><strong>🔍 Une recherche simple et efficace.</strong><br></br> Même en cas de problème de localisation, MaZone continue d’afficher les événements disponibles pour ne rien manquer.<br></br><strong>🗺️ Une carte interactive</strong><br></br>Visualisez instantanément les événements autour de vous grâce à une carte dynamique avec des marqueurs. Cela permet de repérer facilement les lieux et d’organiser vos sorties en un coup d’œil.`,
         image: zone,
         alt: 'Ma Zone 60',
-        link: 'https://ma-zone-sortie.vercel.app/'
+        link: 'https://ma-zone-evenement.netlify.app/'
     },
-       {
+    {
         id: 'World-radio-60',
         title: '🌍 World Radio 60 🎧',
         content: `Je suis ravi de vous présenter World Radio 60, mon tout nouveau site web qui vous permet d’explorer et d’écouter des radios du monde entier.<br /><br />Vous pouvez parcourir les radios par pays avec drapeaux et informations détaillées.Rechercher rapidement par nom de radio, ville ou pays.Sélection et lecture directe des flux audio depuis le site.`,
         image: actu2,
         alt: 'World radio 60',
-        link: 'https://world-radio-6z.vercel.app/'
+        link: 'https://world-radio-60.netlify.app/'
     },
     {
         id: 'gastronomie',
@@ -127,7 +138,7 @@ export const newsItems = [
         content: `Votre nouveau hub IPTV gratuit et ultra-rapide !<br /><br />🔥 Ce que vous pouvez faire sur IPTV 60 :<br /><br />✅ Consulter des milliers de chaînes du monde entier<br />✅ Filtrer par pays grâce aux drapeaux (🇫🇷 🇹🇭 🇺🇸…)<br />✅ Voir le drapeau + le nom du pays sur chaque chaîne pour une navigation stylée et intuitive<br />✅ Accéder aux logos officiels des chaînes<br />✅ Voir la qualité, le flux, les infos…<br />✅ Lire les chaînes en un clic directement dans le lecteur intégré<br />✅ Ajouter vos chaînes préférées en favoris<br />✅ Interface optimisée pour mobile, tablette et PC<br /><br /><strong>👉 Pour plus d'informations cliquez sur l'image.</strong>`,
         image: tv,
         alt: 'IPTV 60',
-        link: 'https://iptv-60-one.vercel.app/'
+        link: 'https://iptv-60.onrender.com/'
     },
     {
         id: 'sterilisation-chats',
@@ -142,7 +153,7 @@ export const newsItems = [
         content: `Consulter les horaires des trains SNCF en temps réel, avec un affichage identique à celui des panneaux présents dans les gares.<br /><br /> Planifier un trajet, détails complets : durées, correspondances, quais  ✨.`,
         image: gare,
         alt: 'horaires des trains sncf',
-        link: 'https://horaires-sncf.vercel.app/'
+        link: 'https://horaires-sncf.netlify.app/'
     },
     {
         id: 'Goldman',
@@ -157,7 +168,7 @@ export const newsItems = [
         content: `Plongez dans l’univers du célèbre Rubik’s Cube, mais cette fois en version numérique ✨. <br /><br />🧩<strong>Fonctionnalités principales :</strong> <br /><br />Cube en 3D réaliste rendu avec Three.js<br>Contrôles interactifs pour tourner et manipuler les faces<br>Expérience fluide et intuitive directement depuis votre navigateur, sans installation`,
         image: rubik,
         alt: 'jeux rubik cube',
-        link: 'https://ruby-cube-60.vercel.app/'
+        link: 'https://rubicube.netlify.app/'
     },
     {
         id: 'oise-rando',
@@ -178,7 +189,7 @@ export const newsItems = [
         content: `Plongez dans l’univers du jeu de dames, mais cette fois en version numérique et en 3D ✨ <br /><br />♟️<strong>Fonctionnalités principales :</strong> <br /><br />Plateau de dames en 3D réaliste rendu avec Three.js<br> Pions interactifs avec mouvements et captures animés<br> Mode joueur contre ordinateur grâce à une IA intégrée`,
         image: dames,
         alt: 'jeux de dames en ligne',
-        link: 'https://dames-3d-60.vercel.app/'
+        link: 'https://dames-3d.netlify.app/'
     },
     {
         id: 'emploi',
@@ -194,15 +205,7 @@ export const newsItems = [
         content: `Découvrez Online-radio-60, une plateforme de radio en ligne offrant des styles musicaux variés : du classique au rock, en passant par la country et bien plus encore.`,
         image: live,
         alt: 'Online radio, la radio en ligne',
-        link: 'https://online-radio-6z.vercel.app/'
-    },
-    {
-        id: 'vergers',
-        title: '🌱 Vergers urbains 🌱',
-        content: `Depuis 2022, Beauvais développe des vergers urbains partagés dans chaque quartier. Ces espaces de proximité favorisent la convivialité, la biodiversité et l’accès à des fruits en libre cueillette pour tous les habitants.`,
-        image: jardinage,
-        alt: 'verger urbains',
-        link: 'https://www.beauvaisis.fr/vie-pratique/espaces-publics/parcs-et-jardins/vergers-urbains/'
+        link: 'https://online-radio-60.netlify.app/'
     },
     {
         id: 'sudoku',
@@ -210,7 +213,7 @@ export const newsItems = [
         content: `Découvrez une version moderne du célèbre jeu de réflexion Sudoku, entièrement jouable sans téléchargement et sans inscription.`,
         image: sudoku,
         alt: 'Jeux Sudoku en ligne',
-        link: 'https://sudoku-gratuit.vercel.app/'
+        link: 'https://sudoku-gratuit.netlify.app/'
     }
 ];
 
