@@ -21,7 +21,6 @@ import actu2 from '../images/actu2.png';
 import theatre from '../images/theatre.png';
 import elispace from '../images/elispace.png';
 import livres from '../images/livres.png';
-import mairie from '../images/mairie.png';
 import musee from '../images/musee.png';
 import festivals from '../images/festivals.png';
 import musée from '../images/musée.png';
