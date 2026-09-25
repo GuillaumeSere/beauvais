@@ -12,67 +12,58 @@ import dames from '../images/dames.png';
 import zone from '../images/zone.png';
 import actu1 from '../images/actu1.png';
 import live from '../images/live-radio.png';
-import carotte from '../images/carotte.png';
-import photaumnales from '../images/photaumnales.png';
 import sudoku from '../images/sudoku.png';
 import gastronomie from '../images/gastronomie.png';
-import beauvaisiennes from '../images/beauvaisiennes.png';
 import actu2 from '../images/actu2.png';
-import theatre from '../images/theatre.png';
 import elispace from '../images/elispace.png';
-import livres from '../images/livres.png';
 import musee from '../images/musee.png';
 import festivals from '../images/festivals.png';
-import musée from '../images/musée.png';
+import pianoscope from '../images/pianoscope.png';
+import marche from '../images/marche.png';
+import patrimoine from '../images/patrimoine.png';
+import memoire from '../images/memoire.png';
+import roman from '../images/roman.png';
 
 export const newsItems = [
     {
-        id: 'Visite guidée',
-        title: "Visite guidée des collections permanentes du MUDO-Musée de l'Oise",
-        content: `Profitez de l'œil expert d'un membre de l'équipe scientifique du musée pour (re)découvrir autrement les collections. L'occasion de voir les œuvres sous un autre jour, entre anecdotes et coups de cœur, et de lever le voile sur les coulisses du musée.`,
-        image: musée,
-        alt: "Visite guidée des collections permanentes du MUDO-Musée de l'Oise",
-        link: 'https://www.visitbeauvais.fr/fiche/visite-guidee-des-collections-permanentes-du-mudo-musee-de-l-oise-QCOl2J4BMEJK_xwFzJk-/'
+        id: 'marche-saveurs-beauvais-2026',
+        title: 'Le Marché des Saveurs à Beauvais',
+        content: `Du vendredi 25 au dimanche 27 septembre 2026, la place Jeanne Hachette accueille une nouvelle édition du Marché des Saveurs.<br /><br />Pendant trois jours, producteurs locaux et artisans mettent à l’honneur les produits du terroir et le savoir-faire local. Fruits et légumes de saison, fromages, charcuteries, pains artisanaux, miels, confitures et spécialités régionales seront au rendez-vous.<br /><br />Une sortie conviviale au cœur de Beauvais pour découvrir les producteurs locaux et profiter de l’ambiance du centre-ville.<br /><br /><strong>👉 Découvrez le programme du Marché des Saveurs.</strong>`,
+        image: marche,
+        alt: 'Marché des Saveurs à Beauvais 2026',
+        link: 'https://sortir.beauvais.fr/le-marche-des-saveurs-place-jeanne-hachette-0'
     },
     {
-        id: 'fete-carottes-brocante-beauvais-2026',
-        title: 'Fête à Carottes & Brocante à Beauvais',
-        content: `Du 5 au 7 septembre 2026, le quartier de Voisinlieu accueille la traditionnelle Fête à la Carotte. Au programme : repas partagé, concert, feu d'artifice, grande brocante, spectacles de rue, animations associatives et activités pour les enfants.<br /><br />Cette fête populaire, héritière d'une tradition ancienne, rassemble chaque année de nombreux habitants dans une ambiance conviviale et familiale.<br /><br /><strong>👉 Découvrez le programme complet et les horaires de l'événement.</strong>`,
-        image: carotte,
-        alt: 'Fête à Carottes et brocante à Beauvais',
-        link: 'https://www.visitbeauvais.fr/fiche/fete-a-carottes-brocante/'
+        id: 'architecture-patrimoine-beauvais-2026',
+        title: 'Un mois pour célébrer l’architecture et le patrimoine à Beauvais',
+        content: `Du 18 septembre au 18 octobre 2026, Beauvais et les communes du Beauvaisis célèbrent l’architecture et le patrimoine à travers un mois de découvertes.<br /><br />Au programme : expositions, visites, ateliers et animations permettant de découvrir autrement l’histoire, l’architecture et les richesses du territoire. Cette programmation réunit Beauvais et douze communes du Beauvaisis.<br /><br />Un rendez-vous incontournable pour les passionnés d’histoire, d’architecture et de patrimoine local.<br /><br /><strong>👉 Découvrez le programme complet des animations.</strong>`,
+        image: patrimoine,
+        alt: 'Architecture et patrimoine à Beauvais 2026',
+        link: 'https://www.visitbeauvais.fr/fiche/un-mois-pour-celebrer-l-architecture-et-le-patrimoine/'
     },
     {
-        id: 'photaumnales-beauvais-2026',
-        title: 'Les Photaumnales 2026',
-        content: `À partir du 19 septembre 2026, Beauvais accueille la 23e édition des Photaumnales. Le festival de photographie revient notamment au Quadrilatère avec une programmation consacrée aux transformations de l'image à l'ère de la post-photographie.<br /><br />Cette nouvelle édition explore les nouvelles pratiques artistiques : archives, procédés photographiques historiques, installations immersives, intelligence artificielle et art contemporain.<br /><br /><strong>👉 Découvrez le programme des Photaumnales 2026.</strong>`,
-        image: photaumnales,
-        alt: 'Les Photaumnales 2026 à Beauvais',
-        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/les-photomnales/'
+        id: 'memoire-des-lieux-beauvais-2026',
+        title: 'Mémoire des lieux : une exposition photographique à Beauvais',
+        content: `Du 16 septembre au 2 novembre 2026, Beauvais accueille l’exposition « Mémoire des lieux ».<br /><br />Cette exposition photographique invite le public à porter un nouveau regard sur les lieux, les paysages et les traces du passé. Elle s’inscrit dans une programmation culturelle riche autour de la photographie et du patrimoine.<br /><br />Une exposition à découvrir alors que les Photaumnales 2026 investissent également Beauvais et le Beauvaisis.<br /><br /><strong>👉 Découvrez l’exposition et les informations pratiques.</strong>`,
+        image: memoire,
+        alt: 'Exposition Mémoire des lieux à Beauvais 2026',
+        link: 'https://www.visitbeauvais.fr/fiche/memoire-des-lieux/'
     },
     {
-        id: 'brocante-livre-beauvais-2026',
-        title: '8e édition de la Brocante du Livre',
-        content: `Le samedi 12 septembre 2026, la Place Jeanne Hachette accueille la 8e édition de la Brocante du Livre. Les amateurs de littérature et de beaux livres pourront partir à la recherche de romans, bandes dessinées, ouvrages anciens et autres trésors.<br /><br />Un rendez-vous convivial au cœur de Beauvais pour les amoureux du papier et de la lecture.<br /><br /><strong>👉 Retrouvez les informations pratiques et les horaires de la brocante.</strong>`,
-        image: livres,
-        alt: 'Brocante du Livre à Beauvais',
-        link: 'https://sortir.beauvais.fr/lieu/place-jeanne-hachette'
+        id: 'pianoscope-beauvais-2026',
+        title: 'Pianoscope 2026 : le festival de piano revient à Beauvais',
+        content: `Du 16 au 18 octobre 2026, Beauvais accueille la 20e édition de Pianoscope, le festival consacré au piano et aux rencontres musicales.<br /><br />Chaque année, Pianoscope propose une programmation originale autour du piano et fait dialoguer la musique classique avec d’autres univers musicaux, notamment le jazz. Concerts, ciné-concerts et rencontres sont au programme de cette nouvelle édition.<br /><br />Un rendez-vous incontournable pour les amateurs de musique à Beauvais.<br /><br /><strong>👉 Découvrez la programmation de Pianoscope 2026.</strong>`,
+        image: pianoscope,
+        alt: 'Pianoscope 2026 à Beauvais',
+        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/pianoscope/'
     },
     {
-        id: 'beauvenitiennes-beauvais-2026',
-        title: 'Les Beauvénitiennes 2026',
-        content: `Les samedi 26 et dimanche 27 septembre 2026, Beauvais se transforme en véritable décor de carnaval vénitien à l'occasion de la 7e édition des Beauvénitiennes.<br /><br />Plus de 70 personnages costumés, masques, costumes spectaculaires et déambulations poétiques investiront le centre-ville, la Place Jeanne Hachette et le parc Marcel-Dassault.<br /><br />Le grand défilé aura lieu samedi à 15h sur la Place Jeanne Hachette, tandis que les déambulations se poursuivront dimanche au parc Marcel-Dassault.<br /><br /><strong>👉 Découvrez le programme complet des Beauvénitiennes 2026.</strong>`,
-        image: beauvaisiennes,
-        alt: 'Les Beauvénitiennes 2026 à Beauvais',
-        link: 'https://www.visitbeauvais.fr/fiche/les-beauvenitiennes-2026/'
-    },
-    {
-        id: 'fete-saison-theatre-beauvais-2026',
-        title: 'Fête de saison du Théâtre du Beauvaisis',
-        content: `Le samedi 26 septembre 2026, le Théâtre du Beauvaisis donne le coup d'envoi de sa nouvelle saison culturelle avec une grande fête ouverte au public.<br /><br />Du parvis aux salles du théâtre, la musique classique, le hip-hop et le rock accompagneront cette journée festive consacrée à la création et au spectacle vivant.<br /><br /><strong>👉 Découvrez la programmation et les horaires de la Fête de saison.</strong>`,
-        image: theatre,
-        alt: 'Fête de saison du Théâtre du Beauvaisis',
-        link: 'https://www.visitbeauvais.fr/fiche/fete-de-saison/'
+        id: 'roman-inattendu-beauvais-2026',
+        title: 'Le Roman Inattendu : un dîner-spectacle historique près de Beauvais',
+        content: `Les 26 et 27 septembre ainsi que les 3, 4, 9 et 10 octobre 2026, le château de Crèvecœur accueille « Le Roman Inattendu », un grand spectacle historique mêlant dîner, théâtre et humour.<br /><br />Près de 200 personnages costumés plongent les spectateurs au XVIe siècle dans une mise en scène inspirée de l’histoire de France. Danses, dialogues, combats et musiques rythment cette expérience originale au cœur de la Renaissance.<br /><br />Une sortie spectaculaire à quelques kilomètres de Beauvais pour les amateurs d’histoire et de spectacles vivants.<br /><br /><strong>👉 Découvrez les dates et réservez votre dîner-spectacle.</strong>`,
+        image: roman,
+        alt: 'Le Roman Inattendu spectacle historique près de Beauvais',
+        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/les-trepidantes-aventures-de-lami-du-roy/'
     },
     {
         id: 'agenda-festivals-beauvais-2026',
