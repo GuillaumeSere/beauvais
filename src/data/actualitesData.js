@@ -19,19 +19,20 @@ import elispace from '../images/elispace.png';
 import musee from '../images/musee.png';
 import festivals from '../images/festivals.png';
 import pianoscope from '../images/pianoscope.png';
-import marche from '../images/marche.png';
 import patrimoine from '../images/patrimoine.png';
 import memoire from '../images/memoire.png';
 import roman from '../images/roman.png';
+import halloween from '../images/halloween.png';
+import mariage from '../images/mariage.png';
 
 export const newsItems = [
     {
-        id: 'marche-saveurs-beauvais-2026',
-        title: 'Le Marché des Saveurs à Beauvais',
-        content: `Du vendredi 25 au dimanche 27 septembre 2026, la place Jeanne Hachette accueille une nouvelle édition du Marché des Saveurs.<br /><br />Pendant trois jours, producteurs locaux et artisans mettent à l’honneur les produits du terroir et le savoir-faire local. Fruits et légumes de saison, fromages, charcuteries, pains artisanaux, miels, confitures et spécialités régionales seront au rendez-vous.<br /><br />Une sortie conviviale au cœur de Beauvais pour découvrir les producteurs locaux et profiter de l’ambiance du centre-ville.<br /><br /><strong>👉 Découvrez le programme du Marché des Saveurs.</strong>`,
-        image: marche,
-        alt: 'Marché des Saveurs à Beauvais 2026',
-        link: 'https://sortir.beauvais.fr/le-marche-des-saveurs-place-jeanne-hachette-0'
+        id: 'salon-mariage-evenements-beauvais-2026',
+        title: 'Salon du Mariage et de vos Événements 2026',
+        content: `Les samedi 3 et dimanche 4 octobre 2026, le Salon du Mariage et de vos Événements revient à Beauvais pour sa deuxième édition à l'Agora du campus UniLaSalle.<br /><br />Mariage, anniversaire, baptême, réception familiale ou événement professionnel : de nombreux prestataires seront présents pour accompagner les visiteurs dans leurs projets. Photographes, traiteurs, fleuristes, créateurs de robes et costumes, bijoutiers, décorateurs, animateurs et DJ seront notamment au rendez-vous.<br /><br />Le week-end sera également rythmé par des défilés, des démonstrations, des animations musicales et la présence de Miss Picardie 2026.<br /><br /><strong>👉 Découvrez le programme et les informations pratiques du salon.</strong>`,
+        image: mariage,
+        alt: 'Salon du Mariage et de vos Événements 2026 à Beauvais',
+        link: 'https://sortir.beauvais.fr/salon-du-mariage-et-de-vos-evenements-2026-agrilab-unilasalle'
     },
     {
         id: 'architecture-patrimoine-beauvais-2026',
@@ -56,6 +57,14 @@ export const newsItems = [
         image: pianoscope,
         alt: 'Pianoscope 2026 à Beauvais',
         link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/pianoscope/'
+    },
+    {
+        id: 'halloween-parc-saint-paul-2026',
+        title: 'Halloween au Parc Saint Paul 2026',
+        content: `Du samedi 3 octobre au dimanche 1er novembre 2026, le Parc Saint Paul se transforme pour célébrer Halloween.<br /><br />Pendant toute la période, le parc se pare de décors effrayants et propose une ambiance mystérieuse pour petits et grands. Attractions, décors et animations plongent les visiteurs dans l'univers d'Halloween au cœur du parc.<br /><br />Une sortie idéale en famille pendant les vacances de la Toussaint, à quelques kilomètres de Beauvais.<br /><br /><strong>👉 Découvrez les dates, animations et informations pratiques d'Halloween au Parc Saint Paul.</strong>`,
+        image: halloween,
+        alt: 'Halloween au Parc Saint Paul 2026',
+        link: 'https://www.visitbeauvais.fr/fiche/halloween-au-parc-saint-paul/'
     },
     {
         id: 'roman-inattendu-beauvais-2026',
