@@ -18,29 +18,29 @@ import actu2 from '../images/actu2.png';
 import elispace from '../images/elispace.png';
 import musee from '../images/musee.png';
 import festivals from '../images/festivals.png';
-import pianoscope from '../images/pianoscope.png';
-import patrimoine from '../images/patrimoine.png';
+import playmobil from '../images/playmobil.png';
+import halloweenCanada from '../images/halloweenCanada.png';
 import memoire from '../images/memoire.png';
 import roman from '../images/roman.png';
 import halloween from '../images/halloween.png';
-import mariage from '../images/mariage.png';
+import tatoo3 from '../images/tatoo3.png';
 
 export const newsItems = [
     {
-        id: 'salon-mariage-evenements-beauvais-2026',
-        title: 'Salon du Mariage et de vos Événements 2026',
-        content: `Les samedi 3 et dimanche 4 octobre 2026, le Salon du Mariage et de vos Événements revient à Beauvais pour sa deuxième édition à l'Agora du campus UniLaSalle.<br /><br />Mariage, anniversaire, baptême, réception familiale ou événement professionnel : de nombreux prestataires seront présents pour accompagner les visiteurs dans leurs projets. Photographes, traiteurs, fleuristes, créateurs de robes et costumes, bijoutiers, décorateurs, animateurs et DJ seront notamment au rendez-vous.<br /><br />Le week-end sera également rythmé par des défilés, des démonstrations, des animations musicales et la présence de Miss Picardie 2026.<br /><br /><strong>👉 Découvrez le programme et les informations pratiques du salon.</strong>`,
-        image: mariage,
-        alt: 'Salon du Mariage et de vos Événements 2026 à Beauvais',
-        link: 'https://sortir.beauvais.fr/salon-du-mariage-et-de-vos-evenements-2026-agrilab-unilasalle'
+        id: 'halloween-plan-eau-canada-beauvais-2026',
+        title: 'Halloween au Plan d’Eau du Canada à Beauvais',
+        content: `Le samedi 31 octobre 2026, le Plan d’Eau du Canada accueille une animation spéciale Halloween à Beauvais.<br /><br />À partir de 14 h, petits et grands pourront profiter d’un rendez-vous automnal autour de cette fête incontournable. Une occasion de partager une sortie en famille et de découvrir les animations proposées dans ce cadre naturel emblématique de Beauvais.<br /><br /><strong>👉 Consultez les informations pratiques et le programme de l’événement.</strong>`,
+        image: halloweenCanada,
+        alt: 'Animation Halloween au Plan d’Eau du Canada à Beauvais en 2026',
+        link: 'https://sortir.beauvais.fr/halloween-au-plan-deau-du-canada-plan-deau-du-canada'
     },
     {
-        id: 'architecture-patrimoine-beauvais-2026',
-        title: 'Un mois pour célébrer l’architecture et le patrimoine à Beauvais',
-        content: `Du 18 septembre au 18 octobre 2026, Beauvais et les communes du Beauvaisis célèbrent l’architecture et le patrimoine à travers un mois de découvertes.<br /><br />Au programme : expositions, visites, ateliers et animations permettant de découvrir autrement l’histoire, l’architecture et les richesses du territoire. Cette programmation réunit Beauvais et douze communes du Beauvaisis.<br /><br />Un rendez-vous incontournable pour les passionnés d’histoire, d’architecture et de patrimoine local.<br /><br /><strong>👉 Découvrez le programme complet des animations.</strong>`,
-        image: patrimoine,
-        alt: 'Architecture et patrimoine à Beauvais 2026',
-        link: 'https://www.visitbeauvais.fr/fiche/un-mois-pour-celebrer-l-architecture-et-le-patrimoine/'
+        id: 'retro-game-festival-beauvais-2026',
+        title: 'Rétro Game Festival 2026 à Beauvais',
+        content: `Du vendredi 6 au dimanche 8 novembre 2026, l’Elispace de Beauvais accueille le Rétro Game Festival, un rendez-vous consacré à l’univers du jeu vidéo rétro.<br /><br />Les passionnés pourront retrouver l’ambiance des consoles classiques et des jeux qui ont marqué plusieurs générations. Cet événement s’adresse aussi bien aux nostalgiques qu’aux curieux et aux familles souhaitant découvrir l’histoire du jeu vidéo.<br /><br />Une sortie originale à programmer en novembre pour tous les amateurs de culture geek et de jeux vidéo.<br /><br /><strong>👉 Découvrez les informations pratiques et la billetterie du festival.</strong>`,
+        image: tatoo3,
+        alt: 'Rétro Game Festival 2026 à l’Elispace de Beauvais',
+        link: 'https://sortir.beauvais.fr/'
     },
     {
         id: 'memoire-des-lieux-beauvais-2026',
@@ -51,12 +51,12 @@ export const newsItems = [
         link: 'https://www.visitbeauvais.fr/fiche/memoire-des-lieux/'
     },
     {
-        id: 'pianoscope-beauvais-2026',
-        title: 'Pianoscope 2026 : le festival de piano revient à Beauvais',
-        content: `Du 16 au 18 octobre 2026, Beauvais accueille la 20e édition de Pianoscope, le festival consacré au piano et aux rencontres musicales.<br /><br />Chaque année, Pianoscope propose une programmation originale autour du piano et fait dialoguer la musique classique avec d’autres univers musicaux, notamment le jazz. Concerts, ciné-concerts et rencontres sont au programme de cette nouvelle édition.<br /><br />Un rendez-vous incontournable pour les amateurs de musique à Beauvais.<br /><br /><strong>👉 Découvrez la programmation de Pianoscope 2026.</strong>`,
-        image: pianoscope,
-        alt: 'Pianoscope 2026 à Beauvais',
-        link: 'https://www.visitbeauvais.fr/decouvrir/les-temps-forts/pianoscope/'
+        id: 'nouvelle-exposition-playmobil-2026',
+        title: 'Nouvelle exposition playmobil',
+        content: `Du 17 au 1 novembre 2026, Après le succès des précédentes éditions, Expo-Playmo revient au Château de Troissereux pour un rendez-vous tout particulier… <br></br>Tarif unique — Gratuit pour les moins de 4 ans — 6,00 €`,
+        image: playmobil,
+        alt: 'Nouvelle exposition playmobil',
+        link: 'https://www.visitbeauvais.fr/fiche/nouvelle-exposition-playmobil/'
     },
     {
         id: 'halloween-parc-saint-paul-2026',
